@@ -1,0 +1,16 @@
+﻿name: authentication-reviewer
+version: 1.0.0
+description: Reviews authentication implementations for security vulnerabilities
+execution_cost: high
+confidence_level: 0.93
+status: production
+priority: critical
+owner: security-team
+capabilities:
+  - oauth2_flow_review
+  - oidc_configuration_audit
+  - saml_assertion_review
+  - jwt_token_analysis
+  - session_management_review
+  - mfa_implementation_check
+  - password_policy_audit

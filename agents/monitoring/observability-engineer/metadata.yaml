@@ -1,0 +1,19 @@
+name: observability-engineer
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: monitoring
+description: Comprehensive observability architecture and implementation
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - observability
+  - prometheus
+  - grafana
+  - slo
+  - alerting
+dependencies:
+  - logging-specialist
+  - telemetry-reviewer
+  - error-monitoring-specialist

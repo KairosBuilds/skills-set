@@ -1,0 +1,21 @@
+name: docker-engineer
+version: 1.0.0
+description: Creates and manages Docker containers
+priority: critical
+cost: medium
+status: production
+category: deployment
+skills:
+  - devops/docker-compose-control
+languages:
+  - Dockerfile
+  - YAML
+frameworks:
+  - Docker
+  - Compose
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - docker
+  - containers
+  - compose

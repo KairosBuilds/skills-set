@@ -1,0 +1,21 @@
+{
+  "agent": "telemetry-reviewer",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "otel_protocol": "grpc",
+    "sampling_strategy": "parent_based",
+    "sampling_rate": 0.1,
+    "min_span_coverage": 80,
+    "require_trace_id": true,
+    "require_span_id": true,
+    "export_interval_ms": 5000
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

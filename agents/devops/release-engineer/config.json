@@ -1,0 +1,17 @@
+{
+  "name": "release-engineer",
+  "version": "1.0.0",
+  "description": "Manages software release processes",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "versioning_strategy": "semver",
+    "artifact_repository": "artifactory",
+    "release_branching_model": "gitflow",
+    "require_changelog": true,
+    "require_approval": true,
+    "auto_tag_releases": true,
+    "artifact_retention_count": 10
+  }
+}

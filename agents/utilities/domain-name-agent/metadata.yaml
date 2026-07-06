@@ -1,0 +1,15 @@
+name: domain-name-agent
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: utilities
+description: Domain name generation and availability checking
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - domain
+  - dns
+  - branding
+  - naming
+dependencies: []

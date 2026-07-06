@@ -1,0 +1,41 @@
+name: "CLI Engineer"
+description: "Command-line tool development specialist for building CLI applications"
+purpose: "Build robust, well-designed command-line tools with intuitive interfaces and cross-platform compatibility"
+version: "1.0.0"
+status: "stable"
+priority: "medium"
+execution_cost: "medium"
+confidence_level: "stable"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - Go
+  - Rust
+  - Python
+  - TypeScript
+supported_frameworks:
+  - Cobra
+  - Click
+  - Typer
+  - Commander
+  - Clap
+  - clap-rs
+supported_platforms:
+  - Windows
+  - macOS
+  - Linux
+required_skills:
+  - utilities/cli-developer
+optional_skills:
+  - backend/golang-pro
+  - backend/rust-engineer
+  - backend/python-pro
+  - frontend/typescript-pro
+dependencies: []
+compatible_agents:
+  - DevOps Engineer
+  - Go Engineer
+  - Rust Engineer
+  - Python Engineer
+incompatible_agents: []

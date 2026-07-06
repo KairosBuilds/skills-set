@@ -1,0 +1,16 @@
+{
+  "name": "infrastructure-engineer",
+  "version": "1.0.0",
+  "description": "Designs and manages cloud infrastructure",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "iac_tool": "terraform",
+    "cloud_provider": "aws",
+    "state_backend": "s3",
+    "enable_cost_estimation": true,
+    "enable_drift_detection": true,
+    "max_concurrent_operations": 20
+  }
+}

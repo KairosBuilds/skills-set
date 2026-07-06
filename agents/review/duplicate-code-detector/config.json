@@ -1,0 +1,14 @@
+﻿{
+  "agent": {
+    "name": "duplicate-code-detector",
+    "enabled": true,
+    "execution": { "timeout_ms": 180000 },
+    "thresholds": {
+      "min_token_match": 50,
+      "min_similarity_pct": 80,
+      "min_lines": 6,
+      "ignore_strings": false,
+      "ignore_comments": true
+    }
+  }
+}

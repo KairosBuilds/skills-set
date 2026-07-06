@@ -1,0 +1,15 @@
+﻿{
+  "agent": {
+    "name": "style-enforcer",
+    "enabled": true,
+    "execution": { "timeout_ms": 60000 },
+    "tools": {
+      "eslint": { "enabled": true, "config": ".eslintrc" },
+      "prettier": { "enabled": true, "config": ".prettierrc" },
+      "ruff": { "enabled": true, "python_version": "3.11" },
+      "black": { "enabled": true, "line_length": 100 },
+      "gofmt": { "enabled": true },
+      "rustfmt": { "enabled": true }
+    }
+  }
+}

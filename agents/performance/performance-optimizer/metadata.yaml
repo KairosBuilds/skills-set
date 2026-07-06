@@ -1,0 +1,9 @@
+name: performance-optimizer
+display_name: Performance Optimizer
+priority: critical
+cost: high
+status: production
+category: performance
+description: Holistic system performance optimization
+version: 1.0.0
+created: 2026-07-06

@@ -1,0 +1,15 @@
+name: wecom-integration-agent
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: integrations
+description: WeCom (Enterprise WeChat) notification management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - wecom
+  - enterprise-wechat
+  - notifications
+  - messaging
+dependencies: []

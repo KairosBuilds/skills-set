@@ -1,0 +1,24 @@
+name: nextjs-engineer
+display_name: Next.js Engineer Agent
+description: Specialist for Next.js 14+ with App Router and Server Components
+version: 1.0.0
+status: production
+priority: critical
+execution_cost: medium
+confidence_level: high
+owner: frontend-team
+tags:
+  - nextjs
+  - react
+  - ssr
+  - app-router
+  - frontend
+categories:
+  - frontend
+  - full-stack
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

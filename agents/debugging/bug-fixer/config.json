@@ -1,0 +1,24 @@
+{
+  "agent": "bug-fixer",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 10,
+    "timeoutMs": 300000,
+    "dryRun": false,
+    "createBackup": true,
+    "verifyFix": true,
+    "minimalChanges": true,
+    "stylePreservation": true
+  },
+  "fixStrategies": {
+    "preferMinimalDiff": true,
+    "addTestsWithFix": true,
+    "verifyTypeSafety": true,
+    "checkSideEffects": true
+  },
+  "output": {
+    "showDiff": true,
+    "includeExplanation": true,
+    "includeTestCases": true
+  }
+}

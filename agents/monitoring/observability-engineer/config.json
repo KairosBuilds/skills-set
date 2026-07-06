@@ -1,0 +1,22 @@
+{
+  "agent": "observability-engineer",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "metrics_storage": "prometheus",
+    "logs_storage": "loki",
+    "traces_storage": "tempo",
+    "dashboard_framework": "grafana",
+    "alert_manager": "alertmanager",
+    "default_retention_days": 30,
+    "slo_window_days": 30,
+    "slo_target": 99.9
+  },
+  "timeout_ms": 180000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 10000
+  }
+}

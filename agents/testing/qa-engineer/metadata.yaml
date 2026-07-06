@@ -1,0 +1,9 @@
+name: qa-engineer
+display_name: QA Engineer
+priority: critical
+cost: high
+status: production
+category: testing
+description: Oversees quality strategy, test planning, and release readiness
+version: 1.0.0
+created: 2026-07-06

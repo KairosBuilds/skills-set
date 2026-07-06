@@ -1,0 +1,24 @@
+{
+  "name": "full-stack-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "critical",
+  "execution_cost": "high",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["TypeScript", "Python", "Go", "Rust", "JavaScript", "SQL"],
+  "supported_frameworks": ["All"],
+  "supported_platforms": ["Web", "API"],
+  "required_skills": ["frontend/fullstack-guardian", "frontend/react-expert", "frontend/vue-expert", "frontend/typescript-pro", "backend/fastapi-expert", "backend/nestjs-expert", "backend/python-pro", "backend/golang-pro", "database/sql-pro"],
+  "optional_skills": ["All frontend and backend skills"],
+  "dependencies": [],
+  "compatible_agents": ["*"],
+  "incompatible_agents": [],
+  "config": {
+    "e2e_testing": true,
+    "security_check": true,
+    "responsive_ui": true,
+    "api_documentation": true
+  }
+}

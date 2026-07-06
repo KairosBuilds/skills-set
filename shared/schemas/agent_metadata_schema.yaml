@@ -1,0 +1,79 @@
+# Agent Metadata Schema
+# Validates agent metadata.yaml files
+
+agent:
+  type: object
+  required:
+    - name
+    - description
+    - purpose
+    - version
+    - status
+    - priority
+    - execution_cost
+    - confidence_level
+    - owner
+    - compatibility
+  properties:
+    name:
+      type: string
+      pattern: '^[A-Z][a-zA-Z0-9\s-]+$'
+    description:
+      type: string
+      minLength: 10
+    purpose:
+      type: string
+      minLength: 20
+    version:
+      type: string
+      pattern: '^\d+\.\d+\.\d+$'
+    status:
+      type: string
+      enum: [experimental, stable, production]
+    priority:
+      type: string
+      enum: [low, medium, high, critical]
+    execution_cost:
+      type: string
+      enum: [low, medium, high]
+    confidence_level:
+      type: string
+      enum: [experimental, stable, production]
+    owner:
+      type: string
+    compatibility:
+      type: array
+      items:
+        type: string
+    supported_languages:
+      type: array
+      items:
+        type: string
+    supported_frameworks:
+      type: array
+      items:
+        type: string
+    supported_platforms:
+      type: array
+      items:
+        type: string
+    required_skills:
+      type: array
+      items:
+        type: string
+    optional_skills:
+      type: array
+      items:
+        type: string
+    dependencies:
+      type: array
+      items:
+        type: string
+    compatible_agents:
+      type: array
+      items:
+        type: string
+    incompatible_agents:
+      type: array
+      items:
+        type: string

@@ -1,0 +1,24 @@
+{
+  "agent": {
+    "name": "architecture-reviewer",
+    "version": "1.1.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 16000,
+    "review_depth": "comprehensive",
+    "include_severity_ratings": true
+  },
+  "review": {
+    "require_adrs": true,
+    "require_diagrams": true,
+    "check_consistency": true,
+    "check_completeness": true,
+    "check_best_practices": true
+  },
+  "output": {
+    "format": "review_report",
+    "include_recommendations": true,
+    "severity_levels": ["critical", "high", "medium", "low", "info"]
+  }
+}

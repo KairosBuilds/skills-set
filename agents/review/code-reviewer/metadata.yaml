@@ -1,0 +1,14 @@
+name: code-reviewer
+version: 1.0.0
+description: Automated code review agent for bug detection, security analysis, and code quality assessment
+execution_cost: high
+confidence_level: 0.95
+status: production
+priority: critical
+owner: platform-engineering
+capabilities:
+  - static_analysis
+  - security_scanning
+  - performance_analysis
+  - code_smell_detection
+  - naming_convention_validation

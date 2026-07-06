@@ -1,0 +1,11 @@
+{
+  "name": "dependency-analyzer",
+  "version": "1.0.0",
+  "check_vulnerabilities": true,
+  "check_licenses": true,
+  "check_freshness": true,
+  "max_tree_depth": 10,
+  "vulnerability_db": "osv",
+  "license_whitelist": ["MIT", "Apache-2.0", "BSD-2", "BSD-3", "ISC", "Unlicense"],
+  "auto_update_suggestions": true
+}

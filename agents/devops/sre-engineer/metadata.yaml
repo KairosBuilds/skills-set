@@ -1,0 +1,21 @@
+name: sre-engineer
+version: 1.0.0
+description: Ensures system reliability and SLAs
+priority: critical
+cost: high
+status: production
+category: devops
+skills:
+  - devops/sre-engineer
+languages:
+  - All
+frameworks:
+  - Prometheus
+  - Grafana
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - sre
+  - reliability
+  - slo
+  - monitoring

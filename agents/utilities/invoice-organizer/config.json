@@ -1,0 +1,20 @@
+{
+  "agent": "invoice-organizer",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "naming_pattern": "{vendor}_{date}_{amount}",
+    "folder_structure": "year/month",
+    "categories": ["software", "hosting", "services", "supplies", "travel", "meals", "other"],
+    "rename_files": true,
+    "create_summary": true,
+    "summary_format": "csv"
+  },
+  "timeout_ms": 60000,
+  "retry_policy": {
+    "max_retries": 1,
+    "backoff_ms": 5000
+  }
+}

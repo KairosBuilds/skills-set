@@ -1,0 +1,16 @@
+name: architecture-research-agent
+version: 1.0.0
+type: research-agent
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: research-team
+capabilities:
+  - architectural pattern research
+  - system design reference gathering
+  - trade-off analysis documentation
+  - scalability pattern research
+  - infrastructure architecture research
+  - case study compilation
+compatibility: opencode-agent-v2

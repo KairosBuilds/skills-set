@@ -1,0 +1,16 @@
+name: prompt-engineer
+display_name: Prompt Engineer
+version: 1.0.0
+type: ai-agent
+status: production
+priority: critical
+execution_cost: medium
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Designs, writes, and refines prompts for LLM applications
+tags:
+  - prompts
+  - llm
+  - prompt-engineering
+  - system-prompts

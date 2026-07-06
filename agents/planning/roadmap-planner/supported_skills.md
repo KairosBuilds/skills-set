@@ -1,0 +1,3 @@
+# Supported Skills
+
+- automation/planner

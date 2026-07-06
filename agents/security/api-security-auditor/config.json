@@ -1,0 +1,12 @@
+﻿{
+  "agent": {
+    "name": "api-security-auditor",
+    "enabled": true,
+    "execution": { "timeout_ms": 300000 },
+    "api_types": {
+      "rest": { "check_auth": true, "check_rate_limit": true, "check_input_validation": true },
+      "graphql": { "check_introspection": true, "check_depth": true, "check_batching": true, "check_auth_resolvers": true },
+      "grpc": { "check_reflection": true, "check_auth": true, "check_tls": true }
+    }
+  }
+}

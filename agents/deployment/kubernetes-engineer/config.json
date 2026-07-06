@@ -1,0 +1,16 @@
+{
+  "name": "kubernetes-engineer",
+  "version": "1.0.0",
+  "description": "Manages Kubernetes clusters and workloads",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "namespace_convention": "app-environment",
+    "resource_quotas_enabled": true,
+    "network_policies_enabled": true,
+    "pod_security_standards": "restricted",
+    "helm_atomic_install": true,
+    "default_replicas": 3
+  }
+}

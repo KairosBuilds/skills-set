@@ -1,0 +1,19 @@
+﻿# Examples
+## SRP Violation
+`python
+# ❌ Multiple responsibilities
+class Report:
+    def generate(self): ...
+    def save_to_db(self): ...
+    def send_email(self): ...
+
+# ✅ Separate classes
+class ReportGenerator: ...
+class ReportRepository: ...
+class EmailService: ...
+`
+"@ | Set-Content -Path "C:\Users\black\Downloads\IRIS-AI-1.3.0\IRIS-AI-1.3.0\.opencode\agents\review\solid-validator\examples.md" -Encoding UTF8
+
+@"
+# Dependencies
+- code-quality/code-reviewer (skill)

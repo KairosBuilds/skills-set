@@ -1,0 +1,17 @@
+name: token-optimizer
+version: 1.0.0
+priority: medium
+cost: low
+status: stable
+category: automation
+description: Token budget management and prompt optimization
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - tokens
+  - budget
+  - cost
+  - optimization
+  - prompts
+dependencies:
+  - context-manager

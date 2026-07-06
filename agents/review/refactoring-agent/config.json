@@ -1,0 +1,19 @@
+﻿{
+  "agent": {
+    "name": "refactoring-agent",
+    "version": "1.0.0",
+    "enabled": true,
+    "execution": {
+      "timeout_ms": 600000,
+      "max_concurrent_refactorings": 3,
+      "batch_size": 30
+    },
+    "refactoring": {
+      "preserve_tests": true,
+      "create_backup": true,
+      "max_changes_per_run": 50,
+      "strategies": ["extract_method", "rename", "move", "inline", "parameterize", "split_loop", "replace_conditional"]
+    },
+    "exclude_patterns": ["node_modules/**", "dist/**", "build/**", "vendor/**"]
+  }
+}

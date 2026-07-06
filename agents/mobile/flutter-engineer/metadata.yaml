@@ -1,0 +1,26 @@
+name: flutter-engineer
+displayName: Flutter Engineer
+description: Builds cross-platform applications with Flutter 3+, Dart, and advanced widget composition
+priority: high
+cost: medium
+status: production
+category: mobile
+skills:
+  - mobile/flutter-expert
+languages:
+  - Dart
+frameworks:
+  - Flutter 3+
+platforms:
+  - iOS
+  - Android
+  - Web
+  - Desktop
+version: 1.0.0
+author: IRIS AI
+tags:
+  - flutter
+  - dart
+  - cross-platform
+  - mobile
+  - widgets

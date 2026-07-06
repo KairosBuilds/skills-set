@@ -1,0 +1,14 @@
+{
+  "name": "accessibility-tester",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "timeout_ms": 300000,
+  "max_retries": 2,
+  "parallel_execution": true,
+  "auto_recover": true,
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}

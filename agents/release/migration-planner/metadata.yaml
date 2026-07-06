@@ -1,0 +1,17 @@
+name: migration-planner
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: release
+description: Database schema and data migration planning
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - migration
+  - database
+  - schema
+  - legacy-modernization
+dependencies:
+  - release-manager
+  - compatibility-checker

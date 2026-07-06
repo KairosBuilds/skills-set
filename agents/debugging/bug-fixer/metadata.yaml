@@ -1,0 +1,15 @@
+agent: bug-fixer
+version: 1.0.0
+category: debugging
+description: Applies fixes to identified software bugs across all languages and frameworks
+priority: critical
+cost: high
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - bug-fixing
+  - code-quality
+  - remediation

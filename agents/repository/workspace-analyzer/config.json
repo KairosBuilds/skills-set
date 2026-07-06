@@ -1,0 +1,10 @@
+{
+  "name": "workspace-analyzer",
+  "version": "1.0.0",
+  "depth": 3,
+  "detect_orphan_projects": true,
+  "analyze_build_times": false,
+  "generate_dependency_graph": true,
+  "check_config_consistency": true,
+  "max_projects_analyzed": 50
+}

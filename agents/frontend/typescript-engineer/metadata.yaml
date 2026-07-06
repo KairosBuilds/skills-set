@@ -1,0 +1,23 @@
+name: typescript-engineer
+display_name: TypeScript Engineer Agent
+description: Specialist for TypeScript type system design and type safety
+version: 1.0.0
+status: production
+priority: critical
+execution_cost: medium
+confidence_level: high
+owner: frontend-team
+tags:
+  - typescript
+  - type-safety
+  - generics
+  - type-system
+categories:
+  - frontend
+  - language
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

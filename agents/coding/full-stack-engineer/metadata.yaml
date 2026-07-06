@@ -1,0 +1,39 @@
+name: "Full Stack Engineer"
+description: "End-to-end feature implementation agent across database, backend, and frontend layers"
+purpose: "Deliver complete, production-ready features by implementing all layers from database to UI"
+version: "1.0.0"
+status: "production"
+priority: "critical"
+execution_cost: "high"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - TypeScript
+  - Python
+  - Go
+  - Rust
+  - JavaScript
+  - SQL
+supported_frameworks:
+  - All
+supported_platforms:
+  - Web
+  - API
+required_skills:
+  - frontend/fullstack-guardian
+  - frontend/react-expert
+  - frontend/vue-expert
+  - frontend/typescript-pro
+  - backend/fastapi-expert
+  - backend/nestjs-expert
+  - backend/python-pro
+  - backend/golang-pro
+  - database/sql-pro
+optional_skills:
+  - All frontend and backend skills
+dependencies: []
+compatible_agents:
+  - All agents
+incompatible_agents: []

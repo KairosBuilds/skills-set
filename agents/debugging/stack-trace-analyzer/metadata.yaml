@@ -1,0 +1,15 @@
+agent: stack-trace-analyzer
+version: 1.0.0
+category: debugging
+description: Parses and interprets stack traces from crashes and exceptions
+priority: critical
+cost: medium
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - stack-trace
+  - backtrace
+  - call-stack

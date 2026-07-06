@@ -1,0 +1,17 @@
+{
+  "name": "devops-engineer",
+  "version": "1.0.0",
+  "description": "Manages DevOps processes and automation",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "ci_provider": "github_actions",
+    "iac_tool": "terraform",
+    "container_runtime": "docker",
+    "orchestrator": "kubernetes",
+    "monitoring_stack": "prometheus_grafana",
+    "auto_remediation": false,
+    "incident_response_enabled": true
+  }
+}

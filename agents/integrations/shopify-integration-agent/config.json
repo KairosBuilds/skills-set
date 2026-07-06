@@ -1,0 +1,20 @@
+{
+  "agent": "shopify-integration-agent",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "medium",
+  "status": "stable",
+  "settings": {
+    "store_domain": "",
+    "api_version": "2024-10",
+    "theme_id": "",
+    "hydrogen_framework": true,
+    "auto_sync_theme": false,
+    "dev_store": false
+  },
+  "timeout_ms": 180000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 10000
+  }
+}

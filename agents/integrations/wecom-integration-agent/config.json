@@ -1,0 +1,19 @@
+{
+  "agent": "wecom-integration-agent",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_webhook": "",
+    "message_type": "markdown",
+    "enable_retry": true,
+    "retry_max_attempts": 3,
+    "timeout_ms": 15000
+  },
+  "timeout_ms": 30000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 5000
+  }
+}

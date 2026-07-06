@@ -1,0 +1,24 @@
+{
+  "name": "backend-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "critical",
+  "execution_cost": "high",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["Python", "TypeScript", "Go", "Java", "Rust", "C#", "Kotlin", "PHP"],
+  "supported_frameworks": ["FastAPI", "NestJS", "Django", "Spring Boot", "Express", "Gin", "Echo", "Fiber"],
+  "supported_platforms": ["Linux", "macOS", "Windows"],
+  "required_skills": ["backend/fastapi-expert", "backend/nestjs-expert", "backend/django-expert", "backend/spring-boot-engineer", "backend/python-pro", "backend/golang-pro", "backend/rust-engineer"],
+  "optional_skills": ["backend/csharp-developer", "backend/dotnet-core-expert", "backend/javascript-pro", "database/sql-pro", "database/postgres-pro"],
+  "dependencies": ["architecture/api-designer"],
+  "compatible_agents": ["frontend-engineer", "database-engineer", "api-engineer", "devops-engineer", "senior-software-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "api_validation": true,
+    "auth_implementation": true,
+    "test_requirement": "integration",
+    "error_handling": "comprehensive"
+  }
+}

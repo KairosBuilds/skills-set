@@ -1,0 +1,20 @@
+{
+  "agent": "excel-agent",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_format": "xlsx",
+    "auto_column_width": true,
+    "header_style": "bold",
+    "freeze_header": true,
+    "add_filters": false,
+    "sheet_name": "Sheet1"
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

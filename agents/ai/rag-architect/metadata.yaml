@@ -1,0 +1,16 @@
+name: rag-architect
+display_name: RAG Architect
+version: 1.0.0
+type: ai-agent
+status: production
+priority: high
+execution_cost: high
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Designs and implements RAG systems for retrieval-augmented generation
+tags:
+  - rag
+  - retrieval
+  - embeddings
+  - vector-search

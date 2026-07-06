@@ -1,0 +1,14 @@
+﻿name: supply-chain-auditor
+version: 1.0.0
+description: Audits software supply chain for dependency risks and compromised packages
+execution_cost: high
+confidence_level: 0.87
+status: production
+priority: high
+owner: security-team
+capabilities:
+  - sbom_generation
+  - dependency_confusion_detection
+  - typo_squatting_detection
+  - package_integrity_check
+  - registry_risk_analysis

@@ -1,0 +1,17 @@
+name: compatibility-checker
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: release
+description: Dependency compatibility analysis
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - compatibility
+  - dependencies
+  - semver
+  - audit
+dependencies:
+  - release-manager
+  - semantic-version-manager

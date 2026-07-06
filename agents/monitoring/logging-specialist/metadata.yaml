@@ -1,0 +1,17 @@
+name: logging-specialist
+version: 1.0.0
+priority: medium
+cost: low
+status: stable
+category: monitoring
+description: Structured logging design and implementation
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - logging
+  - structured-logs
+  - log-aggregation
+  - observability
+dependencies:
+  - observability-engineer
+  - error-monitoring-specialist

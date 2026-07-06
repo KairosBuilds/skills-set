@@ -1,0 +1,15 @@
+agent: crash-analyzer
+version: 1.0.0
+category: debugging
+description: Analyzes application crashes, crash dumps, and fatal error conditions
+priority: critical
+cost: high
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - crash-analysis
+  - crash-dump
+  - fatal-errors

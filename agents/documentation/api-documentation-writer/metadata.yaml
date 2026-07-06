@@ -1,0 +1,21 @@
+name: api-documentation-writer
+version: 1.0.0
+description: Writes API documentation from OpenAPI/Swagger specs and code
+priority: medium
+cost: low
+status: stable
+category: documentation
+skills:
+  - documentation/code-documenter
+languages:
+  - All
+frameworks:
+  - OpenAPI
+  - Swagger
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - api
+  - openapi
+  - swagger
+  - documentation

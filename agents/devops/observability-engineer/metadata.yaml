@@ -1,0 +1,21 @@
+name: observability-engineer
+version: 1.0.0
+description: Implements observability with traces, metrics, logs
+priority: high
+cost: medium
+status: production
+category: devops
+skills:
+  - devops/monitoring-expert
+languages:
+  - All
+frameworks:
+  - OpenTelemetry
+  - Jaeger
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - observability
+  - opentelemetry
+  - jaeger
+  - tracing

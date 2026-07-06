@@ -1,0 +1,28 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Generates README files for software projects",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "max_readme_length": 5000,
+    "include_badges": true,
+    "include_toc": true,
+    "default_sections": [
+      "Title",
+      "Description",
+      "Badges",
+      "Table of Contents",
+      "Installation",
+      "Usage",
+      "API Reference",
+      "Contributing",
+      "License"
+    ]
+  },
+  "requirements": {
+    "node_version": ">=18.0.0",
+    "npm_packages": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "agent": {
+    "name": "android-engineer",
+    "version": "1.0.0",
+    "priority": "high",
+    "cost": "high",
+    "status": "production"
+  },
+  "engine": {
+    "type": "claude-code",
+    "model": "claude-sonnet-4",
+    "maxTokens": 64000,
+    "temperature": 0.3
+  },
+  "workflow": {
+    "stages": ["plan", "implement", "build", "test", "review"],
+    "autoReview": true,
+    "requireTests": true
+  },
+  "build": {
+    "gradle": {
+      "jvmArgs": ["-Xmx4g"],
+      "parallel": true,
+      "buildCache": true
+    },
+    "minSdk": 26,
+    "targetSdk": 34,
+    "compileSdk": 34
+  },
+  "testing": {
+    "unit": "junit5",
+    "integration": "androidx.test",
+    "ui": "compose-ui-test",
+    "coverage": 80
+  }
+}

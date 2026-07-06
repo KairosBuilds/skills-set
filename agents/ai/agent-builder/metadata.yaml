@@ -1,0 +1,17 @@
+name: agent-builder
+display_name: Agent Builder
+version: 1.0.0
+type: ai-agent
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Creates and configures AI agents, skills, and MCP servers
+tags:
+  - agents
+  - skills
+  - mcp
+  - tools
+  - opencode

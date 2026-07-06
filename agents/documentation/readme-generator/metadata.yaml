@@ -1,0 +1,19 @@
+name: readme-generator
+version: 1.0.0
+description: Generates README files for software projects
+priority: low
+cost: low
+status: stable
+category: documentation
+skills:
+  - documentation/code-documenter
+languages:
+  - All
+frameworks:
+  - All
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - readme
+  - documentation
+  - markdown

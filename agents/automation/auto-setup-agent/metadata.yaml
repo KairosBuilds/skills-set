@@ -1,0 +1,17 @@
+name: auto-setup-agent
+version: 1.0.0
+priority: high
+cost: low
+status: production
+category: automation
+description: Automated dev environment setup and troubleshooting
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - setup
+  - environment
+  - dependencies
+  - installation
+dependencies:
+  - verification-agent
+  - context-manager

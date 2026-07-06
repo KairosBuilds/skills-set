@@ -1,0 +1,25 @@
+{
+  "agent": "concurrency-debugger",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 10,
+    "timeoutMs": 300000,
+    "deadlockDetection": true,
+    "livelockDetection": true,
+    "starvationAnalysis": true
+  },
+  "analysis": {
+    "goroutineAnalysis": true,
+    "threadAnalysis": true,
+    "mutexAnalysis": true,
+    "channelAnalysis": true,
+    "semaphoreAnalysis": true,
+    "waitGroupAnalysis": true
+  },
+  "output": {
+    "includeLockGraph": true,
+    "includeWaitChain": true,
+    "includeContentionPoints": true,
+    "includeSuggestion": true
+  }
+}

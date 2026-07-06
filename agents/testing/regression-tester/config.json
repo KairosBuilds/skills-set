@@ -1,0 +1,14 @@
+{
+  "name": "regression-tester",
+  "priority": "high",
+  "cost": "high",
+  "status": "production",
+  "timeout_ms": 600000,
+  "max_retries": 2,
+  "parallel_execution": true,
+  "auto_recover": false,
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}

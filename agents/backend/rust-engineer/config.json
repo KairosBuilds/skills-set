@@ -1,0 +1,24 @@
+{
+  "name": "rust-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/backend",
+  "compatibility": ["opencode"],
+  "supported_languages": ["Rust"],
+  "supported_frameworks": ["Actix", "Axum", "Tokio", "Clap", "Serde", "Diesel", "SQLx", "Reqwest"],
+  "supported_platforms": ["Linux", "macOS", "Windows", "WebAssembly"],
+  "required_skills": ["backend/rust-engineer"],
+  "optional_skills": ["utilities/cli-developer"],
+  "dependencies": [],
+  "compatible_agents": ["backend-engineer", "database-engineer", "api-engineer", "senior-software-engineer", "cli-engineer", "desktop-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "edition": "2024",
+    "clippy_level": "warn",
+    "async_runtime": "tokio",
+    "error_handling": "thiserror_anyhow"
+  }
+}

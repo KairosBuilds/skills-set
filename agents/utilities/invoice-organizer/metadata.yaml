@@ -1,0 +1,16 @@
+name: invoice-organizer
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: utilities
+description: Automated invoice and receipt organization
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - invoice
+  - receipt
+  - organization
+  - expense
+  - accounting
+dependencies: []

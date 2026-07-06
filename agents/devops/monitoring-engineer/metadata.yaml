@@ -1,0 +1,22 @@
+name: monitoring-engineer
+version: 1.0.0
+description: Configures and manages monitoring systems
+priority: high
+cost: medium
+status: production
+category: devops
+skills:
+  - devops/monitoring-expert
+languages:
+  - All
+frameworks:
+  - Prometheus
+  - Grafana
+  - DataDog
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - monitoring
+  - prometheus
+  - grafana
+  - datadog

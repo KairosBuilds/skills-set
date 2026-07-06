@@ -1,0 +1,13 @@
+﻿{
+  "agent": {
+    "name": "cloud-security-reviewer",
+    "enabled": true,
+    "execution": { "timeout_ms": 600000 },
+    "providers": {
+      "aws": { "check_s3": true, "check_iam": true, "check_security_groups": true, "check_kms": true },
+      "azure": { "check_storage": true, "check_rbac": true, "check_nsg": true, "check_keyvault": true },
+      "gcp": { "check_storage": true, "check_iam": true, "check_firewall": true, "check_kms": true }
+    },
+    "tools": ["checkov", "tfsec", "prowler", "scoutsuite"]
+  }
+}

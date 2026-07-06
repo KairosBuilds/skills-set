@@ -1,0 +1,16 @@
+name: pdf-agent
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: utilities
+description: PDF document creation and manipulation
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - pdf
+  - document
+  - extraction
+  - merge
+  - forms
+dependencies: []

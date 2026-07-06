@@ -1,0 +1,10 @@
+{
+  "name": "risk-planner",
+  "version": "1.0.0",
+  "max_risks_per_register": 50,
+  "impact_scale": ["critical", "high", "medium", "low"],
+  "probability_scale": ["certain", "likely", "possible", "unlikely", "rare"],
+  "auto_mitigation_suggestions": true,
+  "review_frequency_days": 14,
+  "threshold_high_risk": 15
+}

@@ -1,0 +1,14 @@
+﻿{
+  "agent": {
+    "name": "authentication-reviewer",
+    "enabled": true,
+    "execution": { "timeout_ms": 300000 },
+    "checks": {
+      "oauth2": { "flow_types": ["authorization_code", "implicit", "client_credentials"], "check_pkce": true, "check_redirect_uri": true },
+      "oidc": { "check_id_token": true, "check_issuer": true, "check_audience": true },
+      "saml": { "check_assertion_signature": true, "check_audience": true, "check_replay": true },
+      "jwt": { "check_alg": true, "check_exp": true, "check_aud": true, "check_iss": true },
+      "session": { "check_fixation": true, "check_invalidation": true, "check_secure_cookie": true }
+    }
+  }
+}

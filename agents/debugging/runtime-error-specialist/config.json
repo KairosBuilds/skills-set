@@ -1,0 +1,25 @@
+{
+  "agent": "runtime-error-specialist",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 10,
+    "timeoutMs": 240000,
+    "exceptionDatabase": "built-in",
+    "typeChecking": true,
+    "nullSafetyAnalysis": true
+  },
+  "analysis": {
+    "nullPointerAnalysis": true,
+    "typeMismatchDetection": true,
+    "indexBoundsChecking": true,
+    "divisionByZeroCheck": true,
+    "castValidation": true,
+    "resourceValidation": true
+  },
+  "output": {
+    "includeExceptionType": true,
+    "includeExceptionMessage": true,
+    "includeStackTrace": true,
+    "includePreventionStrategy": true
+  }
+}

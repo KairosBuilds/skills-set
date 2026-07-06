@@ -1,0 +1,16 @@
+name: local-seo-manager
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: utilities
+description: Local SEO and Google Business Profile management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - seo
+  - local
+  - google-business
+  - citations
+  - reviews
+dependencies: []

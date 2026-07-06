@@ -1,0 +1,21 @@
+{
+  "agent": "file-organizer",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "detect_duplicates": true,
+    "check_naming_conventions": true,
+    "suggest_folder_structure": true,
+    "cleanup_temp_files": true,
+    "dry_run": true,
+    "allowed_extensions": [],
+    "excluded_dirs": ["node_modules", ".git", "dist", "build"]
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 1,
+    "backoff_ms": 5000
+  }
+}

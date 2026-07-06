@@ -1,0 +1,18 @@
+name: release-manager
+version: 1.0.0
+priority: critical
+cost: high
+status: production
+category: release
+description: End-to-end release pipeline orchestration
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - release
+  - deployment
+  - ci-cd
+  - pipeline
+dependencies:
+  - migration-planner
+  - compatibility-checker
+  - semantic-version-manager

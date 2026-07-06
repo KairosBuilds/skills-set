@@ -1,0 +1,24 @@
+{
+  "agent": "stack-trace-analyzer",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 20,
+    "timeoutMs": 120000,
+    "sourceMapSupport": true,
+    "minifiedCodeSupport": true,
+    "frameLimit": 100
+  },
+  "analysis": {
+    "frameClassification": true,
+    "rootCauseIdentification": true,
+    "exceptionChainAnalysis": true,
+    "asyncStackTrace": true,
+    "nativeFrameSupport": true
+  },
+  "output": {
+    "includeAnnotatedTrace": true,
+    "includeRootCause": true,
+    "includeRelevantSnippets": true,
+    "format": "annotated"
+  }
+}

@@ -1,0 +1,9 @@
+name: regression-tester
+display_name: Regression Tester
+priority: high
+cost: high
+status: production
+category: testing
+description: Automated regression testing to prevent breaking changes
+version: 1.0.0
+created: 2026-07-06

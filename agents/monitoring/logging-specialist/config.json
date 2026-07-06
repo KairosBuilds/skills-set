@@ -1,0 +1,22 @@
+{
+  "agent": "logging-specialist",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_format": "json",
+    "default_level": "info",
+    "shipping_tool": "vector",
+    "retention_days": 30,
+    "archive_after_days": 90,
+    "sampling_rate": 1.0,
+    "include_trace_id": true,
+    "include_span_id": true
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

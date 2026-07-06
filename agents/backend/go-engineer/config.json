@@ -1,0 +1,24 @@
+{
+  "name": "go-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/backend",
+  "compatibility": ["opencode"],
+  "supported_languages": ["Go"],
+  "supported_frameworks": ["Gin", "Echo", "Fiber", "Chi", "gRPC", "Cobra", "Testify"],
+  "supported_platforms": ["Linux", "macOS", "Windows"],
+  "required_skills": ["backend/golang-pro"],
+  "optional_skills": ["database/sql-pro", "utilities/cli-developer"],
+  "dependencies": [],
+  "compatible_agents": ["backend-engineer", "database-engineer", "api-engineer", "senior-software-engineer", "cli-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "go_version": "1.22",
+    "test_style": "table_driven",
+    "error_handling": "explicit",
+    "concurrency_pattern": "goroutines"
+  }
+}

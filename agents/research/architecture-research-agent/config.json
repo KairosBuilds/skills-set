@@ -1,0 +1,10 @@
+{
+  "name": "architecture-research-agent",
+  "version": "1.0.0",
+  "max_patterns_per_query": 8,
+  "include_case_studies": true,
+  "trade_off_analysis_required": true,
+  "depth": "comprehensive",
+  "prefer_real_world_examples": true,
+  "include_diagrams": false
+}

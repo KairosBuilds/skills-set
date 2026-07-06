@@ -1,0 +1,21 @@
+{
+  "agent": "web-scraping-agent",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "user_agent": "Mozilla/5.0 (compatible; IRIS-AI/1.0)",
+    "timeout_ms": 30000,
+    "max_retries": 3,
+    "respect_robots_txt": true,
+    "render_js": false,
+    "output_format": "markdown",
+    "rate_limit_delay_ms": 1000
+  },
+  "timeout_ms": 60000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 5000
+  }
+}

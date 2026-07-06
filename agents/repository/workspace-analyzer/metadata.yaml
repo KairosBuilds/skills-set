@@ -1,0 +1,16 @@
+name: workspace-analyzer
+version: 1.0.0
+type: repository-agent
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: repository-team
+capabilities:
+  - monorepo structure analysis
+  - inter-project dependency mapping
+  - build graph generation
+  - affected project detection
+  - workspace configuration validation
+  - task orchestration analysis
+compatibility: opencode-agent-v2

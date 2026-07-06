@@ -1,0 +1,24 @@
+{
+  "name": "framework-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "high",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["All"],
+  "supported_frameworks": ["All"],
+  "supported_platforms": ["All"],
+  "required_skills": ["architecture/architecture-designer"],
+  "optional_skills": ["All architecture and coding skills"],
+  "dependencies": [],
+  "compatible_agents": ["*"],
+  "incompatible_agents": [],
+  "config": {
+    "backward_compatibility": true,
+    "deprecation_policy": "strict",
+    "documentation_required": true,
+    "plugin_api_design": true
+  }
+}

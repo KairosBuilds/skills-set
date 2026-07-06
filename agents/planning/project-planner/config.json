@@ -1,0 +1,10 @@
+{
+  "name": "project-planner",
+  "version": "1.0.0",
+  "default_phase_count": 5,
+  "resource_leveling_enabled": true,
+  "budget_buffer_percent": 20,
+  "risk_register_capacity": 30,
+  "auto_milestone_tracking": true,
+  "reporting_frequency_days": 7
+}

@@ -1,0 +1,16 @@
+name: salesforce-integration-agent
+version: 1.0.0
+priority: medium
+cost: medium
+status: stable
+category: integrations
+description: Salesforce development and CRM management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - salesforce
+  - apex
+  - lwc
+  - crm
+  - soql
+dependencies: []

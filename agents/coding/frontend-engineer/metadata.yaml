@@ -1,0 +1,47 @@
+name: "Frontend Engineer"
+description: "Client-side UI implementation specialist for component development and interactive features"
+purpose: "Implement polished, performant, and accessible user interfaces using modern frontend frameworks"
+version: "1.0.0"
+status: "production"
+priority: "critical"
+execution_cost: "high"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - TypeScript
+  - JavaScript
+  - CSS
+  - HTML
+  - SCSS
+supported_frameworks:
+  - React
+  - Vue
+  - Next.js
+  - Angular
+  - Svelte
+  - Tailwind CSS
+  - Material UI
+  - Shadcn UI
+supported_platforms:
+  - Web
+  - Mobile Web
+required_skills:
+  - frontend/react-expert
+  - frontend/vue-expert
+  - frontend/nextjs-developer
+  - frontend/typescript-pro
+  - frontend/javascript-pro
+optional_skills:
+  - frontend/fullstack-guardian
+  - ui-ux/ui-designer
+  - testing/playwright-expert
+  - testing/testing-e2e
+dependencies: []
+compatible_agents:
+  - Backend Engineer
+  - API Engineer
+  - Senior Software Engineer
+  - Database Engineer
+incompatible_agents: []

@@ -1,0 +1,34 @@
+name: dependency-architect
+display_name: Dependency Architect
+version: 1.0.0
+description: Dependency management, module boundaries, coupling analysis, and dependency governance
+role: architect
+priority: high
+execution_cost: medium
+status: production
+
+tags:
+  - dependencies
+  - module-boundaries
+  - coupling
+  - governance
+  - version-management
+
+capabilities:
+  - dependency_structure_design
+  - module_boundary_enforcement
+  - dependency_optimization
+  - version_management
+  - coupling_analysis
+  - dependency_governance
+  - upgrade_planning
+
+skills:
+  - architecture/codebase-mapper
+
+triggers:
+  - dependency_review
+  - boundary_definition
+  - circular_dependency_resolution
+  - governance_policy
+  - upgrade_planning

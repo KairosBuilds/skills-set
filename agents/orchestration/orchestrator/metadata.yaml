@@ -1,0 +1,45 @@
+name: orchestrator
+display_name: Orchestrator Agent
+version: 2.0.0
+description: Central coordinator for the agent ecosystem — routes tasks, manages workflows, resolves conflicts
+role: orchestrator
+priority: critical
+execution_cost: high
+status: production
+compatible_with: all
+
+tags:
+  - orchestration
+  - coordination
+  - task-routing
+  - workflow-management
+  - conflict-resolution
+
+capabilities:
+  - task_parsing_and_decomposition
+  - agent_selection_and_routing
+  - workflow_orchestration
+  - context_management
+  - conflict_resolution
+  - output_merging
+  - quality_assurance
+  - feedback_loop_management
+
+integration_points:
+  - all_agents
+
+triggers:
+  - multi_step_tasks
+  - multi_domain_requests
+  - ambiguous_requests
+  - agent_conflicts
+  - final_output_validation
+
+metrics:
+  task_accuracy_target: 0.98
+  resolution_time_target_seconds: 30
+  conflict_resolution_rate: 0.95
+  user_satisfaction_target: 0.95
+
+maintainers:
+  - platform-team

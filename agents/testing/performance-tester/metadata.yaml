@@ -1,0 +1,9 @@
+name: performance-tester
+display_name: Performance Tester
+priority: high
+cost: high
+status: production
+category: testing
+description: Load, stress, and performance testing
+version: 1.0.0
+created: 2026-07-06

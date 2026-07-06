@@ -1,0 +1,10 @@
+{
+  "name": "sprint-planner",
+  "version": "1.0.0",
+  "sprint_duration_days": 14,
+  "max_story_points_per_sprint": 40,
+  "velocity_window_sprints": 3,
+  "capacity_buffer_percent": 15,
+  "auto_assign": true,
+  "estimation_scale": "fibonacci"
+}

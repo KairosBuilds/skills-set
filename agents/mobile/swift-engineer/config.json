@@ -1,0 +1,32 @@
+{
+  "agent": {
+    "name": "swift-engineer",
+    "version": "1.0.0",
+    "priority": "high",
+    "cost": "medium",
+    "status": "production"
+  },
+  "engine": {
+    "type": "claude-code",
+    "model": "claude-sonnet-4",
+    "maxTokens": 64000,
+    "temperature": 0.3
+  },
+  "workflow": {
+    "stages": ["plan", "implement", "build", "test", "review"],
+    "autoReview": true,
+    "requireTests": true
+  },
+  "build": {
+    "swiftVersion": "5.9",
+    "toolsVersion": "5.9",
+    "spm": {
+      "configuration": "release",
+      "enableTestDiscovery": true
+    }
+  },
+  "testing": {
+    "runner": "swift-test",
+    "coverage": 80
+  }
+}

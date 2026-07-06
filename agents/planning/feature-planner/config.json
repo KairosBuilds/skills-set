@@ -1,0 +1,10 @@
+{
+  "name": "feature-planner",
+  "version": "1.0.0",
+  "max_user_stories_per_feature": 30,
+  "acceptance_criteria_min": 3,
+  "requirements_format": "EARS",
+  "workshop_enabled": true,
+  "auto_generate_tests": false,
+  "traceability_required": true
+}

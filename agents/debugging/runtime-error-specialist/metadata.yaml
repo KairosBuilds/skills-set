@@ -1,0 +1,15 @@
+agent: runtime-error-specialist
+version: 1.0.0
+category: debugging
+description: Diagnoses and resolves runtime exceptions and execution-time errors
+priority: critical
+cost: medium
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - runtime-errors
+  - exceptions
+  - execution

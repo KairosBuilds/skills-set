@@ -1,0 +1,25 @@
+{
+  "agent": {
+    "name": "cloud-architect",
+    "version": "1.1.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 32000,
+    "include_diagrams": true,
+    "include_cost_estimates": true
+  },
+  "design": {
+    "default_provider": "aws",
+    "framework": "well_architected",
+    "include_security_architecture": true,
+    "include_networking": true
+  },
+  "output": {
+    "format": "document",
+    "include_infrastructure_diagram": true,
+    "include_cost_analysis": true,
+    "include_migration_roadmap": true,
+    "include_dr_plan": true
+  }
+}

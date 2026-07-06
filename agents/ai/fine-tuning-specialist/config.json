@@ -1,0 +1,31 @@
+{
+  "agent": "fine-tuning-specialist",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 1,
+  "timeout_seconds": 1800,
+  "retry_on_failure": true,
+  "max_retries": 2,
+  "default_model": "gpt-4",
+  "temperature": 0.3,
+  "output_token_limit": 8192,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  },
+  "features": {
+    "lora_training": true,
+    "qlora_training": true,
+    "full_fine_tuning": false,
+    "dataset_preparation": true,
+    "hyperparameter_tuning": true,
+    "model_evaluation": true
+  },
+  "defaults": {
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "learning_rate": 2e-4,
+    "num_epochs": 3,
+    "batch_size": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "agent": {
+    "name": "legacy-modernizer",
+    "version": "1.1.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 32000,
+    "include_diagrams": true,
+    "include_timeline": true
+  },
+  "migration": {
+    "default_pattern": "strangler_fig",
+    "require_risk_assessment": true,
+    "require_rollback_plan": true,
+    "incremental_phases": true
+  },
+  "output": {
+    "format": "document",
+    "include_migration_roadmap": true,
+    "include_risk_matrix": true,
+    "include_phase_plan": true,
+    "include_success_metrics": true
+  }
+}

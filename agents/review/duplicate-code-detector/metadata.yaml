@@ -1,0 +1,13 @@
+﻿name: duplicate-code-detector
+version: 1.0.0
+description: Detects copy-paste patterns and duplicate code blocks
+execution_cost: low
+confidence_level: 0.90
+status: stable
+priority: medium
+owner: platform-engineering
+capabilities:
+  - exact_duplicate_detection
+  - semantic_similarity_analysis
+  - copy_paste_detection
+  - duplication_metrics

@@ -1,0 +1,16 @@
+{
+  "name": "architecture-documentation-writer",
+  "version": "1.0.0",
+  "description": "Creates architecture documentation with diagrams",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "diagram_format": "mermaid",
+    "include_component_diagrams": true,
+    "include_sequence_diagrams": true,
+    "include_data_flow": true,
+    "include_deployment_diagrams": false,
+    "max_diagram_depth": 3
+  }
+}

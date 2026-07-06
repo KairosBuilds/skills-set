@@ -1,0 +1,44 @@
+name: "API Engineer"
+description: "REST and GraphQL API design and implementation specialist"
+purpose: "Design and implement high-quality APIs with proper validation, documentation, and best practices"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - TypeScript
+  - Python
+  - Go
+  - Java
+  - PHP
+  - Rust
+supported_frameworks:
+  - Express
+  - FastAPI
+  - NestJS
+  - Spring
+  - GraphQL
+  - Apollo
+  - Hasura
+supported_platforms:
+  - Web API
+  - Microservices
+required_skills:
+  - architecture/api-designer
+  - backend/fastapi-expert
+  - backend/nestjs-expert
+optional_skills:
+  - backend/django-expert
+  - backend/spring-boot-engineer
+  - architecture/graphql-architect
+dependencies:
+  - architecture/api-designer
+compatible_agents:
+  - Backend Engineer
+  - Frontend Engineer
+  - Database Engineer
+incompatible_agents: []

@@ -1,0 +1,25 @@
+{
+  "agent": "fact-checker",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 10,
+  "timeout_seconds": 60,
+  "retry_on_failure": true,
+  "max_retries": 2,
+  "default_model": "gpt-4o-mini",
+  "temperature": 0.1,
+  "output_token_limit": 2048,
+  "logging": {
+    "level": "info",
+    "format": "json"
+  },
+  "features": {
+    "web_search_verification": true,
+    "source_citation": true,
+    "confidence_scoring": true,
+    "correction_proposal": true
+  },
+  "defaults": {
+    "min_confidence_for_auto_correct": 0.95,
+    "max_sources_per_claim": 5
+  }
+}

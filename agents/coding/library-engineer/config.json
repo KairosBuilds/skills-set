@@ -1,0 +1,24 @@
+{
+  "name": "library-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["TypeScript", "Python", "Go", "Rust"],
+  "supported_frameworks": ["npm", "pip", "cargo", "pnpm", "yarn"],
+  "supported_platforms": ["Library"],
+  "required_skills": ["frontend/typescript-pro", "backend/python-pro", "backend/golang-pro", "backend/rust-engineer"],
+  "optional_skills": ["All language-specific skills", "opencode/opencode-sdk"],
+  "dependencies": [],
+  "compatible_agents": ["sdk-engineer", "api-engineer", "devops-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "test_coverage": 90,
+    "tree_shaking": true,
+    "semantic_release": true,
+    "documentation_required": true
+  }
+}

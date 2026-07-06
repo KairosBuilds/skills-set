@@ -1,0 +1,14 @@
+{
+  "name": "performance-optimizer",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "timeout_ms": 900000,
+  "max_retries": 3,
+  "parallel_execution": true,
+  "auto_recover": true,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  }
+}

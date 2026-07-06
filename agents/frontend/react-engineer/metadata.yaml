@@ -1,0 +1,24 @@
+name: react-engineer
+display_name: React Engineer Agent
+description: Specialist for React 18+ application development with modern patterns
+version: 1.0.0
+status: production
+priority: critical
+execution_cost: medium
+confidence_level: high
+owner: frontend-team
+tags:
+  - react
+  - frontend
+  - ui
+  - components
+  - hooks
+categories:
+  - frontend
+  - component-development
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

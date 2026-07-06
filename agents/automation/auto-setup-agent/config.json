@@ -1,0 +1,21 @@
+{
+  "agent": "auto-setup-agent",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "low",
+  "status": "production",
+  "settings": {
+    "auto_install_deps": true,
+    "check_onboarding_doc": true,
+    "verify_setup": true,
+    "cleanup_on_failure": true,
+    "install_global_tools": false,
+    "prefer_package_manager": "auto",
+    "timeout_per_step_ms": 60000
+  },
+  "timeout_ms": 300000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 15000
+  }
+}

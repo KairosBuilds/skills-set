@@ -1,0 +1,11 @@
+{
+  "name": "file-structure-optimizer",
+  "version": "1.0.0",
+  "max_suggestions": 20,
+  "check_naming_conventions": true,
+  "check_depth": true,
+  "max_recommended_depth": 4,
+  "check_fragmentation": true,
+  "respect_framework_conventions": true,
+  "generate_migration_plan": true
+}

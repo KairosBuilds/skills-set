@@ -1,0 +1,15 @@
+agent: concurrency-debugger
+version: 1.0.0
+category: debugging
+description: Debugs concurrency issues, deadlocks, and synchronization problems
+priority: high
+cost: high
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - concurrency
+  - deadlocks
+  - synchronization

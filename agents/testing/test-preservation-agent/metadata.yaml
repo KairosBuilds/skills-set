@@ -1,0 +1,9 @@
+name: test-preservation-agent
+display_name: Test Preservation Agent
+priority: high
+cost: low
+status: production
+category: testing
+description: Guards against test deletion and coverage reduction
+version: 1.0.0
+created: 2026-07-06

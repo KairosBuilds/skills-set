@@ -1,0 +1,14 @@
+﻿name: refactoring-agent
+version: 1.0.0
+description: Automated code refactoring agent that identifies and applies safe code transformations
+execution_cost: high
+confidence_level: 0.90
+status: production
+priority: high
+owner: platform-engineering
+capabilities:
+  - code_smell_detection
+  - automated_refactoring
+  - behavior_preservation
+  - complexity_reduction
+  - duplication_removal

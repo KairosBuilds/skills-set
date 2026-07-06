@@ -1,0 +1,22 @@
+name: cicd-engineer
+version: 1.0.0
+description: Designs and manages CI/CD pipelines
+priority: critical
+cost: high
+status: production
+category: deployment
+skills:
+  - devops/devops-engineer
+languages:
+  - YAML
+  - Groovy
+frameworks:
+  - GitHub Actions
+  - Jenkins
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - ci
+  - cd
+  - pipelines
+  - automation

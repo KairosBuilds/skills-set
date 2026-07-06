@@ -1,0 +1,24 @@
+{
+  "name": "frontend-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "critical",
+  "execution_cost": "high",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["TypeScript", "JavaScript", "CSS", "HTML", "SCSS"],
+  "supported_frameworks": ["React", "Vue", "Next.js", "Angular", "Svelte", "Tailwind CSS", "Material UI", "Shadcn UI"],
+  "supported_platforms": ["Web", "Mobile Web"],
+  "required_skills": ["frontend/react-expert", "frontend/vue-expert", "frontend/nextjs-developer", "frontend/typescript-pro", "frontend/javascript-pro"],
+  "optional_skills": ["frontend/fullstack-guardian", "ui-ux/ui-designer", "testing/playwright-expert", "testing/testing-e2e"],
+  "dependencies": [],
+  "compatible_agents": ["backend-engineer", "api-engineer", "senior-software-engineer", "database-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "responsive_design": true,
+    "accessibility_required": true,
+    "test_requirement": "component",
+    "performance_budget": "300kb"
+  }
+}

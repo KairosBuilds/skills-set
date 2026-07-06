@@ -1,0 +1,15 @@
+﻿{
+  "agent": {
+    "name": "clean-code-auditor",
+    "enabled": true,
+    "execution": { "timeout_ms": 180000, "max_concurrent": 4 },
+    "thresholds": {
+      "max_method_lines": 20,
+      "max_class_lines": 300,
+      "max_params": 3,
+      "max_nesting_depth": 3,
+      "min_comment_ratio": 0.05,
+      "max_comment_ratio": 0.30
+    }
+  }
+}

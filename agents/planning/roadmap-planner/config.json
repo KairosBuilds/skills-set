@@ -1,0 +1,10 @@
+{
+  "name": "roadmap-planner",
+  "version": "1.0.0",
+  "planning_horizon_months": 12,
+  "min_planning_unit": "week",
+  "max_initiatives_per_roadmap": 15,
+  "auto_milestone_generation": true,
+  "quarterly_review_required": true,
+  "confidence_scoring": true
+}

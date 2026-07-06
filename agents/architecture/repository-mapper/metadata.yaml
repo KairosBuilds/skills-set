@@ -1,0 +1,34 @@
+name: repository-mapper
+display_name: Repository Mapper
+version: 1.0.0
+description: Codebase mapping, dependency visualization, and code structure analysis
+role: architect
+priority: high
+execution_cost: medium
+status: production
+
+tags:
+  - codebase-analysis
+  - dependency-graph
+  - architecture-discovery
+  - visualization
+  - refactoring
+
+capabilities:
+  - codebase_mapping
+  - dependency_graph_generation
+  - architecture_discovery
+  - module_boundary_analysis
+  - dead_code_detection
+  - change_impact_analysis
+  - visualization
+
+skills:
+  - architecture/codebase-mapper
+
+triggers:
+  - codebase_analysis
+  - dependency_analysis
+  - architecture_discovery
+  - module_boundary_audit
+  - refactoring_preparation

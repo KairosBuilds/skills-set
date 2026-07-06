@@ -1,0 +1,16 @@
+﻿name: api-security-auditor
+version: 1.0.0
+description: Audits REST, GraphQL, and gRPC APIs for security vulnerabilities
+execution_cost: high
+confidence_level: 0.90
+status: production
+priority: high
+owner: security-team
+capabilities:
+  - rest_api_audit
+  - graphql_security_review
+  - grpc_security_review
+  - mass_assignment_detection
+  - rate_limiting_check
+  - input_validation_review
+  - schema_exposure_analysis

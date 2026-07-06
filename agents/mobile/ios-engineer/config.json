@@ -1,0 +1,34 @@
+{
+  "agent": {
+    "name": "ios-engineer",
+    "version": "1.0.0",
+    "priority": "high",
+    "cost": "high",
+    "status": "production"
+  },
+  "engine": {
+    "type": "claude-code",
+    "model": "claude-sonnet-4",
+    "maxTokens": 64000,
+    "temperature": 0.3
+  },
+  "workflow": {
+    "stages": ["plan", "implement", "build", "test", "review"],
+    "autoReview": true,
+    "requireTests": true
+  },
+  "build": {
+    "xcode": {
+      "scheme": "Release",
+      "sdk": "iphoneos",
+      "exportMethod": "app-store"
+    },
+    "deploymentTarget": "16.0",
+    "swiftVersion": "5.9"
+  },
+  "testing": {
+    "unit": "XCTest",
+    "ui": "XCUITest",
+    "coverage": 80
+  }
+}

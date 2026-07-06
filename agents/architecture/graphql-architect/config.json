@@ -1,0 +1,24 @@
+{
+  "agent": {
+    "name": "graphql-architect",
+    "version": "1.1.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 24000,
+    "generate_schema": true,
+    "schema_format": "sdl"
+  },
+  "design": {
+    "default_federation": "apollo",
+    "enable_data_loader": true,
+    "enable_complexity_analysis": true,
+    "enable_persisted_queries": false
+  },
+  "output": {
+    "format": "document",
+    "include_sdl": true,
+    "include_resolver_patterns": true,
+    "include_examples": true
+  }
+}

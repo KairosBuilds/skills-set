@@ -1,0 +1,23 @@
+name: deployment-engineer
+version: 1.0.0
+description: Manages application deployment processes
+priority: critical
+cost: high
+status: production
+category: deployment
+skills:
+  - devops/devops-engineer
+languages:
+  - YAML
+  - HCL
+frameworks:
+  - Docker
+  - Kubernetes
+  - Helm
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - deployment
+  - docker
+  - kubernetes
+  - helm

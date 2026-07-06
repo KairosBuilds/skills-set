@@ -1,0 +1,16 @@
+name: repository-analyzer
+version: 1.0.0
+type: repository-agent
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: repository-team
+capabilities:
+  - repository structure analysis
+  - module dependency mapping
+  - code organization assessment
+  - technical debt identification
+  - code quality metrics generation
+  - refactoring recommendations
+compatibility: opencode-agent-v2

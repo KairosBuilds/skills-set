@@ -1,0 +1,17 @@
+name: repository-health-checker
+version: 1.0.0
+type: repository-agent
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: repository-team
+capabilities:
+  - multi-dimensional health assessment
+  - code quality evaluation
+  - documentation completeness check
+  - CI/CD status analysis
+  - security posture assessment
+  - maintenance activity audit
+  - improvement recommendations
+compatibility: opencode-agent-v2

@@ -1,0 +1,19 @@
+{
+  "agent": "slack-integration-agent",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_channel": "general",
+    "message_format": "blocks",
+    "enable_threading": true,
+    "rate_limit_per_minute": 20,
+    "max_message_length": 4000
+  },
+  "timeout_ms": 30000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "agent": "semantic-version-manager",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "commit_parser": "conventional",
+    "tag_prefix": "v",
+    "tag_annotated": true,
+    "auto_generate_changelog": true,
+    "validate_sync": true,
+    "pre_release_suffix": "",
+    "build_metadata": ""
+  },
+  "timeout_ms": 60000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

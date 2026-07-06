@@ -1,0 +1,16 @@
+name: feature-planner
+version: 1.0.0
+type: planning-agent
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: planning-team
+capabilities:
+  - feature specification generation
+  - user story creation
+  - acceptance criteria definition
+  - EARS format requirements
+  - implementation checklist generation
+  - requirements workshop facilitation
+compatibility: opencode-agent-v2

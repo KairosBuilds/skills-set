@@ -1,0 +1,20 @@
+{
+  "agent": "pdf-agent",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_page_size": "A4",
+    "default_font": "Helvetica",
+    "default_font_size": 12,
+    "compression": true,
+    "extract_tables": true,
+    "preserve_formatting": true
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

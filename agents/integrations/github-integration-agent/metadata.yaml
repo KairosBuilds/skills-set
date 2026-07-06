@@ -1,0 +1,18 @@
+name: github-integration-agent
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: integrations
+description: GitHub operations and workflow management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - github
+  - pull-requests
+  - issues
+  - actions
+  - git
+dependencies:
+  - release-manager (release)
+  - verification-agent (automation)

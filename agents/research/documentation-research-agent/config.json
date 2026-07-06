@@ -1,0 +1,10 @@
+{
+  "name": "documentation-research-agent",
+  "version": "1.0.0",
+  "max_sources_per_query": 10,
+  "prefer_official_sources": true,
+  "include_version_history": false,
+  "cache_duration_hours": 48,
+  "depth": "comprehensive",
+  "citation_required": true
+}

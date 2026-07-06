@@ -1,0 +1,24 @@
+{
+  "name": "kotlin-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/backend",
+  "compatibility": ["opencode"],
+  "supported_languages": ["Kotlin", "Java"],
+  "supported_frameworks": ["Ktor", "Spring Boot", "Kotlin Coroutines", "Kotlin Flow", "Exposed", "Koin", "KMP"],
+  "supported_platforms": ["JVM", "Android", "Native"],
+  "required_skills": ["backend/kotlin-specialist"],
+  "optional_skills": ["backend/spring-boot-engineer"],
+  "dependencies": [],
+  "compatible_agents": ["backend-engineer", "database-engineer", "api-engineer", "java-engineer", "spring-engineer", "senior-software-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "kotlin_version": "2.0",
+    "coroutines": true,
+    "build_tool": "gradle",
+    "kmp_enabled": true
+  }
+}

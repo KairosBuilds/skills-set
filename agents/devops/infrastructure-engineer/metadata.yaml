@@ -1,0 +1,22 @@
+name: infrastructure-engineer
+version: 1.0.0
+description: Designs and manages cloud infrastructure
+priority: critical
+cost: high
+status: production
+category: devops
+skills:
+  - devops/terraform-engineer
+languages:
+  - HCL
+  - YAML
+frameworks:
+  - Terraform
+  - Pulumi
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - infrastructure
+  - cloud
+  - terraform
+  - pulumi

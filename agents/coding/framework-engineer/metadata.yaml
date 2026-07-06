@@ -1,0 +1,26 @@
+name: "Framework Engineer"
+description: "Framework development and extension specialist"
+purpose: "Design and implement robust, extensible frameworks for consistent application development"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "high"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - All
+supported_frameworks:
+  - All
+supported_platforms:
+  - All
+required_skills:
+  - architecture/architecture-designer
+  - All coding skills
+optional_skills:
+  - All architecture and coding skills
+dependencies: []
+compatible_agents:
+  - All agents
+incompatible_agents: []

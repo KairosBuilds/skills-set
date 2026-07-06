@@ -1,0 +1,14 @@
+﻿name: security-auditor
+version: 1.0.0
+description: Comprehensive security audit agent for vulnerability detection and compliance checking
+execution_cost: high
+confidence_level: 0.92
+status: production
+priority: critical
+owner: security-team
+capabilities:
+  - owasp_top_10_scanning
+  - static_application_security_testing
+  - dependency_vulnerability_scanning
+  - configuration_audit
+  - compliance_checking

@@ -1,0 +1,26 @@
+name: swift-engineer
+displayName: Swift Engineer
+description: Builds Swift applications across iOS, macOS, and server-side with Vapor
+priority: high
+cost: medium
+status: production
+category: mobile
+skills:
+  - backend/swift-expert
+languages:
+  - Swift
+frameworks:
+  - SwiftUI
+  - Vapor
+platforms:
+  - iOS
+  - macOS
+  - Server
+version: 1.0.0
+author: IRIS AI
+tags:
+  - swift
+  - vapor
+  - ios
+  - server-side
+  - spm

@@ -1,0 +1,12 @@
+﻿name: naming-reviewer
+version: 1.0.0
+description: Reviews identifier naming for consistency and convention compliance
+execution_cost: low
+confidence_level: 0.95
+status: stable
+priority: low
+owner: platform-engineering
+capabilities:
+  - convention_checking
+  - consistency_analysis
+  - violation_reporting

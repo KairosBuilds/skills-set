@@ -1,0 +1,14 @@
+﻿name: style-enforcer
+version: 1.0.0
+description: Enforces code style consistency via automated formatters and linters
+execution_cost: low
+confidence_level: 0.98
+status: stable
+priority: low
+owner: platform-engineering
+capabilities:
+  - auto_formatting
+  - style_violation_detection
+  - consistent_indentation
+  - import_ordering
+  - trailing_whitespace_removal

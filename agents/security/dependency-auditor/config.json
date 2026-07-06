@@ -1,0 +1,15 @@
+﻿{
+  "agent": {
+    "name": "dependency-auditor",
+    "enabled": true,
+    "execution": { "timeout_ms": 180000 },
+    "tools": {
+      "npm_audit": { "enabled": true },
+      "pip_audit": { "enabled": true },
+      "cargo_audit": { "enabled": true },
+      "bundler_audit": { "enabled": true },
+      "nuget_audit": { "enabled": true }
+    },
+    "severity_threshold": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "agent": "rag-architect",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 3,
+  "timeout_seconds": 600,
+  "retry_on_failure": true,
+  "max_retries": 3,
+  "default_model": "gpt-4",
+  "temperature": 0.3,
+  "output_token_limit": 8192,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  },
+  "features": {
+    "chunking_strategies": true,
+    "embedding_pipeline": true,
+    "vector_store_config": true,
+    "hybrid_search": true,
+    "reranking": true,
+    "evaluation": true
+  },
+  "defaults": {
+    "chunk_size": 512,
+    "chunk_overlap": 128,
+    "embedding_model": "text-embedding-3-small"
+  }
+}

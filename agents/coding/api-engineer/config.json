@@ -1,0 +1,24 @@
+{
+  "name": "api-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["TypeScript", "Python", "Go", "Java", "PHP", "Rust"],
+  "supported_frameworks": ["Express", "FastAPI", "NestJS", "Spring", "GraphQL", "Apollo", "Hasura"],
+  "supported_platforms": ["Web API", "Microservices"],
+  "required_skills": ["architecture/api-designer", "backend/fastapi-expert", "backend/nestjs-expert"],
+  "optional_skills": ["backend/django-expert", "backend/spring-boot-engineer", "architecture/graphql-architect"],
+  "dependencies": ["architecture/api-designer"],
+  "compatible_agents": ["backend-engineer", "frontend-engineer", "database-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "openapi_version": "3.1",
+    "api_versioning": true,
+    "documentation_required": true,
+    "validation_strict": true
+  }
+}

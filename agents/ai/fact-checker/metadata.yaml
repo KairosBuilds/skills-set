@@ -1,0 +1,16 @@
+name: fact-checker
+display_name: Fact Checker
+version: 1.0.0
+type: ai-agent
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Verifies factual claims using web search and official sources
+tags:
+  - fact-checking
+  - verification
+  - accuracy
+  - sources

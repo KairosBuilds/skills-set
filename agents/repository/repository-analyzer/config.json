@@ -1,0 +1,11 @@
+{
+  "name": "repository-analyzer",
+  "version": "1.0.0",
+  "max_depth": 5,
+  "include_dotfiles": false,
+  "include_node_modules": false,
+  "max_file_size_kb": 500,
+  "generate_dependency_graph": true,
+  "complexity_analysis": true,
+  "duplication_detection": true
+}

@@ -1,0 +1,40 @@
+name: "Desktop Engineer"
+description: "Desktop application development specialist for cross-platform and native apps"
+purpose: "Build native and cross-platform desktop applications with rich user interfaces and system integrations"
+version: "1.0.0"
+status: "stable"
+priority: "medium"
+execution_cost: "medium"
+confidence_level: "stable"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - TypeScript
+  - Rust
+  - C#
+  - Python
+supported_frameworks:
+  - Electron
+  - Tauri
+  - WPF
+  - WinForms
+  - .NET MAUI
+supported_platforms:
+  - Windows
+  - macOS
+  - Linux
+required_skills:
+  - frontend/react-expert
+  - backend/rust-engineer
+optional_skills:
+  - backend/csharp-developer
+  - backend/python-pro
+  - frontend/typescript-pro
+dependencies: []
+compatible_agents:
+  - Frontend Engineer
+  - Rust Engineer
+  - DevOps Engineer
+  - C# Engineer
+incompatible_agents: []

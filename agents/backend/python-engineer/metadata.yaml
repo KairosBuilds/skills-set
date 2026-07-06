@@ -1,0 +1,41 @@
+name: "Python Engineer"
+description: "Python backend development specialist for FastAPI, Django, and modern Python"
+purpose: "Implement production-grade Python applications using async patterns and best practices"
+version: "1.0.0"
+status: "production"
+priority: "critical"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/backend"
+compatibility:
+  - opencode
+supported_languages:
+  - Python
+supported_frameworks:
+  - FastAPI
+  - Django
+  - Flask
+  - SQLAlchemy
+  - Pydantic
+  - Poetry
+  - Pytest
+supported_platforms:
+  - Linux
+  - macOS
+  - Windows
+required_skills:
+  - backend/python-pro
+  - backend/fastapi-expert
+  - backend/django-expert
+optional_skills:
+  - database/sql-pro
+  - database/database-optimizer
+dependencies: []
+compatible_agents:
+  - Backend Engineer
+  - Database Engineer
+  - API Engineer
+  - FastAPI Engineer
+  - Django Engineer
+  - Senior Software Engineer
+incompatible_agents: []

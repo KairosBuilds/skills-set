@@ -1,0 +1,20 @@
+{
+  "agent": "slide-deck-creator",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_theme": "professional",
+    "slide_size": "widescreen",
+    "include_speaker_notes": true,
+    "include_transitions": true,
+    "default_font": "Arial",
+    "color_scheme": "blue-white"
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

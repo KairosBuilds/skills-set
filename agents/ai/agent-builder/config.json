@@ -1,0 +1,26 @@
+{
+  "agent": "agent-builder",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 5,
+  "timeout_seconds": 300,
+  "retry_on_failure": true,
+  "max_retries": 3,
+  "default_model": "gpt-4",
+  "temperature": 0.3,
+  "output_token_limit": 4096,
+  "logging": {
+    "level": "info",
+    "format": "json"
+  },
+  "features": {
+    "agent_guidance_generation": true,
+    "skill_creation": true,
+    "mcp_server_config": true,
+    "tool_authoring": true,
+    "yaml_frontmatter_validation": true
+  },
+  "defaults": {
+    "agent_version": "1.0.0",
+    "agent_status": "draft"
+  }
+}

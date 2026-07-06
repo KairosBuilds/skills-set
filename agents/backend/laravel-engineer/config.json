@@ -1,0 +1,24 @@
+{
+  "name": "laravel-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/backend",
+  "compatibility": ["opencode"],
+  "supported_languages": ["PHP", "Blade"],
+  "supported_frameworks": ["Laravel", "Eloquent", "Livewire", "Horizon", "Sanctum", "Passport", "PHPUnit", "Pest"],
+  "supported_platforms": ["Linux", "macOS", "Windows"],
+  "required_skills": ["backend/laravel-specialist"],
+  "optional_skills": ["database/sql-pro", "backend/php-pro"],
+  "dependencies": [],
+  "compatible_agents": ["backend-engineer", "database-engineer", "api-engineer", "php-engineer", "senior-software-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "laravel_version": "11",
+    "test_framework": "pest",
+    "auth_driver": "sanctum",
+    "queue_driver": "redis"
+  }
+}

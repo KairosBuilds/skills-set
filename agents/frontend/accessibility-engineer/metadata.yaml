@@ -1,0 +1,24 @@
+name: accessibility-engineer
+display_name: Accessibility Engineer Agent
+description: Specialist for WCAG 2.2 compliance and inclusive frontend development
+version: 1.0.0
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: frontend-team
+tags:
+  - accessibility
+  - wcag
+  - aria
+  - a11y
+  - inclusion
+categories:
+  - frontend
+  - accessibility
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

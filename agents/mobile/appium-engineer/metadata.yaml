@@ -1,0 +1,25 @@
+name: appium-engineer
+displayName: Appium Engineer
+description: Specializes in mobile E2E testing with Appium 2.x, Python/pytest, and both Android and iOS automation
+priority: medium
+cost: medium
+status: stable
+category: mobile
+skills:
+  - mobile/appium-python-expert
+languages:
+  - Python
+  - Java
+frameworks:
+  - Appium 2.x
+platforms:
+  - Android
+  - iOS
+version: 1.0.0
+author: IRIS AI
+tags:
+  - appium
+  - mobile-testing
+  - automation
+  - e2e
+  - testing

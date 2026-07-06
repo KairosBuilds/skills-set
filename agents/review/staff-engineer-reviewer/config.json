@@ -1,0 +1,23 @@
+﻿{
+  "agent": {
+    "name": "staff-engineer-reviewer",
+    "version": "1.0.0",
+    "enabled": true,
+    "execution": {
+      "timeout_ms": 600000,
+      "max_concurrent_reviews": 2,
+      "batch_size": 20
+    },
+    "analysis": {
+      "depth": "architectural",
+      "focus_areas": ["architecture", "design_patterns", "trade_offs", "scalability", "maintainability"],
+      "max_file_size_bytes": 1048576,
+      "exclude_patterns": ["node_modules/**", "dist/**", "build/**"]
+    },
+    "reporting": {
+      "format": "markdown",
+      "include_suggestions": true,
+      "severity_labels": ["blocker", "critical", "major", "minor", "informational"]
+    }
+  }
+}

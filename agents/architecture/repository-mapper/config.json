@@ -1,0 +1,26 @@
+{
+  "agent": {
+    "name": "repository-mapper",
+    "version": "1.0.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 24000,
+    "include_visualizations": true,
+    "analysis_depth": "comprehensive"
+  },
+  "analysis": {
+    "scan_dependencies": true,
+    "detect_circular_deps": true,
+    "identify_dead_code": true,
+    "map_module_boundaries": true,
+    "generate_graphs": true
+  },
+  "output": {
+    "format": "document",
+    "include_directory_tree": true,
+    "include_dependency_graph": true,
+    "include_metrics": true,
+    "include_recommendations": true
+  }
+}

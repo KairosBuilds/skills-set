@@ -1,0 +1,17 @@
+{
+  "name": "repository-health-checker",
+  "version": "1.0.0",
+  "dimensions": [
+    "code_quality",
+    "documentation",
+    "ci_cd_health",
+    "security",
+    "maintenance",
+    "community",
+    "dependencies"
+  ],
+  "scoring_enabled": true,
+  "generate_report": true,
+  "include_recommendations": true,
+  "deep_scan": false
+}

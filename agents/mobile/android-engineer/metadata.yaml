@@ -1,0 +1,25 @@
+name: android-engineer
+displayName: Android Engineer
+description: Builds native Android applications with Kotlin, Jetpack Compose, and modern Android SDK
+priority: high
+cost: high
+status: production
+category: mobile
+skills:
+  - backend/kotlin-specialist
+languages:
+  - Kotlin
+  - Java
+frameworks:
+  - Android SDK
+  - Jetpack Compose
+platforms:
+  - Android
+version: 1.0.0
+author: IRIS AI
+tags:
+  - android
+  - kotlin
+  - compose
+  - native
+  - mobile

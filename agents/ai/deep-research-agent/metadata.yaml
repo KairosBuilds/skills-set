@@ -1,0 +1,17 @@
+name: deep-research-agent
+display_name: Deep Research Agent
+version: 1.0.0
+type: ai-agent
+status: production
+priority: high
+execution_cost: high
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Performs comprehensive multi-source research with structured reporting
+tags:
+  - research
+  - deep-research
+  - analysis
+  - reporting
+  - citations

@@ -1,0 +1,24 @@
+{
+  "name": "senior-software-engineer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "critical",
+  "execution_cost": "high",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["All"],
+  "supported_frameworks": ["All"],
+  "supported_platforms": ["All"],
+  "required_skills": ["architecture/architecture-designer", "architecture/microservices-architect", "code-quality/code-reviewer", "code-quality/staff-engineer-review"],
+  "optional_skills": ["All coding and architecture skills"],
+  "dependencies": [],
+  "compatible_agents": ["*"],
+  "incompatible_agents": [],
+  "config": {
+    "review_required": true,
+    "adr_required": true,
+    "max_delegation_depth": 3,
+    "architecture_documentation": "required"
+  }
+}

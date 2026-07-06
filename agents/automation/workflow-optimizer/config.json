@@ -1,0 +1,21 @@
+{
+  "agent": "workflow-optimizer",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "analyze_pipeline_stages": true,
+    "track_wait_times": true,
+    "suggest_parallelization": true,
+    "monitor_context_health": true,
+    "optimization_level": "balanced",
+    "report_interval_minutes": 60,
+    "max_recommendations": 5
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

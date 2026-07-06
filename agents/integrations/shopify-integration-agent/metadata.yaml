@@ -1,0 +1,16 @@
+name: shopify-integration-agent
+version: 1.0.0
+priority: medium
+cost: medium
+status: stable
+category: integrations
+description: Shopify store development and management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - shopify
+  - ecommerce
+  - liquid
+  - hydrogen
+  - storefront
+dependencies: []

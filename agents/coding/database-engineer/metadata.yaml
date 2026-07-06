@@ -1,0 +1,39 @@
+name: "Database Engineer"
+description: "Database schema design and optimization specialist"
+purpose: "Design efficient, scalable data models and optimize query performance across database systems"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - SQL
+  - Python
+supported_frameworks:
+  - PostgreSQL
+  - MySQL
+  - MongoDB
+  - Redis
+  - SQLite
+  - Prisma
+  - TypeORM
+  - SQLAlchemy
+supported_platforms:
+  - Database
+required_skills:
+  - database/sql-pro
+  - database/postgres-pro
+  - database/database-optimizer
+optional_skills:
+  - backend/python-pro
+  - backend/nestjs-expert
+dependencies: []
+compatible_agents:
+  - Backend Engineer
+  - API Engineer
+  - Database Architect
+  - Senior Software Engineer
+incompatible_agents: []

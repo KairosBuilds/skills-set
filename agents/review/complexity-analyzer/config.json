@@ -1,0 +1,16 @@
+﻿{
+  "agent": {
+    "name": "complexity-analyzer",
+    "enabled": true,
+    "execution": { "timeout_ms": 120000 },
+    "thresholds": {
+      "cyclomatic_complexity_warn": 10,
+      "cyclomatic_complexity_error": 20,
+      "cognitive_complexity_warn": 15,
+      "cognitive_complexity_error": 30,
+      "max_nesting_depth": 4,
+      "max_method_lines": 40,
+      "max_class_coupling": 20
+    }
+  }
+}

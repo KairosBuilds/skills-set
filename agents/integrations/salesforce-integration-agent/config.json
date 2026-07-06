@@ -1,0 +1,20 @@
+{
+  "agent": "salesforce-integration-agent",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "medium",
+  "status": "stable",
+  "settings": {
+    "api_version": "60.0",
+    "default_org": "dev",
+    "test_level": "RunLocalTests",
+    "deploy_wait_minutes": 30,
+    "soql_limit": 50000,
+    "enable_coverage": true
+  },
+  "timeout_ms": 180000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 15000
+  }
+}

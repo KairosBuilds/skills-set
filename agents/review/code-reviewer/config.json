@@ -1,0 +1,30 @@
+{
+  "agent": {
+    "name": "code-reviewer",
+    "version": "1.0.0",
+    "enabled": true,
+    "execution": {
+      "timeout_ms": 300000,
+      "max_concurrent_reviews": 5,
+      "batch_size": 50
+    },
+    "analysis": {
+      "depth": "deep",
+      "include_tests": true,
+      "include_docs": false,
+      "max_file_size_bytes": 524288,
+      "exclude_patterns": [
+        "node_modules/**",
+        "dist/**",
+        "build/**",
+        "*.min.js",
+        "vendor/**"
+      ]
+    },
+    "reporting": {
+      "format": "markdown",
+      "include_suggestions": true,
+      "severity_labels": ["critical", "high", "medium", "low", "info"]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "agent": {
+    "name": "penetration-review-agent",
+    "enabled": true,
+    "execution": { "timeout_ms": 900000 },
+    "phases": {
+      "recon": true,
+      "scanning": true,
+      "exploitation": false,
+      "post_exploitation": false,
+      "reporting": true
+    },
+    "scope": {
+      "max_depth": 3,
+      "include_subdomains": true,
+      "exclude_patterns": ["*.gov", "*.mil"]
+    }
+  }
+}

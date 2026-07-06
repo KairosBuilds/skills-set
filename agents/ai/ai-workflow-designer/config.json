@@ -1,0 +1,26 @@
+{
+  "agent": "ai-workflow-designer",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 3,
+  "timeout_seconds": 600,
+  "retry_on_failure": true,
+  "max_retries": 3,
+  "default_model": "gpt-4",
+  "temperature": 0.4,
+  "output_token_limit": 8192,
+  "logging": {
+    "level": "info",
+    "format": "json"
+  },
+  "features": {
+    "multi_agent_orchestration": true,
+    "tool_integration": true,
+    "conditional_routing": true,
+    "error_handling": true,
+    "human_in_the_loop": true
+  },
+  "defaults": {
+    "max_agent_loops": 10,
+    "parallel_tasks": 3
+  }
+}

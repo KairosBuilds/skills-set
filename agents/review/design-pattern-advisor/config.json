@@ -1,0 +1,12 @@
+﻿{
+  "agent": {
+    "name": "design-pattern-advisor",
+    "enabled": true,
+    "execution": { "timeout_ms": 120000, "max_concurrent": 5 },
+    "patterns": {
+      "creational": ["Singleton", "Factory", "Builder", "Prototype"],
+      "structural": ["Adapter", "Decorator", "Proxy", "Facade", "Composite"],
+      "behavioral": ["Observer", "Strategy", "Command", "State", "Template"]
+    }
+  }
+}

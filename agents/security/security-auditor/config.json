@@ -1,0 +1,16 @@
+﻿{
+  "agent": {
+    "name": "security-auditor",
+    "enabled": true,
+    "execution": { "timeout_ms": 600000, "max_concurrent": 3 },
+    "scanners": {
+      "sast": { "enabled": true, "depth": "full" },
+      "secrets": { "enabled": true, "entropy_check": true },
+      "dependencies": { "enabled": true },
+      "container": { "enabled": false }
+    },
+    "compliance": {
+      "standards": ["OWASP Top 10", "CWE Top 25", "PCI DSS", "GDPR"]
+    }
+  }
+}

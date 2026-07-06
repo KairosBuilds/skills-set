@@ -1,0 +1,15 @@
+﻿name: owasp-specialist
+version: 1.0.0
+description: OWASP Top 10 vulnerability detection specialist
+execution_cost: high
+confidence_level: 0.94
+status: production
+priority: critical
+owner: security-team
+capabilities:
+  - injection_detection
+  - auth_bypass_detection
+  - xss_detection
+  - ssrf_detection
+  - insecure_deserialization_detection
+  - broken_access_control_detection

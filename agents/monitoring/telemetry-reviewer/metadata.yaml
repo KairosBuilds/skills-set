@@ -1,0 +1,17 @@
+name: telemetry-reviewer
+version: 1.0.0
+priority: medium
+cost: low
+status: stable
+category: monitoring
+description: Telemetry instrumentation and OpenTelemetry compliance review
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - telemetry
+  - opentelemetry
+  - tracing
+  - instrumentation
+dependencies:
+  - observability-engineer
+  - logging-specialist

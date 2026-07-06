@@ -1,0 +1,18 @@
+name: workflow-optimizer
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: automation
+description: Workflow analysis and optimization
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - workflow
+  - optimization
+  - ci-cd
+  - performance
+  - process
+dependencies:
+  - context-manager
+  - token-optimizer

@@ -1,0 +1,17 @@
+{
+  "name": "changelog-generator",
+  "version": "1.0.0",
+  "description": "Generates changelogs from git commit history",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "group_by_type": true,
+    "include_breaking_changes": true,
+    "include_contributors": true,
+    "include_commit_hash": false,
+    "conventional_commits_only": true,
+    "generate_unreleased": true,
+    "max_commits_per_release": 500
+  }
+}

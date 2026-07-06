@@ -1,0 +1,21 @@
+name: changelog-generator
+version: 1.0.0
+description: Generates changelogs from git commit history
+priority: low
+cost: low
+status: stable
+category: documentation
+skills:
+  - documentation/changelog-generator
+languages:
+  - All
+frameworks:
+  - Git
+  - semver
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - changelog
+  - git
+  - semver
+  - release-notes

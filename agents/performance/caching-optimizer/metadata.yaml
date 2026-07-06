@@ -1,0 +1,9 @@
+name: caching-optimizer
+display_name: Caching Optimizer
+priority: high
+cost: medium
+status: production
+category: performance
+description: Multi-layer caching strategy optimization
+version: 1.0.0
+created: 2026-07-06

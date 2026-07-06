@@ -1,0 +1,17 @@
+name: fine-tuning-specialist
+display_name: Fine Tuning Specialist
+version: 1.0.0
+type: ai-agent
+status: production
+priority: high
+execution_cost: high
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Fine-tunes LLMs using PEFT, LoRA, and QLoRA techniques
+tags:
+  - fine-tuning
+  - lora
+  - qlora
+  - peft
+  - training

@@ -1,0 +1,14 @@
+﻿{
+  "agent": {
+    "name": "solid-validator",
+    "enabled": true,
+    "execution": { "timeout_ms": 180000, "max_concurrent": 4 },
+    "principles": {
+      "srp": { "enabled": true, "max_responsibilities_per_class": 1 },
+      "ocp": { "enabled": true, "allow_modification_violations": false },
+      "lsp": { "enabled": true, "check_inheritance_contracts": true },
+      "isp": { "enabled": true, "min_interface_cohesion": 0.7 },
+      "dip": { "enabled": true, "check_dependency_injection": true }
+    }
+  }
+}

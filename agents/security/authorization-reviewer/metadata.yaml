@@ -1,0 +1,15 @@
+﻿name: authorization-reviewer
+version: 1.0.0
+description: Reviews authorization controls for privilege escalation and access control vulnerabilities
+execution_cost: high
+confidence_level: 0.91
+status: production
+priority: critical
+owner: security-team
+capabilities:
+  - idor_detection
+  - privilege_escalation_analysis
+  - rbac_model_review
+  - abac_policy_analysis
+  - acl_configuration_audit
+  - horizontal_vertical_escalation_check

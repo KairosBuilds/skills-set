@@ -1,0 +1,16 @@
+{
+  "name": "technology-comparison-agent",
+  "version": "1.0.0",
+  "comparison_dimensions": [
+    "performance",
+    "community",
+    "licensing",
+    "learning_curve",
+    "ecosystem",
+    "documentation",
+    "enterprise_readiness"
+  ],
+  "max_alternatives": 6,
+  "weighted_scoring": true,
+  "include_benchmark_data": true
+}

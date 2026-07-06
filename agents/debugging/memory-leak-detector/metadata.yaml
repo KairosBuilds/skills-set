@@ -1,0 +1,15 @@
+agent: memory-leak-detector
+version: 1.0.0
+category: debugging
+description: Detects and diagnoses memory leaks and resource management issues
+priority: high
+cost: high
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - memory-leaks
+  - resource-management
+  - heap-analysis

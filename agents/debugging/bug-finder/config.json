@@ -1,0 +1,26 @@
+{
+  "agent": "bug-finder",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 10,
+    "timeoutMs": 300000,
+    "parallelAnalysis": true,
+    "contextWindow": 2000,
+    "enableHeuristics": true,
+    "patternDatabase": "built-in",
+    "reportFormat": "structured"
+  },
+  "analysis": {
+    "staticAnalysis": true,
+    "dynamicAnalysis": true,
+    "symbolicExecution": false,
+    "taintTracking": true,
+    "dataFlowAnalysis": true
+  },
+  "output": {
+    "includeLineNumbers": true,
+    "includeSeverity": true,
+    "includeSuggestedFix": true,
+    "format": "json"
+  }
+}

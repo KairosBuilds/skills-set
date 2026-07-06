@@ -1,0 +1,35 @@
+name: api-designer
+display_name: API Designer
+version: 1.1.0
+description: REST, GraphQL, gRPC API design, specification, and documentation
+role: architect
+priority: high
+execution_cost: medium
+status: production
+
+tags:
+  - api-design
+  - rest
+  - graphql
+  - grpc
+  - openapi
+  - documentation
+
+capabilities:
+  - rest_api_design
+  - graphql_schema_design
+  - grpc_design
+  - api_specification
+  - api_versioning
+  - api_security
+  - api_documentation
+
+skills:
+  - architecture/api-designer
+
+triggers:
+  - new_api_design
+  - api_specification
+  - api_versioning
+  - api_security_review
+  - api_documentation

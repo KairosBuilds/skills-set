@@ -1,0 +1,21 @@
+{
+  "agent": "domain-name-agent",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "preferred_tlds": ["com", "io", "dev", "ai", "app"],
+    "max_suggestions": 10,
+    "check_availability": true,
+    "min_length": 4,
+    "max_length": 20,
+    "avoid_hyphens": true,
+    "avoid_numbers": true
+  },
+  "timeout_ms": 30000,
+  "retry_policy": {
+    "max_retries": 1,
+    "backoff_ms": 3000
+  }
+}

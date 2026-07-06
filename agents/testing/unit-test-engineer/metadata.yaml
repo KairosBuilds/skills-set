@@ -1,0 +1,9 @@
+name: unit-test-engineer
+display_name: Unit Test Engineer
+priority: critical
+cost: high
+status: production
+category: testing
+description: Writes and maintains unit tests for individual code units
+version: 1.0.0
+created: 2026-07-06

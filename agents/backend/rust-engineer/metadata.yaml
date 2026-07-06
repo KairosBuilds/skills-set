@@ -1,0 +1,40 @@
+name: "Rust Engineer"
+description: "Rust systems programming specialist for high-performance applications"
+purpose: "Implement production-grade Rust applications using ownership, lifetimes, and zero-cost abstractions"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/backend"
+compatibility:
+  - opencode
+supported_languages:
+  - Rust
+supported_frameworks:
+  - Actix
+  - Axum
+  - Tokio
+  - Clap
+  - Serde
+  - Diesel
+  - SQLx
+  - Reqwest
+supported_platforms:
+  - Linux
+  - macOS
+  - Windows
+  - WebAssembly
+required_skills:
+  - backend/rust-engineer
+optional_skills:
+  - utilities/cli-developer
+dependencies: []
+compatible_agents:
+  - Backend Engineer
+  - Database Engineer
+  - API Engineer
+  - Senior Software Engineer
+  - CLI Engineer
+  - Desktop Engineer
+incompatible_agents: []

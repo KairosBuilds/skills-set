@@ -1,0 +1,22 @@
+{
+  "agent": "video-download-agent",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "default_format": "mp4",
+    "default_quality": "best",
+    "extract_audio": false,
+    "audio_format": "mp3",
+    "download_playlist": false,
+    "max_playlist_items": 20,
+    "download_subtitles": false,
+    "output_dir": "./downloads"
+  },
+  "timeout_ms": 300000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 10000
+  }
+}

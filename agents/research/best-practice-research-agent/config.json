@@ -1,0 +1,10 @@
+{
+  "name": "best-practice-research-agent",
+  "version": "1.0.0",
+  "max_sources": 15,
+  "authoritative_sources_only": true,
+  "include_code_examples": true,
+  "min_consensus_threshold": 0.7,
+  "cache_duration_days": 30,
+  "depth": "comprehensive"
+}

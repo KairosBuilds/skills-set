@@ -1,0 +1,2 @@
+﻿# Supported Frameworks
+All frameworks.

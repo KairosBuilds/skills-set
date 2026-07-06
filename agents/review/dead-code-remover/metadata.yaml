@@ -1,0 +1,14 @@
+﻿name: dead-code-remover
+version: 1.0.0
+description: Detects and removes unused code, variables, imports, and unreachable paths
+execution_cost: low
+confidence_level: 0.85
+status: stable
+priority: medium
+owner: platform-engineering
+capabilities:
+  - unused_import_detection
+  - unused_variable_detection
+  - dead_function_detection
+  - unreachable_code_detection
+  - safe_removal

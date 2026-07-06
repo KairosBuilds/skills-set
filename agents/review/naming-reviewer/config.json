@@ -1,0 +1,14 @@
+﻿{
+  "agent": {
+    "name": "naming-reviewer",
+    "enabled": true,
+    "execution": { "timeout_ms": 60000 },
+    "conventions": {
+      "camelCase": ["typescript", "javascript", "java", "go"],
+      "snake_case": ["python", "ruby", "rust"],
+      "PascalCase": ["classes", "interfaces", "types"],
+      "UPPER_CASE": ["constants", "enums"],
+      "kebab-case": ["file-names", "directories"]
+    }
+  }
+}

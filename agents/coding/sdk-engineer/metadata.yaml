@@ -1,0 +1,43 @@
+name: "SDK Engineer"
+description: "SDK and library development specialist for multi-language client libraries"
+purpose: "Design and implement developer-friendly SDKs that are consistent across languages and well-documented"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - TypeScript
+  - Python
+  - Go
+  - Java
+  - Rust
+  - C#
+supported_frameworks:
+  - npm
+  - pip
+  - cargo
+  - maven
+  - nuget
+supported_platforms:
+  - Web API
+  - SDK
+required_skills:
+  - opencode/opencode-sdk
+optional_skills:
+  - frontend/typescript-pro
+  - backend/python-pro
+  - backend/golang-pro
+  - backend/rust-engineer
+  - backend/java-architect
+  - architecture/api-designer
+dependencies:
+  - architecture/api-designer
+compatible_agents:
+  - API Engineer
+  - Library Engineer
+  - DevOps Engineer
+incompatible_agents: []

@@ -1,0 +1,24 @@
+name: ui-polish-agent
+display_name: UI Polish Agent
+description: Specialist for visual refinement, micro-interactions, and pixel-perfect finishing touches
+version: 1.0.0
+status: stable
+priority: high
+execution_cost: low
+confidence_level: high
+owner: frontend-team
+tags:
+  - ui
+  - polish
+  - micro-interactions
+  - glassmorphism
+  - visual-refinement
+categories:
+  - frontend
+  - ui-ux
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

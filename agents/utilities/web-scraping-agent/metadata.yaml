@@ -1,0 +1,16 @@
+name: web-scraping-agent
+version: 1.0.0
+priority: medium
+cost: low
+status: stable
+category: utilities
+description: Web content extraction and parsing
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - scraping
+  - web
+  - extraction
+  - html
+  - parsing
+dependencies: []

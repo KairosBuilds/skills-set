@@ -1,0 +1,21 @@
+{
+  "agent": "github-integration-agent",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "default_branch": "main",
+    "pr_merge_strategy": "squash",
+    "auto_merge_enabled": false,
+    "require_pr_review": true,
+    "min_reviewers": 1,
+    "issue_template": "default",
+    "workflow_check_interval_ms": 30000
+  },
+  "timeout_ms": 180000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 10000
+  }
+}

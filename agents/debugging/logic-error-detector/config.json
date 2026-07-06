@@ -1,0 +1,24 @@
+{
+  "agent": "logic-error-detector",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 15,
+    "timeoutMs": 300000,
+    "symbolicExecution": true,
+    "invariantDetection": true,
+    "loopAnalysis": true
+  },
+  "analysis": {
+    "controlFlowAnalysis": true,
+    "dataFlowAnalysis": true,
+    "offByOneDetection": true,
+    "boundaryCheck": true,
+    "booleanLogicCheck": true,
+    "arithmeticValidation": true
+  },
+  "output": {
+    "includeFlowPath": true,
+    "includeExpectedVsActual": true,
+    "includeCorrectedLogic": true
+  }
+}

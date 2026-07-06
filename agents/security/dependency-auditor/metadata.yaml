@@ -1,0 +1,14 @@
+﻿name: dependency-auditor
+version: 1.0.0
+description: Audits project dependencies for known CVEs and vulnerabilities
+execution_cost: medium
+confidence_level: 0.88
+status: production
+priority: high
+owner: security-team
+capabilities:
+  - cve_scanning
+  - dependency_tree_analysis
+  - version_pinning_check
+  - transitive_vulnerability_detection
+  - update_recommendation

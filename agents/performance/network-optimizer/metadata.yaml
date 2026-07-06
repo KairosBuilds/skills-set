@@ -1,0 +1,9 @@
+name: network-optimizer
+display_name: Network Optimizer
+priority: high
+cost: medium
+status: production
+category: performance
+description: Network communication optimization
+version: 1.0.0
+created: 2026-07-06

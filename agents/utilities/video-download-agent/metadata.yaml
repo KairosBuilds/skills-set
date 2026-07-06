@@ -1,0 +1,16 @@
+name: video-download-agent
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: utilities
+description: Video downloading and format conversion
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - video
+  - download
+  - youtube
+  - audio
+  - conversion
+dependencies: []

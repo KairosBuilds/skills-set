@@ -1,0 +1,16 @@
+name: benchmark-engineer
+display_name: Benchmark Engineer
+version: 1.0.0
+type: ai-agent
+status: stable
+priority: medium
+execution_cost: high
+confidence_level: medium
+owner: ai-team
+compatibility: opencode
+description: Designs and runs standardized benchmarks for LLM evaluation
+tags:
+  - benchmarking
+  - evaluation
+  - performance
+  - llm

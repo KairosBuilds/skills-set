@@ -1,0 +1,15 @@
+﻿{
+  "agent": {
+    "name": "dead-code-remover",
+    "enabled": true,
+    "execution": { "timeout_ms": 120000 },
+    "checks": {
+      "unused_imports": true,
+      "unused_variables": true,
+      "unused_functions": true,
+      "unused_classes": true,
+      "dead_branches": true,
+      "unreachable_code": true
+    }
+  }
+}

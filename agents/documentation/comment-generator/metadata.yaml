@@ -1,0 +1,20 @@
+name: comment-generator
+version: 1.0.0
+description: Generates inline code comments
+priority: low
+cost: low
+status: stable
+category: documentation
+skills:
+  - documentation/code-documenter
+languages:
+  - All
+frameworks:
+  - JSDoc
+  - Docstrings
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - comments
+  - docstrings
+  - code-documentation

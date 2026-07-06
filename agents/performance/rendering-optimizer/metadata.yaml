@@ -1,0 +1,9 @@
+name: rendering-optimizer
+display_name: Rendering Optimizer
+priority: high
+cost: medium
+status: production
+category: performance
+description: UI rendering optimization for React and WebGL
+version: 1.0.0
+created: 2026-07-06

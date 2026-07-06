@@ -1,0 +1,17 @@
+{
+  "name": "sre-engineer",
+  "version": "1.0.0",
+  "description": "Ensures system reliability and SLAs",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "slo_target": 99.9,
+    "error_budget_window_days": 30,
+    "alert_on_burn_rate": true,
+    "burn_rate_threshold": 2,
+    "incident_response_time_minutes": 15,
+    "auto_remediation_enabled": false,
+    "sli_metrics_retention_days": 90
+  }
+}

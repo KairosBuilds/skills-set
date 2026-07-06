@@ -1,0 +1,31 @@
+name: "Code Completer"
+description: "Specialized agent for completing partial code implementations and filling in missing logic"
+purpose: "Accelerate development by completing stubs, TODOs, and partial implementations across any language"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - All
+supported_frameworks:
+  - All
+supported_platforms:
+  - All
+required_skills:
+  - code-quality/code-reviewer
+  - code-quality/debugger
+optional_skills:
+  - All language-specific skills
+dependencies:
+  - code-quality/code-reviewer
+compatible_agents:
+  - Senior Software Engineer
+  - Backend Engineer
+  - Frontend Engineer
+  - Full Stack Engineer
+  - All language-specific engineers
+incompatible_agents: []

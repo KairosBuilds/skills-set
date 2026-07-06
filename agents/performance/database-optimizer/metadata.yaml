@@ -1,0 +1,9 @@
+name: database-optimizer
+display_name: Database Optimizer
+priority: high
+cost: high
+status: production
+category: performance
+description: Database query and schema optimization
+version: 1.0.0
+created: 2026-07-06

@@ -1,0 +1,28 @@
+name: kotlin-mobile-engineer
+displayName: Kotlin Mobile Engineer
+description: Builds cross-platform mobile applications using Kotlin Multiplatform (KMP), Compose Multiplatform, and Ktor
+priority: high
+cost: medium
+status: production
+category: mobile
+skills:
+  - backend/kotlin-specialist
+languages:
+  - Kotlin
+frameworks:
+  - KMP (Kotlin Multiplatform)
+  - Jetpack Compose
+  - Ktor
+platforms:
+  - Android
+  - iOS
+  - Desktop (JVM)
+version: 1.0.0
+author: IRIS AI
+tags:
+  - kotlin
+  - kmp
+  - multiplatform
+  - compose
+  - ktor
+  - mobile

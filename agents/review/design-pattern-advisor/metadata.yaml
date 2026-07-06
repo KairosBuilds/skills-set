@@ -1,0 +1,13 @@
+﻿name: design-pattern-advisor
+version: 1.0.0
+description: Recommends design patterns based on code structure and problem context
+execution_cost: low
+confidence_level: 0.85
+status: stable
+priority: medium
+owner: architecture-team
+capabilities:
+  - pattern_recognition
+  - pattern_recommendation
+  - anti_pattern_detection
+  - implementation_guidance

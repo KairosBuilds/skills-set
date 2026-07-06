@@ -1,0 +1,24 @@
+{
+  "agent": "race-condition-detector",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 10,
+    "timeoutMs": 300000,
+    "threadSanitizer": true,
+    "happensBeforeAnalysis": true,
+    "lockSetAnalysis": true
+  },
+  "analysis": {
+    "dataRaceDetection": true,
+    "atomicityViolations": true,
+    "orderViolations": true,
+    "lockOrderInversion": true,
+    "benignRaceFiltering": true
+  },
+  "output": {
+    "includeAccessPairs": true,
+    "includeThreadIds": true,
+    "includeStackTraces": true,
+    "includeTimeline": true
+  }
+}

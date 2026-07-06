@@ -1,0 +1,16 @@
+name: configuration-auditor
+version: 1.0.0
+type: repository-agent
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: repository-team
+capabilities:
+  - config file validation
+  - security misconfiguration detection
+  - cross-config consistency checking
+  - environment variable verification
+  - secret detection in configs
+  - best practice enforcement
+compatibility: opencode-agent-v2

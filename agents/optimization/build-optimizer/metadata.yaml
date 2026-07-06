@@ -1,0 +1,9 @@
+name: build-optimizer
+display_name: Build Optimizer
+priority: high
+cost: medium
+status: production
+category: optimization
+description: Build pipeline optimization and faster compilation
+version: 1.0.0
+created: 2026-07-06

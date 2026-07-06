@@ -1,0 +1,30 @@
+{
+  "agent": "memory-leak-detector",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 10,
+    "timeoutMs": 300000,
+    "toolIntegration": {
+      "valgrind": true,
+      "pprof": true,
+      "heapprof": true,
+      "addressSanitizer": true
+    },
+    "samplingRate": 100,
+    "allocationTracking": true
+  },
+  "analysis": {
+    "heapAnalysis": true,
+    "stackAnalysis": true,
+    "referenceCounting": true,
+    "cycleDetection": true,
+    "allocationBalance": true,
+    "fragmentationCheck": true
+  },
+  "output": {
+    "includeAllocationSites": true,
+    "includeLeakSize": true,
+    "includeLifetime": true,
+    "includeBacktrace": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "observability-engineer",
+  "version": "1.0.0",
+  "description": "Implements observability with traces, metrics, logs",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "tracing_sampling_rate": 0.1,
+    "trace_exporter": "jaeger",
+    "metrics_exporter": "prometheus",
+    "logs_exporter": "loki",
+    "auto_instrumentation": true,
+    "span_attributes_retention_days": 7
+  }
+}

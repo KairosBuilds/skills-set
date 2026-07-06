@@ -1,0 +1,35 @@
+name: event-driven-architect
+display_name: Event-Driven Architect
+version: 1.1.0
+description: Event-driven systems, message brokers, streaming, and async communication design
+role: architect
+priority: high
+execution_cost: high
+status: production
+
+tags:
+  - event-driven
+  - messaging
+  - streaming
+  - kafka
+  - rabbitmq
+  - event-sourcing
+
+capabilities:
+  - event_topology_design
+  - message_broker_selection
+  - event_schema_management
+  - stream_processing_design
+  - event_sourcing_design
+  - reliability_patterns
+  - event_contract_design
+
+skills:
+  - architecture/microservices-architect
+
+triggers:
+  - event_driven_design
+  - broker_selection
+  - stream_processing
+  - event_sourcing
+  - async_communication

@@ -1,0 +1,25 @@
+{
+  "agent": "performance-regression-detector",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 5,
+    "timeoutMs": 300000,
+    "baselineComparison": true,
+    "statisticalSignificance": true,
+    "thresholdPercent": 5
+  },
+  "analysis": {
+    "lighthouseIntegration": true,
+    "benchmarkComparison": true,
+    "memoryProfileDiff": true,
+    "cpuProfileDiff": true,
+    "networkAnalysis": true,
+    "bundleSizeCheck": true
+  },
+  "output": {
+    "includeBeforeAfter": true,
+    "includePercentChange": true,
+    "includeGraph": false,
+    "includeRecommendations": true
+  }
+}

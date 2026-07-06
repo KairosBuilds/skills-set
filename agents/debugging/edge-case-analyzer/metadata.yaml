@@ -1,0 +1,15 @@
+agent: edge-case-analyzer
+version: 1.0.0
+category: debugging
+description: Identifies and analyzes edge cases, boundary conditions, and corner cases
+priority: medium
+cost: low
+status: stable
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - edge-cases
+  - boundary-conditions
+  - testing

@@ -1,0 +1,24 @@
+name: css-specialist
+display_name: CSS Specialist Agent
+description: Specialist for styling with Tailwind, SCSS, CSS-in-JS, and design systems
+version: 1.0.0
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: frontend-team
+tags:
+  - css
+  - tailwind
+  - styling
+  - design-system
+  - sass
+categories:
+  - frontend
+  - styling
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

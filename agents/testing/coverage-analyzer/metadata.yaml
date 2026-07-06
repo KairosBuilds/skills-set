@@ -1,0 +1,9 @@
+name: coverage-analyzer
+display_name: Coverage Analyzer
+priority: high
+cost: low
+status: production
+category: testing
+description: Code coverage analysis and gap identification
+version: 1.0.0
+created: 2026-07-06

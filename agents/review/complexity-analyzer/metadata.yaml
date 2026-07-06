@@ -1,0 +1,14 @@
+﻿name: complexity-analyzer
+version: 1.0.0
+description: Analyzes code complexity metrics including cyclomatic and cognitive complexity
+execution_cost: low
+confidence_level: 0.92
+status: stable
+priority: medium
+owner: platform-engineering
+capabilities:
+  - cyclomatic_complexity_analysis
+  - cognitive_complexity_analysis
+  - dependency_depth_analysis
+  - maintainability_index
+  - hotspot_identification

@@ -1,0 +1,24 @@
+{
+  "name": "code-completer",
+  "version": "1.0.0",
+  "status": "production",
+  "priority": "high",
+  "execution_cost": "medium",
+  "confidence_level": "production",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["All"],
+  "supported_frameworks": ["All"],
+  "supported_platforms": ["All"],
+  "required_skills": ["code-quality/code-reviewer", "code-quality/debugger"],
+  "optional_skills": ["All language-specific skills"],
+  "dependencies": ["code-quality/code-reviewer"],
+  "compatible_agents": ["senior-software-engineer", "backend-engineer", "frontend-engineer", "full-stack-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "max_iterations": 3,
+    "validation_required": true,
+    "style_matching": "strict",
+    "context_lines_required": 10
+  }
+}

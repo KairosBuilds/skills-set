@@ -1,0 +1,41 @@
+{
+  "agent": {
+    "name": "orchestrator",
+    "version": "2.0.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_concurrent_agents": 5,
+    "task_timeout_ms": 300000,
+    "retry_attempts": 2,
+    "retry_delay_ms": 1000
+  },
+  "routing": {
+    "enable_fallback": true,
+    "fallback_strategy": "specificity_then_priority",
+    "conflict_resolution": "priority_override",
+    "log_agent_interactions": true
+  },
+  "quality": {
+    "validation_enabled": true,
+    "min_confidence_threshold": 0.8,
+    "require_quality_checklist": true,
+    "auto_request_revision": true
+  },
+  "context": {
+    "max_context_tokens": 128000,
+    "persist_across_handoffs": true,
+    "compress_after_handoff": true
+  },
+  "feedback": {
+    "collect_metrics": true,
+    "update_routing_tables": true,
+    "report_cycle_hours": 24
+  },
+  "logging": {
+    "level": "info",
+    "audit_trail_enabled": true,
+    "conflict_log_enabled": true,
+    "output_dir": ".opencode/logs/orchestrator/"
+  }
+}

@@ -1,0 +1,33 @@
+name: system-architect
+display_name: System Architect
+version: 1.1.0
+description: System-level design specializing in scalability, reliability, and distributed systems
+role: architect
+priority: critical
+execution_cost: high
+status: production
+
+tags:
+  - system-design
+  - scalability
+  - reliability
+  - distributed-systems
+  - performance
+
+capabilities:
+  - system_level_design
+  - scalability_planning
+  - reliability_engineering
+  - performance_optimization
+  - operational_excellence
+  - infrastructure_architecture
+
+skills:
+  - architecture/architecture-designer
+
+triggers:
+  - scalability_requirements
+  - distributed_system_design
+  - performance_architecture
+  - infrastructure_design
+  - reliability_planning

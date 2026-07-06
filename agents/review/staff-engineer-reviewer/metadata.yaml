@@ -1,0 +1,14 @@
+﻿name: staff-engineer-reviewer
+version: 1.0.0
+description: Staff+ level deep code review focusing on architecture, design decisions, and long-term maintainability
+execution_cost: high
+confidence_level: 0.92
+status: production
+priority: high
+owner: architecture-team
+capabilities:
+  - architectural_review
+  - design_decision_evaluation
+  - trade_off_analysis
+  - code_quality_assessment
+  - technical_debt_identification

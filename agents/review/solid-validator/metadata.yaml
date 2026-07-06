@@ -1,0 +1,14 @@
+﻿name: solid-validator
+version: 1.0.0
+description: Validates OOP code against SOLID principles
+execution_cost: medium
+confidence_level: 0.88
+status: production
+priority: high
+owner: platform-engineering
+capabilities:
+  - srp_validation
+  - ocp_validation
+  - lsp_validation
+  - isp_validation
+  - dip_validation

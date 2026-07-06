@@ -1,0 +1,17 @@
+name: verification-agent
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: automation
+description: Quality gate enforcement and empirical validation
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - verification
+  - testing
+  - quality-gates
+  - lint
+  - typecheck
+dependencies:
+  - auto-fix-agent

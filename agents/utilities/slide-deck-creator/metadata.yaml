@@ -1,0 +1,16 @@
+name: slide-deck-creator
+version: 1.0.0
+priority: low
+cost: low
+status: stable
+category: utilities
+description: Presentation slide deck creation
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - presentation
+  - slides
+  - pptx
+  - deck
+  - narrative
+dependencies: []

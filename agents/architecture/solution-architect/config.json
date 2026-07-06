@@ -1,0 +1,25 @@
+{
+  "agent": {
+    "name": "solution-architect",
+    "version": "1.2.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 32000,
+    "include_diagrams": true,
+    "diagram_format": "mermaid",
+    "adr_required": true
+  },
+  "design": {
+    "default_approach": "evolutionary",
+    "require_tradeoffs": true,
+    "require_alternatives": true,
+    "nfr_checklist_enabled": true
+  },
+  "output": {
+    "format": "document",
+    "include_adrs": true,
+    "include_diagrams": true,
+    "include_risk_assessment": true
+  }
+}

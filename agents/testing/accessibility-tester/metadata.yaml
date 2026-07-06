@@ -1,0 +1,9 @@
+name: accessibility-tester
+display_name: Accessibility Tester
+priority: medium
+cost: low
+status: stable
+category: testing
+description: WCAG compliance audits and accessibility testing
+version: 1.0.0
+created: 2026-07-06

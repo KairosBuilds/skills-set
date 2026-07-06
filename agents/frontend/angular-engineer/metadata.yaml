@@ -1,0 +1,24 @@
+name: angular-engineer
+display_name: Angular Engineer Agent
+description: Specialist for Angular 17+ application development with standalone components
+version: 1.0.0
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: frontend-team
+tags:
+  - angular
+  - frontend
+  - enterprise
+  - standalone
+  - signals
+categories:
+  - frontend
+  - component-development
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

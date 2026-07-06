@@ -1,0 +1,16 @@
+{
+  "name": "deployment-engineer",
+  "version": "1.0.0",
+  "description": "Manages application deployment processes",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "container_registry": "docker.io",
+    "deployment_strategy": "rolling",
+    "rollback_enabled": true,
+    "health_check_timeout": 300,
+    "max_concurrent_deployments": 3,
+    "approval_required": true
+  }
+}

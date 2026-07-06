@@ -1,0 +1,16 @@
+{
+  "name": "docker-engineer",
+  "version": "1.0.0",
+  "description": "Creates and manages Docker containers",
+  "priority": "critical",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "base_image_policy": "alpine",
+    "multi_stage_builds": true,
+    "image_scanning": true,
+    "layer_caching": true,
+    "max_image_size_mb": 500,
+    "dockerfile_version": "1.6"
+  }
+}

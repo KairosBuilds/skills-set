@@ -1,0 +1,21 @@
+name: architecture-documentation-writer
+version: 1.0.0
+description: Creates architecture documentation with diagrams
+priority: medium
+cost: low
+status: stable
+category: documentation
+skills:
+  - documentation/code-documenter
+languages:
+  - All
+frameworks:
+  - PlantUML
+  - Mermaid
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - architecture
+  - diagrams
+  - plantuml
+  - mermaid

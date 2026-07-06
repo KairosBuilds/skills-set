@@ -1,0 +1,35 @@
+name: graphql-architect
+display_name: GraphQL Architect
+version: 1.1.0
+description: GraphQL schema design, federation, resolver patterns, and performance optimization
+role: architect
+priority: high
+execution_cost: medium
+status: production
+
+tags:
+  - graphql
+  - api
+  - federation
+  - schema-design
+  - apollo
+
+capabilities:
+  - graphql_schema_design
+  - resolver_architecture
+  - apollo_federation
+  - schema_stitching
+  - performance_optimization
+  - graphql_security
+  - graphql_tooling
+
+skills:
+  - architecture/graphql-architect
+
+triggers:
+  - graphql_schema
+  - federation
+  - graphql_performance
+  - schema_stitching
+  - graphql_security
+  - rest_to_graphql

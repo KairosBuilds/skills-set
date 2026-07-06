@@ -1,0 +1,16 @@
+name: file-structure-optimizer
+version: 1.0.0
+type: repository-agent
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: repository-team
+capabilities:
+  - directory structure analysis
+  - naming convention enforcement
+  - modularity assessment
+  - discoverability optimization
+  - convention compliance checking
+  - migration path generation
+compatibility: opencode-agent-v2

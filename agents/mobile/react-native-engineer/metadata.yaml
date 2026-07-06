@@ -1,0 +1,26 @@
+name: react-native-engineer
+displayName: React Native Engineer
+description: Builds, debugs, and optimizes cross-platform mobile applications with React Native and Expo
+priority: critical
+cost: high
+status: production
+category: mobile
+skills:
+  - mobile/react-native-expert
+languages:
+  - TypeScript
+  - JavaScript
+frameworks:
+  - React Native
+  - Expo
+platforms:
+  - iOS
+  - Android
+version: 1.0.0
+author: IRIS AI
+tags:
+  - react-native
+  - expo
+  - cross-platform
+  - mobile
+  - typescript

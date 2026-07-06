@@ -1,0 +1,17 @@
+name: atlassian-integration-agent
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: integrations
+description: Jira and Confluence integration
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - jira
+  - confluence
+  - atlassian
+  - project-management
+  - documentation
+dependencies:
+  - github-integration-agent

@@ -1,0 +1,22 @@
+name: release-engineer
+version: 1.0.0
+description: Manages software release processes
+priority: high
+cost: medium
+status: production
+category: devops
+skills:
+  - devops/devops-engineer
+languages:
+  - YAML
+frameworks:
+  - Git
+  - CI/CD
+  - Artifactory
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - release
+  - versioning
+  - artifact
+  - ci-cd

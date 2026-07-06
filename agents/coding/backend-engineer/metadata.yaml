@@ -1,0 +1,56 @@
+name: "Backend Engineer"
+description: "Server-side logic implementation specialist for API endpoints and business logic"
+purpose: "Implement robust, scalable server-side code across multiple languages and frameworks"
+version: "1.0.0"
+status: "production"
+priority: "critical"
+execution_cost: "high"
+confidence_level: "production"
+owner: "ecosystem/coding"
+compatibility:
+  - opencode
+supported_languages:
+  - Python
+  - TypeScript
+  - Go
+  - Java
+  - Rust
+  - C#
+  - Kotlin
+  - PHP
+supported_frameworks:
+  - FastAPI
+  - NestJS
+  - Django
+  - Spring Boot
+  - Express
+  - Gin
+  - Echo
+  - Fiber
+supported_platforms:
+  - Linux
+  - macOS
+  - Windows
+required_skills:
+  - backend/fastapi-expert
+  - backend/nestjs-expert
+  - backend/django-expert
+  - backend/spring-boot-engineer
+  - backend/python-pro
+  - backend/golang-pro
+  - backend/rust-engineer
+optional_skills:
+  - backend/csharp-developer
+  - backend/dotnet-core-expert
+  - backend/javascript-pro
+  - database/sql-pro
+  - database/postgres-pro
+dependencies:
+  - architecture/api-designer
+compatible_agents:
+  - Frontend Engineer
+  - Database Engineer
+  - API Engineer
+  - DevOps Engineer
+  - Senior Software Engineer
+incompatible_agents: []

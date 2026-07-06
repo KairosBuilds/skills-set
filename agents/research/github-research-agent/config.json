@@ -1,0 +1,11 @@
+{
+  "name": "github-research-agent",
+  "version": "1.0.0",
+  "max_search_results": 30,
+  "default_sort": "stars",
+  "include_forks": false,
+  "min_stars_threshold": 10,
+  "analysis_depth": "full",
+  "cache_results_hours": 24,
+  "rate_limit_pause_ms": 2000
+}

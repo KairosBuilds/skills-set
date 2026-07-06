@@ -1,0 +1,28 @@
+{
+  "agent": "llm-evaluator",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 2,
+  "timeout_seconds": 900,
+  "retry_on_failure": true,
+  "max_retries": 2,
+  "default_model": "gpt-4",
+  "temperature": 0.0,
+  "output_token_limit": 16384,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  },
+  "features": {
+    "ttft_measurement": true,
+    "tokens_per_second": true,
+    "concurrency_testing": true,
+    "quality_assessment": true,
+    "protocol_compliance": true,
+    "blind_judge_eval": true
+  },
+  "defaults": {
+    "num_runs": 5,
+    "warmup_runs": 2,
+    "concurrency_levels": [1, 5, 10, 20]
+  }
+}

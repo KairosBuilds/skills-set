@@ -1,0 +1,17 @@
+name: semantic-version-manager
+version: 1.0.0
+priority: medium
+cost: low
+status: stable
+category: release
+description: Semantic version calculation and git tagging
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - semver
+  - versioning
+  - git-tags
+  - changelog
+dependencies:
+  - release-manager
+  - compatibility-checker

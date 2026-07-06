@@ -1,0 +1,21 @@
+{
+  "agent": "token-optimizer",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "budget_per_session": 50000,
+    "budget_per_task": 15000,
+    "warn_threshold_percent": 80,
+    "critical_threshold_percent": 95,
+    "track_by_agent": true,
+    "track_by_task_type": true,
+    "auto_suggest_optimizations": true
+  },
+  "timeout_ms": 30000,
+  "retry_policy": {
+    "max_retries": 1,
+    "backoff_ms": 5000
+  }
+}

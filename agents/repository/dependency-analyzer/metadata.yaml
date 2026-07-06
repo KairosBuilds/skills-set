@@ -1,0 +1,17 @@
+name: dependency-analyzer
+version: 1.0.0
+type: repository-agent
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: repository-team
+capabilities:
+  - dependency tree analysis
+  - version freshness checking
+  - security vulnerability scanning
+  - license compliance verification
+  - dependency graph visualization
+  - transitive dependency optimization
+  - update impact analysis
+compatibility: opencode-agent-v2

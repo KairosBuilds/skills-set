@@ -1,0 +1,21 @@
+{
+  "agent": "atlassian-integration-agent",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "jira_project_key": "",
+    "default_issue_type": "Task",
+    "confluence_space_key": "",
+    "auto_link_commits": true,
+    "sprint_duration_days": 14,
+    "update_on_pr_merge": true,
+    "sync_interval_minutes": 60
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 10000
+  }
+}

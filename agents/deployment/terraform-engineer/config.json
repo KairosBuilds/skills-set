@@ -1,0 +1,16 @@
+{
+  "name": "terraform-engineer",
+  "version": "1.0.0",
+  "description": "Manages infrastructure as code with Terraform",
+  "priority": "critical",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "backend_type": "s3",
+    "state_locking": true,
+    "auto_approve": false,
+    "parallelism": 10,
+    "max_retries": 3,
+    "terraform_version": ">=1.6"
+  }
+}

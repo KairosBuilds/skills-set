@@ -1,0 +1,15 @@
+﻿name: penetration-review-agent
+version: 1.0.0
+description: Coordinates penetration testing and consolidates findings from all security scanning agents
+execution_cost: high
+confidence_level: 0.85
+status: production
+priority: high
+owner: security-team
+capabilities:
+  - finding_consolidation
+  - exploit_path_analysis
+  - chain_vulnerability_detection
+  - risk_scoring
+  - remediation_planning
+  - report_generation

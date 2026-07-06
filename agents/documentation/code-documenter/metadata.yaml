@@ -1,0 +1,22 @@
+name: code-documenter
+version: 1.0.0
+description: Generates inline code documentation comments
+priority: medium
+cost: low
+status: stable
+category: documentation
+skills:
+  - documentation/code-documenter
+languages:
+  - All
+frameworks:
+  - JSDoc
+  - Sphinx
+  - Doxygen
+created_at: "2026-07-06"
+updated_at: "2026-07-06"
+tags:
+  - code-documentation
+  - jsdoc
+  - sphinx
+  - doxygen

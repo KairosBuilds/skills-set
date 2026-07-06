@@ -1,0 +1,15 @@
+{
+  "name": "api-documentation-writer",
+  "version": "1.0.0",
+  "description": "Writes API documentation from OpenAPI/Swagger specs and code",
+  "priority": "medium",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "include_examples": true,
+    "include_auth_details": true,
+    "include_schema_tables": true,
+    "generate_postman_collection": false,
+    "output_format": "markdown"
+  }
+}

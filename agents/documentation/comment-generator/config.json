@@ -1,0 +1,16 @@
+{
+  "name": "comment-generator",
+  "version": "1.0.0",
+  "description": "Generates inline code comments",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "comment_style": "line",
+    "max_comment_length": 120,
+    "include_type_annotations": true,
+    "skip_getters_setters": true,
+    "skip_trivial_functions": true,
+    "min_complexity_for_comment": 3
+  }
+}

@@ -1,0 +1,24 @@
+name: responsive-design-engineer
+display_name: Responsive Design Engineer Agent
+description: Specialist for responsive layouts and cross-device compatibility
+version: 1.0.0
+status: stable
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: frontend-team
+tags:
+  - responsive
+  - css-grid
+  - flexbox
+  - layout
+  - mobile-first
+categories:
+  - frontend
+  - layout
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

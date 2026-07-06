@@ -1,0 +1,15 @@
+﻿name: secrets-scanner
+version: 1.0.0
+description: Scans for hardcoded secrets, credentials, and sensitive data across the codebase and git history
+execution_cost: high
+confidence_level: 0.95
+status: production
+priority: critical
+owner: security-team
+capabilities:
+  - credential_detection
+  - api_key_detection
+  - token_detection
+  - git_history_scanning
+  - entropy_analysis
+  - pattern_matching

@@ -1,0 +1,15 @@
+agent: race-condition-detector
+version: 1.0.0
+category: debugging
+description: Detects data races, timing vulnerabilities, and concurrent access issues
+priority: high
+cost: high
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - race-conditions
+  - concurrency
+  - thread-safety

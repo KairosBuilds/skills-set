@@ -1,0 +1,14 @@
+{
+  "name": "performance-tester",
+  "priority": "high",
+  "cost": "high",
+  "status": "production",
+  "timeout_ms": 900000,
+  "max_retries": 1,
+  "parallel_execution": false,
+  "auto_recover": false,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  }
+}

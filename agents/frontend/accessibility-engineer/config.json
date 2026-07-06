@@ -1,0 +1,27 @@
+{
+  "name": "accessibility-engineer",
+  "version": "1.0.0",
+  "settings": {
+    "strict_mode": true,
+    "max_recursion_depth": 3,
+    "timeout_ms": 60000,
+    "memory_limit_mb": 256,
+    "parallel_execution": true,
+    "logging_level": "info",
+    "cache_enabled": true,
+    "retry_on_failure": 1,
+    "model_preference": "default",
+    "temperature": 0.3,
+    "max_tokens_per_step": 4096
+  },
+  "permissions": {
+    "network_access": false,
+    "filesystem_write": true,
+    "exec_command": false,
+    "browser_automation": false
+  },
+  "hooks": {
+    "pre_execution": ["check_wcag_level"],
+    "post_execution": ["run_axe_audit"]
+  }
+}

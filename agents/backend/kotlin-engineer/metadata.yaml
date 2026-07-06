@@ -1,0 +1,39 @@
+name: "Kotlin Engineer"
+description: "Kotlin development specialist for JVM, Android, and multiplatform applications"
+purpose: "Implement production-grade Kotlin applications using coroutines and idiomatic Kotlin patterns"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/backend"
+compatibility:
+  - opencode
+supported_languages:
+  - Kotlin
+  - Java
+supported_frameworks:
+  - Ktor
+  - Spring Boot
+  - Kotlin Coroutines
+  - Kotlin Flow
+  - Exposed
+  - Koin
+  - KMP
+supported_platforms:
+  - JVM
+  - Android
+  - Native
+required_skills:
+  - backend/kotlin-specialist
+optional_skills:
+  - backend/spring-boot-engineer
+dependencies: []
+compatible_agents:
+  - Backend Engineer
+  - Database Engineer
+  - API Engineer
+  - Java Engineer
+  - Spring Engineer
+  - Senior Software Engineer
+incompatible_agents: []

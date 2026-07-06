@@ -1,0 +1,21 @@
+{
+  "agent": "context-manager",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "max_context_tokens": 48000,
+    "compression_threshold_tokens": 40000,
+    "archive_threshold_tokens": 35000,
+    "health_check_interval_minutes": 15,
+    "auto_compress": true,
+    "summary_retention_count": 5,
+    "preserve_recent_messages": 20
+  },
+  "timeout_ms": 60000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "agent": "local-seo-manager",
+  "version": "1.0.0",
+  "priority": "low",
+  "cost": "low",
+  "status": "stable",
+  "settings": {
+    "business_categories": ["service", "retail", "professional"],
+    "target_cities": [],
+    "target_radius_km": 20,
+    "citation_sources": ["google", "yelp", "bing", "apple"],
+    "review_response_tone": "professional",
+    "auto_generate_responses": false
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

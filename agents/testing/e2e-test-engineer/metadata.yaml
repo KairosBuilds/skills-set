@@ -1,0 +1,9 @@
+name: e2e-test-engineer
+display_name: E2E Test Engineer
+priority: critical
+cost: high
+status: production
+category: testing
+description: End-to-end browser tests for real user workflow validation
+version: 1.0.0
+created: 2026-07-06

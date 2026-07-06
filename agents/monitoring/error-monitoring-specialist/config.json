@@ -1,0 +1,22 @@
+{
+  "agent": "error-monitoring-specialist",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "error_tracking_platform": "sentry",
+    "sample_rate": 1.0,
+    "error_grouping": "fingerprint",
+    "alert_on_new_errors": true,
+    "alert_on_error_spike": true,
+    "spike_threshold_percent": 200,
+    "spike_window_minutes": 15,
+    "auto_resolve_minutes": 30
+  },
+  "timeout_ms": 120000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 5000
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "agent": "edge-case-analyzer",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 8,
+    "timeoutMs": 180000,
+    "boundaryAnalysis": true,
+    "inputSpaceExploration": true,
+    "combinatorialTesting": false
+  },
+  "analysis": {
+    "emptyInputCheck": true,
+    "nullInputCheck": true,
+    "boundaryValueAnalysis": true,
+    "overflowUnderflowCheck": true,
+    "typeBoundaryCheck": true,
+    "stateTransitionCheck": true
+  },
+  "output": {
+    "includeEdgeCaseList": true,
+    "includeInputExamples": true,
+    "includeExpectedBehavior": true,
+    "includeRiskLevel": true
+  }
+}

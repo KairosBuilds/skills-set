@@ -1,0 +1,11 @@
+{
+  "name": "task-planner",
+  "version": "1.0.0",
+  "max_depth": 5,
+  "max_tasks_per_plan": 50,
+  "default_estimate_unit": "hours",
+  "validation_required": true,
+  "auto_sequence": true,
+  "dependency_resolution": "topological",
+  "output_format": "structured"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "e2e-test-engineer",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "timeout_ms": 900000,
+  "max_retries": 2,
+  "parallel_execution": false,
+  "auto_recover": false,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  }
+}

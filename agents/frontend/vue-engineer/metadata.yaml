@@ -1,0 +1,23 @@
+name: vue-engineer
+display_name: Vue Engineer Agent
+description: Specialist for Vue 3 application development with Composition API
+version: 1.0.0
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: frontend-team
+tags:
+  - vue
+  - frontend
+  - nuxt
+  - composition-api
+categories:
+  - frontend
+  - component-development
+compatibility:
+  opencode: ">=1.0.0"
+  os:
+    - windows
+    - macos
+    - linux

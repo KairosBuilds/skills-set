@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "name": "event-driven-architect",
+    "version": "1.1.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 24000,
+    "include_diagrams": true
+  },
+  "design": {
+    "default_broker": "kafka",
+    "default_delivery": "at_least_once",
+    "require_schema_registry": true,
+    "require_dead_letter_queue": true
+  },
+  "output": {
+    "format": "document",
+    "include_event_catalog": true,
+    "include_topology_diagram": true,
+    "include_schema_definitions": true
+  }
+}

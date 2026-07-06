@@ -1,0 +1,29 @@
+name: ios-engineer
+displayName: iOS Engineer
+description: Builds native iOS applications with Swift, SwiftUI, UIKit, and Apple ecosystem frameworks
+priority: high
+cost: high
+status: production
+category: mobile
+skills:
+  - mobile/developing-ios-apps
+languages:
+  - Swift
+  - Objective-C
+frameworks:
+  - SwiftUI
+  - UIKit
+platforms:
+  - iOS
+  - iPadOS
+  - watchOS
+  - tvOS
+version: 1.0.0
+author: IRIS AI
+tags:
+  - ios
+  - swift
+  - swiftui
+  - uikit
+  - apple
+  - mobile

@@ -1,0 +1,24 @@
+{
+  "name": "cli-engineer",
+  "version": "1.0.0",
+  "status": "stable",
+  "priority": "medium",
+  "execution_cost": "medium",
+  "confidence_level": "stable",
+  "owner": "ecosystem/coding",
+  "compatibility": ["opencode"],
+  "supported_languages": ["Go", "Rust", "Python", "TypeScript"],
+  "supported_frameworks": ["Cobra", "Click", "Typer", "Commander", "Clap"],
+  "supported_platforms": ["Windows", "macOS", "Linux"],
+  "required_skills": ["utilities/cli-developer"],
+  "optional_skills": ["backend/golang-pro", "backend/rust-engineer", "backend/python-pro", "frontend/typescript-pro"],
+  "dependencies": [],
+  "compatible_agents": ["devops-engineer", "go-engineer", "rust-engineer", "python-engineer"],
+  "incompatible_agents": [],
+  "config": {
+    "shell_completions": true,
+    "color_output": true,
+    "man_page_generation": true,
+    "cross_platform": true
+  }
+}

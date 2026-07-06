@@ -1,0 +1,29 @@
+{
+  "agent": "deep-research-agent",
+  "version": "1.0.0",
+  "max_concurrent_tasks": 2,
+  "timeout_seconds": 1800,
+  "retry_on_failure": true,
+  "max_retries": 3,
+  "default_model": "gpt-4",
+  "temperature": 0.3,
+  "output_token_limit": 32768,
+  "logging": {
+    "level": "debug",
+    "format": "json"
+  },
+  "features": {
+    "multi_source_search": true,
+    "citation_tracking": true,
+    "source_governance": true,
+    "counter_review": true,
+    "freshness_checks": true,
+    "structured_reporting": true
+  },
+  "defaults": {
+    "max_sources": 30,
+    "min_sources": 5,
+    "report_format": "markdown",
+    "include_executive_summary": true
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "agent": {
+    "name": "secrets-scanner",
+    "enabled": true,
+    "execution": { "timeout_ms": 300000 },
+    "scanners": {
+      "gitleaks": { "enabled": true },
+      "trufflehog": { "enabled": true, "entropy": true },
+      "regex_patterns": { "enabled": true }
+    },
+    "severity": {
+      "confirmed_secret": "critical",
+      "potential_secret": "high",
+      "low_entropy_match": "medium"
+    }
+  }
+}

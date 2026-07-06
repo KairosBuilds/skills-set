@@ -1,0 +1,15 @@
+agent: performance-regression-detector
+version: 1.0.0
+category: debugging
+description: Detects performance regressions and degradation across releases
+priority: high
+cost: medium
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - performance
+  - regression
+  - benchmarking

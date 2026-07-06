@@ -1,0 +1,34 @@
+name: solution-architect
+display_name: Solution Architect
+version: 1.2.0
+description: End-to-end system design, technology selection, and architecture documentation
+role: architect
+priority: critical
+execution_cost: high
+status: production
+
+tags:
+  - architecture
+  - system-design
+  - technology-selection
+  - adr
+  - integration
+
+capabilities:
+  - system_design
+  - technology_evaluation
+  - adr_creation
+  - tradeoff_analysis
+  - integration_design
+  - cross_cutting_concerns
+
+skills:
+  - architecture/architecture-designer
+  - architecture/api-designer
+
+triggers:
+  - new_project_architecture
+  - technology_selection
+  - architecture_review
+  - adr_creation
+  - system_modernization

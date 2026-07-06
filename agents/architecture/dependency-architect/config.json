@@ -1,0 +1,24 @@
+{
+  "agent": {
+    "name": "dependency-architect",
+    "version": "1.0.0",
+    "status": "production"
+  },
+  "execution": {
+    "max_output_tokens": 24000,
+    "include_metrics": true,
+    "include_diagrams": true
+  },
+  "analysis": {
+    "detect_circular": true,
+    "measure_coupling": true,
+    "check_boundary_compliance": true,
+    "analyze_version_conflicts": true
+  },
+  "output": {
+    "format": "document",
+    "include_dependency_matrix": true,
+    "include_recommendations": true,
+    "include_governance_policy": true
+  }
+}

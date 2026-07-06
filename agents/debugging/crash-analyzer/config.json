@@ -1,0 +1,25 @@
+{
+  "agent": "crash-analyzer",
+  "version": "1.0.0",
+  "settings": {
+    "maxRecursionDepth": 15,
+    "timeoutMs": 300000,
+    "parseCoreDumps": false,
+    "parseMiniDumps": true,
+    "enableSymbolication": true,
+    "sourceMapSupport": true
+  },
+  "analysis": {
+    "signalAnalysis": true,
+    "exceptionAnalysis": true,
+    "memoryCorruptionCheck": true,
+    "stackOverflowDetection": true,
+    "abortAnalysis": true
+  },
+  "output": {
+    "includeStackTrace": true,
+    "includeRegisterState": false,
+    "includeMemoryMap": false,
+    "includeRootCause": true
+  }
+}

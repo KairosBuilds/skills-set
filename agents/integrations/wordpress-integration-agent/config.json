@@ -1,0 +1,20 @@
+{
+  "agent": "wordpress-integration-agent",
+  "version": "1.0.0",
+  "priority": "medium",
+  "cost": "medium",
+  "status": "stable",
+  "settings": {
+    "wp_version": "6.5",
+    "php_version": "8.2",
+    "auto_update_plugins": false,
+    "debug_mode": false,
+    "cache_enabled": true,
+    "woocommerce_enabled": false
+  },
+  "timeout_ms": 180000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 10000
+  }
+}

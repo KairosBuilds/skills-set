@@ -1,0 +1,16 @@
+name: llm-evaluator
+display_name: LLM Evaluator
+version: 1.0.0
+type: ai-agent
+status: production
+priority: high
+execution_cost: high
+confidence_level: high
+owner: ai-team
+compatibility: opencode
+description: Evaluates LLM performance across speed, quality, and concurrency
+tags:
+  - evaluation
+  - benchmarking
+  - llm
+  - quality

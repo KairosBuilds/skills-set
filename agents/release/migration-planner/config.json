@@ -1,0 +1,20 @@
+{
+  "agent": "migration-planner",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "auto_generate_rollback": true,
+    "require_approval": ["production"],
+    "max_downtime_ms": 60000,
+    "parallel_migrations": false,
+    "validation_level": "strict",
+    "backup_required": true
+  },
+  "timeout_ms": 300000,
+  "retry_policy": {
+    "max_retries": 2,
+    "backoff_ms": 30000
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "agent": "auto-fix-agent",
+  "version": "1.0.0",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "auto_fix_lint": true,
+    "auto_fix_types": true,
+    "auto_fix_merge_conflicts": true,
+    "max_edit_loop_retries": 3,
+    "break_edit_loop_threshold": 5,
+    "apply_patches_immediately": false,
+    "require_verification": true
+  },
+  "timeout_ms": 180000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 10000
+  }
+}

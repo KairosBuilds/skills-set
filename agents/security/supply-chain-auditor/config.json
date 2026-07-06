@@ -1,0 +1,15 @@
+﻿{
+  "agent": {
+    "name": "supply-chain-auditor",
+    "enabled": true,
+    "execution": { "timeout_ms": 600000 },
+    "checks": {
+      "sbom": { "enabled": true, "format": "SPDX" },
+      "dependency_confusion": { "enabled": true },
+      "typosquatting": { "enabled": true },
+      "package_age": { "enabled": true, "min_age_days": 30 },
+      "download_counts": { "enabled": true, "min_downloads": 1000 },
+      "maintainer_analysis": { "enabled": true }
+    }
+  }
+}

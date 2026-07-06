@@ -1,0 +1,14 @@
+﻿name: clean-code-auditor
+version: 1.0.0
+description: Audits code against clean code principles and best practices
+execution_cost: medium
+confidence_level: 0.90
+status: production
+priority: high
+owner: platform-engineering
+capabilities:
+  - naming_analysis
+  - function_size_analysis
+  - comment_quality_analysis
+  - error_handling_review
+  - formatting_consistency_check

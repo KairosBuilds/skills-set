@@ -1,0 +1,16 @@
+name: wordpress-integration-agent
+version: 1.0.0
+priority: medium
+cost: medium
+status: stable
+category: integrations
+description: WordPress development and management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - wordpress
+  - woocommerce
+  - php
+  - gutenberg
+  - plugins
+dependencies: []

@@ -1,0 +1,15 @@
+﻿name: cloud-security-reviewer
+version: 1.0.0
+description: Reviews cloud infrastructure for security misconfigurations across AWS, Azure, GCP
+execution_cost: high
+confidence_level: 0.88
+status: production
+priority: high
+owner: cloud-security-team
+capabilities:
+  - iam_policy_analysis
+  - storage_configuration_audit
+  - network_security_review
+  - container_security_check
+  - compliance_validation
+  - secret_management_review

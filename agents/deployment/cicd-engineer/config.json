@@ -1,0 +1,18 @@
+{
+  "name": "cicd-engineer",
+  "version": "1.0.0",
+  "description": "Designs and manages CI/CD pipelines",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "pipeline_type": "github_actions",
+    "run_tests": true,
+    "run_lint": true,
+    "run_security_scan": true,
+    "auto_deploy_staging": true,
+    "require_approval_prod": true,
+    "artifact_retention_days": 30,
+    "parallel_jobs": 4
+  }
+}

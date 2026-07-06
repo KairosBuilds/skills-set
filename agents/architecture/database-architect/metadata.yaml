@@ -1,0 +1,37 @@
+name: database-architect
+display_name: Database Architect
+version: 1.1.0
+description: Database schema design, data modeling, query optimization, and data architecture
+role: architect
+priority: high
+execution_cost: high
+status: production
+
+tags:
+  - database
+  - data-modeling
+  - sql
+  - nosql
+  - query-optimization
+  - data-architecture
+
+capabilities:
+  - schema_design
+  - data_modeling
+  - query_optimization
+  - database_selection
+  - data_migration
+  - performance_tuning
+  - data_warehouse_design
+
+skills:
+  - database/postgres-pro
+  - database/database-optimizer
+
+triggers:
+  - schema_design
+  - data_modeling
+  - query_optimization
+  - database_selection
+  - data_migration
+  - performance_tuning

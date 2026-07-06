@@ -1,0 +1,14 @@
+﻿{
+  "agent": {
+    "name": "authorization-reviewer",
+    "enabled": true,
+    "execution": { "timeout_ms": 300000 },
+    "checks": {
+      "idor": { "enabled": true, "check_uuid_predictability": true },
+      "rbac": { "enabled": true, "check_role_hierarchy": true, "check_default_deny": true },
+      "abac": { "enabled": true, "check_policy_complexity": true },
+      "acl": { "enabled": true },
+      "method_level": { "enabled": true, "check_all_endpoints": true }
+    }
+  }
+}

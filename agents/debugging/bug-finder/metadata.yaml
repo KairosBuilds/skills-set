@@ -1,0 +1,15 @@
+agent: bug-finder
+version: 1.0.0
+category: debugging
+description: Locates and identifies software bugs across all languages and frameworks
+priority: critical
+cost: high
+status: production
+author: IRIS-AI
+created: 2026-01-01
+updated: 2026-07-01
+tags:
+  - debugging
+  - bug-detection
+  - code-quality
+  - static-analysis

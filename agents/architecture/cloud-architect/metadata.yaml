@@ -1,0 +1,37 @@
+name: cloud-architect
+display_name: Cloud Architect
+version: 1.1.0
+description: Cloud infrastructure design, migration, multi-cloud strategy, and cost optimization
+role: architect
+priority: high
+execution_cost: high
+status: production
+
+tags:
+  - cloud
+  - aws
+  - azure
+  - gcp
+  - infrastructure
+  - migration
+  - cost-optimization
+
+capabilities:
+  - cloud_infrastructure_design
+  - cloud_migration_planning
+  - multi_cloud_architecture
+  - cost_optimization
+  - cloud_security
+  - disaster_recovery_design
+  - well_architected_review
+
+skills:
+  - architecture/cloud-architect
+
+triggers:
+  - cloud_design
+  - migration_planning
+  - cost_optimization
+  - dr_design
+  - well_architected_review
+  - multi_cloud_strategy

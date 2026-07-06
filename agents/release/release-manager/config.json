@@ -1,0 +1,26 @@
+{
+  "agent": "release-manager",
+  "version": "1.0.0",
+  "priority": "critical",
+  "cost": "high",
+  "status": "production",
+  "settings": {
+    "auto_approve_patches": false,
+    "require_approval": ["staging", "production"],
+    "rollback_timeout_ms": 300000,
+    "max_retries": 3,
+    "concurrent_deployments": 1,
+    "notify_channels": ["slack", "wecom"],
+    "quality_gates": {
+      "tests": "must_pass",
+      "lint": "must_pass",
+      "security_scan": "must_pass",
+      "typecheck": "must_pass"
+    }
+  },
+  "timeout_ms": 600000,
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": 15000
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "monitoring-engineer",
+  "version": "1.0.0",
+  "description": "Configures and manages monitoring systems",
+  "priority": "high",
+  "cost": "medium",
+  "status": "production",
+  "settings": {
+    "monitoring_stack": "prometheus_grafana",
+    "metrics_retention_days": 30,
+    "log_retention_days": 90,
+    "alert_silence_minutes": 60,
+    "dashboard_refresh_seconds": 30,
+    "enable_synthetic_monitoring": false
+  }
+}

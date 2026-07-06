@@ -1,0 +1,17 @@
+name: error-monitoring-specialist
+version: 1.0.0
+priority: high
+cost: medium
+status: production
+category: monitoring
+description: Error tracking and incident response management
+author: IRIS AI Team
+created: 2026-07-06
+tags:
+  - error-tracking
+  - sentry
+  - datadog
+  - incident-response
+dependencies:
+  - observability-engineer
+  - logging-specialist

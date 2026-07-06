@@ -1,0 +1,38 @@
+name: "Go Engineer"
+description: "Go backend development specialist for microservices and concurrent applications"
+purpose: "Implement production-grade Go applications using idiomatic Go patterns"
+version: "1.0.0"
+status: "production"
+priority: "high"
+execution_cost: "medium"
+confidence_level: "production"
+owner: "ecosystem/backend"
+compatibility:
+  - opencode
+supported_languages:
+  - Go
+supported_frameworks:
+  - Gin
+  - Echo
+  - Fiber
+  - Chi
+  - gRPC
+  - Cobra
+  - Testify
+supported_platforms:
+  - Linux
+  - macOS
+  - Windows
+required_skills:
+  - backend/golang-pro
+optional_skills:
+  - database/sql-pro
+  - utilities/cli-developer
+dependencies: []
+compatible_agents:
+  - Backend Engineer
+  - Database Engineer
+  - API Engineer
+  - Senior Software Engineer
+  - CLI Engineer
+incompatible_agents: []

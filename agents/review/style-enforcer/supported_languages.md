@@ -1,0 +1,2 @@
+﻿# Supported Languages
+All languages.

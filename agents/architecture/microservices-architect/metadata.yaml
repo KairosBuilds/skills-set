@@ -1,0 +1,34 @@
+name: microservices-architect
+display_name: Microservices Architect
+version: 1.2.0
+description: Microservices decomposition, service boundaries, and inter-service communication design
+role: architect
+priority: high
+execution_cost: high
+status: production
+
+tags:
+  - microservices
+  - ddd
+  - service-decomposition
+  - distributed-systems
+  - api-gateway
+
+capabilities:
+  - service_decomposition
+  - inter_service_communication
+  - data_ownership_design
+  - service_discovery
+  - api_composition
+  - saga_patterns
+  - cqrs_design
+
+skills:
+  - architecture/microservices-architect
+
+triggers:
+  - monolith_decomposition
+  - microservices_design
+  - service_boundary_definition
+  - communication_pattern_design
+  - distributed_data_architecture
