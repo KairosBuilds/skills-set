@@ -2,7 +2,7 @@
 name: auto-fix-agent
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: automation
 description: Automatically detects and fixes code quality issues, resolves merge conflicts, and breaks edit loops using AI-powered remediation.
@@ -12,6 +12,9 @@ triggers:
   - merge conflict
   - edit loop detected
   - type error found
+confidence_level: production
+owner: ecosystem/automation
+compatibility: ["opencode"]
 ---
 
 # Auto-Fix Agent

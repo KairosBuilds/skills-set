@@ -8,7 +8,7 @@
 
 | Skill | When Used |
 |-------|-----------|
-| devops-engineer | IaC implementation, CI/CD pipeline design |
+| devops-engineer | IaC implementation, devops/devops-engineer pipeline design |
 | secure-code-guardian | Cloud security architecture |
 | database/database-optimizer | Cloud database optimization |
 | monitoring-expert | Cloud observability design |

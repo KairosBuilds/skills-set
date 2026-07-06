@@ -2,7 +2,7 @@
 name: edge-case-analyzer
 description: Specialized agent for identifying and analyzing edge cases, boundary conditions, and corner cases
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 skills:
   - code-quality/debugging-wizard
@@ -16,4 +16,8 @@ triggers:
   - "boundary condition"
   - "empty input"
   - "null input"
+version: 1.0.0
+confidence_level: stable
+owner: ecosystem/debugging
+compatibility: ["opencode"]
 ---

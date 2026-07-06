@@ -3,7 +3,7 @@ name: Kotlin Mobile Engineer
 version: 1.0.0
 type: agent
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 lastUpdated: 2026-07-06
 engine:
@@ -19,4 +19,7 @@ triggers:
   - kotlin coroutines
   - kotlin flow
   - multiplatform
+confidence_level: production
+owner: ecosystem/mobile
+compatibility: ["opencode"]
 ---

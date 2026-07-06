@@ -2,7 +2,7 @@
 name: race-condition-detector
 description: Specialized agent for detecting data races, timing vulnerabilities, and concurrent access issues
 priority: high
-cost: high
+execution_cost: high
 status: production
 skills:
   - security/hunt-race-condition
@@ -19,4 +19,8 @@ triggers:
   - "concurrent access"
   - "timing issue"
   - "thread safety"
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/debugging
+compatibility: ["opencode"]
 ---

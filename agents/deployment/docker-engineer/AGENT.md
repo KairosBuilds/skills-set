@@ -3,10 +3,13 @@ name: docker-engineer
 version: 1.0.0
 description: Creates and manages Docker containers
 priority: critical
-cost: medium
+execution_cost: medium
 status: production
 agent_type: deployment
 tags: [docker, containers, dockerfile, compose]
+confidence_level: production
+owner: ecosystem/deployment
+compatibility: ["opencode"]
 ---
 
 # docker-engineer

@@ -3,7 +3,7 @@ name: Android Engineer
 version: 1.0.0
 type: agent
 priority: high
-cost: high
+execution_cost: high
 status: production
 lastUpdated: 2026-07-06
 engine:
@@ -19,4 +19,7 @@ triggers:
   - room database
   - retrofit
   - dagger hilt
+confidence_level: production
+owner: ecosystem/mobile
+compatibility: ["opencode"]
 ---

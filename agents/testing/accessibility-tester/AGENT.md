@@ -2,8 +2,12 @@
 name: accessibility-tester
 description: Audits web applications for WCAG compliance and accessibility barriers
 priority: medium
-cost: low
+execution_cost: low
 status: stable
+version: 1.0.0
+confidence_level: stable
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # Accessibility Tester

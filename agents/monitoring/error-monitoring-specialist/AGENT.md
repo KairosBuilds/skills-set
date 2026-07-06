@@ -2,7 +2,7 @@
 name: error-monitoring-specialist
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: monitoring
 description: Configures error tracking, monitors exception patterns, and manages incident response workflows.
@@ -11,6 +11,9 @@ triggers:
   - exception spike detected
   - incident response needed
   - error dashboard creation
+confidence_level: production
+owner: ecosystem/monitoring
+compatibility: ["opencode"]
 ---
 
 # Error Monitoring Specialist Agent

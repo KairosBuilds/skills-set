@@ -8,8 +8,8 @@
 ## Secondary Skills
 | Skill | Description | Priority |
 |-------|-------------|----------|
-| testing/test-master | Unit/widget/integration testing | high |
-| devops/devops-engineer | CI/CD for Flutter releases | medium |
+| testing/test-master | testing/testing-unit/integration testing | high |
+| devops/devops-engineer | devops/devops-engineer for Flutter releases | medium |
 | ui-ux/ui-designer | Material Design / Cupertino compliance | medium |
 | security/secure-code-guardian | Mobile security best practices | medium |
 | backend/fastapi-expert | API design for Flutter backends | low |

@@ -16,6 +16,6 @@
 |-------|---------|
 | backend/csharp-developer | C# backend |
 | backend/dotnet-core-expert | .NET Core |
-| backend/javascript-pro | Node.js backend |
-| database/sql-pro | SQL optimization |
+| frontend/javascript-pro | Node.js backend |
+| backend/sql-pro | SQL optimization |
 | database/postgres-pro | PostgreSQL |

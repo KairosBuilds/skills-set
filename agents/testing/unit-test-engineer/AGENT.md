@@ -2,8 +2,12 @@
 name: unit-test-engineer
 description: Writes and maintains unit tests ensuring individual code units behave correctly in isolation
 priority: critical
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # Unit Test Engineer

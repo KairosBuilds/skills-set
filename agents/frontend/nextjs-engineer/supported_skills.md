@@ -7,7 +7,7 @@
 | frontend/typescript-pro | TypeScript configuration and type safety |
 | testing/testing-e2e | E2E testing with Playwright |
 | testing/testing-unit | Unit testing for components |
-| code-quality/lint-gate | ESLint and build gate enforcement |
+| testing/lint-gate | ESLint and build gate enforcement |
 
 ## Priority Skills
 

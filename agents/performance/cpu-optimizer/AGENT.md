@@ -2,8 +2,12 @@
 name: cpu-optimizer
 description: Identifies and eliminates CPU bottlenecks using profiling, flame graphs, and algorithmic improvements
 priority: high
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # CPU Optimizer

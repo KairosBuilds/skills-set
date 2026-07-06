@@ -11,5 +11,5 @@
 |-------|-----------|
 | architecture/architecture-designer | Broader data architecture context |
 | sql-pro | Complex SQL query design |
-| python-pro | ETL/ELT pipeline design |
+| python-pro | backend/python-pro pipeline design |
 | devops-engineer | Database deployment and infrastructure |

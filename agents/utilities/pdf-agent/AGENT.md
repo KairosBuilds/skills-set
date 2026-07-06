@@ -2,7 +2,7 @@
 name: pdf-agent
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Creates, edits, extracts text from, merges, splits, and manipulates PDF documents programmatically.
@@ -12,6 +12,9 @@ triggers:
   - document merge
   - PDF splitting
   - form filling
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # PDF Agent

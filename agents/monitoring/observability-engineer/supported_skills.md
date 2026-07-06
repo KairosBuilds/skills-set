@@ -6,7 +6,7 @@
 
 ## Activate When
 - Monitoring stack needs to be designed or updated
-- SLO/SLI definitions needed
+- devops/sre-engineer definitions needed
 - Dashboard creation or review
 - Alerting strategy design
 - Observability audit

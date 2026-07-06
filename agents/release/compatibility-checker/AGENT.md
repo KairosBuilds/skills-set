@@ -2,7 +2,7 @@
 name: compatibility-checker
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: release
 description: Analyzes dependency graphs, validates package compatibility, and detects breaking changes across project dependencies.
@@ -11,6 +11,9 @@ triggers:
   - package version bump
   - breaking change detection
   - dependency audit needed
+confidence_level: production
+owner: ecosystem/release
+compatibility: ["opencode"]
 ---
 
 # Compatibility Checker Agent

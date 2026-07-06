@@ -2,8 +2,12 @@
 name: integration-test-engineer
 description: Tests interactions between multiple components, services, and data stores
 priority: high
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # Integration Test Engineer

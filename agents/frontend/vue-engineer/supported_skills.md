@@ -4,7 +4,7 @@
 |---|---|
 | frontend/vue-expert | Core Vue 3 and Composition API |
 | frontend/typescript-pro | TypeScript in Vue single-file components |
-| testing/testing-unit | Component testing with @vue/test-utils |
+| testing/testing-unit | Component testing with @testing/testing-unit |
 | ui-ux/artifacts-builder | Complex component creation |
 | testing/testing-integration | Integration testing for Vue apps |
 

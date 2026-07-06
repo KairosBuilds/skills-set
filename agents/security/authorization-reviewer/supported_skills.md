@@ -1,2 +1,2 @@
-﻿# Supported Skills
+# Supported Skills
 - security/hunt-idor

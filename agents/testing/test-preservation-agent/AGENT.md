@@ -2,8 +2,12 @@
 name: test-preservation-agent
 description: Prevents deletion or disabling of existing tests to maintain regression coverage integrity
 priority: high
-cost: low
+execution_cost: low
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # Test Preservation Agent

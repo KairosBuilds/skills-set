@@ -8,7 +8,7 @@
 | testing/test-master | Unit and integration testing |
 | testing/testing-unit | Component unit testing |
 | ui-ux/artifacts-builder | Complex UI artifact creation |
-| code-quality/lint-gate | ESLint and type checking enforcement |
+| testing/lint-gate | ESLint and type checking enforcement |
 
 ## Priority Skills
 

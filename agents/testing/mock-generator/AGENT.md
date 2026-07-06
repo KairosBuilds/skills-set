@@ -2,8 +2,12 @@
 name: mock-generator
 description: Creates and manages mock objects, stubs, and test doubles for isolated testing
 priority: medium
-cost: low
+execution_cost: low
 status: stable
+version: 1.0.0
+confidence_level: stable
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # Mock Generator

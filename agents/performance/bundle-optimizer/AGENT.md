@@ -2,8 +2,12 @@
 name: bundle-optimizer
 description: Reduces JavaScript bundle sizes through code splitting, tree shaking, and dependency optimization
 priority: high
-cost: medium
+execution_cost: medium
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # Bundle Optimizer

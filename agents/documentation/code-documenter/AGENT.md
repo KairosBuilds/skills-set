@@ -3,10 +3,13 @@ name: code-documenter
 version: 1.0.0
 description: Generates inline code documentation
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 agent_type: documentation
 tags: [code, documentation, jsdoc, sphinx, doxygen]
+confidence_level: stable
+owner: ecosystem/documentation
+compatibility: ["opencode"]
 ---
 
 # code-documenter

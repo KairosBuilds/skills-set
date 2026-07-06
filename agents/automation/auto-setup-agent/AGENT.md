@@ -2,7 +2,7 @@
 name: auto-setup-agent
 version: 1.0.0
 priority: high
-cost: low
+execution_cost: low
 status: production
 type: automation
 description: Automatically configures development environments, installs dependencies, sets up project tooling, and resolves setup issues.
@@ -12,6 +12,9 @@ triggers:
   - dependency installation
   - project initialization
   - setup troubleshooting
+confidence_level: production
+owner: ecosystem/automation
+compatibility: ["opencode"]
 ---
 
 # Auto Setup Agent

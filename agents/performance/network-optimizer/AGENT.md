@@ -2,8 +2,12 @@
 name: network-optimizer
 description: Optimizes network communication using HTTP/2, CDN strategies, gRPC, and WebSocket tuning
 priority: high
-cost: medium
+execution_cost: medium
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # Network Optimizer

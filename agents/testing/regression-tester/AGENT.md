@@ -2,8 +2,12 @@
 name: regression-tester
 description: Ensures new code changes do not break existing functionality through automated regression suites
 priority: high
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # Regression Tester

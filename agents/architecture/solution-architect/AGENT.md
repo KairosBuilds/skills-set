@@ -7,6 +7,9 @@ execution_cost: high
 status: production
 version: 1.2.0
 last_updated: 2026-07-06
+confidence_level: production
+owner: ecosystem/architecture
+compatibility: ["opencode"]
 ---
 
 # Solution Architect Agent

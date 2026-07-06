@@ -3,14 +3,14 @@
 ## Primary Skills
 | Skill | Description | Priority |
 |-------|-------------|----------|
-| backend/swift-expert | Swift language, async/await, and server-side Swift | core |
+| backend/swift-expert | Swift language, async-await, and server-side Swift | core |
 
 ## Secondary Skills
 | Skill | Description | Priority |
 |-------|-------------|----------|
-| mobile/developing-ios-apps | iOS/macOS app development | high |
+| mobile/iOS-APP-developer | backend/swift-expert app development | high |
 | testing/test-master | XCTest and Swift Testing best practices | high |
-| devops/devops-engineer | CI/CD for Swift packages and Vapor deployment | medium |
+| devops/devops-engineer | devops/devops-engineer for Swift packages and Vapor deployment | medium |
 | security/secure-code-guardian | Server-side Swift security | medium |
 
 ## Complementary Skills

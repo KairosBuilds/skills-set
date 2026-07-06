@@ -3,7 +3,7 @@ name: Swift Engineer
 version: 1.0.0
 type: agent
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 lastUpdated: 2026-07-06
 engine:
@@ -19,4 +19,7 @@ triggers:
   - spm
   - swiftui
   - async await
+confidence_level: production
+owner: ecosystem/mobile
+compatibility: ["opencode"]
 ---

@@ -2,7 +2,7 @@
 name: web-scraping-agent
 version: 1.0.0
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Extracts structured data from web pages using Scrapling, handles dynamic content, and converts HTML to clean text/markdown.
@@ -12,6 +12,9 @@ triggers:
   - content scraping
   - markdown conversion
   - page content extraction
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Web Scraping Agent

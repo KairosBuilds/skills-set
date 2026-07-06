@@ -10,4 +10,4 @@
 |-------|-----------|
 | architecture/architecture-designer | Dependency architecture design |
 | code-quality/code-reviewer | Dependency-related code review |
-| library/library-management | Package management strategies |
+| backend/python-pro | Package management strategies |

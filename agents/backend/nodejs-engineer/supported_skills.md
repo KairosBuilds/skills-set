@@ -4,5 +4,5 @@
 | Skill | Purpose |
 |-------|---------|
 | backend/nestjs-expert | NestJS |
-| backend/javascript-pro | Node.js |
+| frontend/javascript-pro | Node.js |
 | frontend/typescript-pro | TypeScript |

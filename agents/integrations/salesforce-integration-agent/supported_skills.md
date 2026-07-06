@@ -5,7 +5,7 @@
 | integrations/salesforce-developer | Apex, LWC, Salesforce development |
 
 ## Activate When
-- Apex class/trigger development
+- Apex backend/python-pro development
 - Lightning Web Component creation
 - Salesforce configuration
 - API integration

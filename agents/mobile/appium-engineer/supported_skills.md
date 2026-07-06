@@ -10,7 +10,7 @@
 |-------|-------------|----------|
 | testing/test-master | Test design and automation strategies | high |
 | testing/testing-e2e | E2E testing best practices | high |
-| devops/devops-engineer | CI/CD integration for mobile testing | medium |
+| devops/devops-engineer | devops/devops-engineer integration for mobile testing | medium |
 | mobile/react-native-expert | React Native app element inspection | medium |
 | mobile/flutter-expert | Flutter app testing with Appium | medium |
 | testing/playwright-automation-expert | Cross-platform automation concepts | low |

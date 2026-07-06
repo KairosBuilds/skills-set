@@ -2,7 +2,7 @@
 name: domain-name-agent
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Generates creative domain name suggestions, checks availability across TLDs, and provides branding recommendations.
@@ -11,6 +11,9 @@ triggers:
   - availability check
   - TLD suggestions
   - brand name generation
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Domain Name Agent

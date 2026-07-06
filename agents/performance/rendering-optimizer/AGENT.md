@@ -2,8 +2,12 @@
 name: rendering-optimizer
 description: Optimizes UI rendering performance in React, Three.js, and WebGL applications
 priority: high
-cost: medium
+execution_cost: medium
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # Rendering Optimizer

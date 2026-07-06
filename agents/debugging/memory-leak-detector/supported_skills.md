@@ -1,7 +1,7 @@
 # Memory Leak Detector — Supported Skills
 
 ## Primary Skills
-- **Valgrind** — Memory profiling and leak detection for C/C++
+- **Valgrind** — Memory profiling and leak detection for C and C++
 - **pprof** — Go heap profiling and analysis
 
 ## Complementary Skills

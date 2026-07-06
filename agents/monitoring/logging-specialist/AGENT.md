@@ -2,7 +2,7 @@
 name: logging-specialist
 version: 1.0.0
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 type: monitoring
 description: Designs and implements structured logging systems, log management pipelines, and log analysis strategies.
@@ -11,6 +11,9 @@ triggers:
   - log format standardization
   - log level configuration
   - log shipping setup
+confidence_level: stable
+owner: ecosystem/monitoring
+compatibility: ["opencode"]
 ---
 
 # Logging Specialist Agent

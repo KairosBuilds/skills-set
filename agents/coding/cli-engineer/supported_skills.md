@@ -10,5 +10,5 @@
 |-------|---------|
 | backend/golang-pro | Go CLI with Cobra |
 | backend/rust-engineer | Rust CLI with Clap |
-| backend/python-pro | Python CLI with Click/Typer |
+| backend/python-pro | Python CLI with backend/python-pro |
 | frontend/typescript-pro | Node.js CLI with Commander |

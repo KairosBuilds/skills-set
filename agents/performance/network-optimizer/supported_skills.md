@@ -1,7 +1,5 @@
 # Supported Skills
-
-- HTTP/2 — Protocol optimization
-- CDN — Content delivery optimization
-- gRPC — Service communication
-- Languages: All
-- Frameworks: HTTP/2, CDN, WebSockets
+- devops/devops-engineer — CDN, HTTP2, WebSocket optimization
+- backend/websocket-engineer — WebSocket protocol optimization
+- backend/golang-pro — gRPC optimization
+- code-quality/debugging-network-issues — Network troubleshooting

@@ -3,7 +3,7 @@ name: React Native Engineer
 version: 1.0.0
 type: agent
 priority: critical
-cost: high
+execution_cost: high
 status: production
 lastUpdated: 2026-07-06
 engine:
@@ -18,4 +18,7 @@ triggers:
   - react-native navigation
   - native modules
   - react-native bridge
+confidence_level: production
+owner: ecosystem/mobile
+compatibility: ["opencode"]
 ---

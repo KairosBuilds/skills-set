@@ -3,7 +3,7 @@ name: Appium Engineer
 version: 1.0.0
 type: agent
 priority: medium
-cost: medium
+execution_cost: medium
 status: stable
 lastUpdated: 2026-07-06
 engine:
@@ -19,4 +19,7 @@ triggers:
   - wda
   - uiautomator2
   - xcuitest
+confidence_level: stable
+owner: ecosystem/mobile
+compatibility: ["opencode"]
 ---

@@ -2,7 +2,7 @@
 name: local-seo-manager
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Manages local SEO for service-area businesses including Google Business Profile optimization, local citations, and review management.
@@ -12,6 +12,9 @@ triggers:
   - citation management
   - review response generation
   - local search ranking
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Local SEO Manager

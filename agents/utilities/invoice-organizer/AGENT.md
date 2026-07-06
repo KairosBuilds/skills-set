@@ -2,7 +2,7 @@
 name: invoice-organizer
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Automatically organizes invoices and receipts by extracting key information, renaming files consistently, and sorting into logical folders.
@@ -11,6 +11,9 @@ triggers:
   - receipt processing
   - expense categorization
   - document sorting
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Invoice Organizer Agent

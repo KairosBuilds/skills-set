@@ -2,7 +2,7 @@
 name: observability-engineer
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: monitoring
 description: Architects and implements comprehensive observability solutions combining logs, metrics, and traces for distributed systems.
@@ -11,6 +11,9 @@ triggers:
   - monitoring infrastructure design
   - SLO/SLI definition
   - alerting strategy design
+confidence_level: production
+owner: ecosystem/monitoring
+compatibility: ["opencode"]
 ---
 
 # Observability Engineer Agent

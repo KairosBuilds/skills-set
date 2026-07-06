@@ -2,7 +2,7 @@
 name: github-integration-agent
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: integration
 description: Manages GitHub operations including pull requests, issues, repositories, workflows, and API interactions.
@@ -12,6 +12,9 @@ triggers:
   - repository operations
   - GitHub Actions workflow
   - code review coordination
+confidence_level: production
+owner: ecosystem/integrations
+compatibility: ["opencode"]
 ---
 
 # GitHub Integration Agent

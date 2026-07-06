@@ -2,7 +2,7 @@
 name: verification-agent
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: automation
 description: Validates that code changes meet quality standards, passes all gates, and verifies empirical evidence of correctness before work is marked complete.
@@ -12,6 +12,9 @@ triggers:
   - lint gate check
   - empirical proof needed
   - pre-commit verification
+confidence_level: production
+owner: ecosystem/automation
+compatibility: ["opencode"]
 ---
 
 # Verification Agent

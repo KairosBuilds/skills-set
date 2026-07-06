@@ -9,4 +9,4 @@
 - HTML to markdown conversion
 - Data scraping from websites
 - Dynamic page content extraction
-- Table/list data extraction
+- documentation/xlsx data extraction

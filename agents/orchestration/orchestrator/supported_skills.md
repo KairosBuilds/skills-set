@@ -6,7 +6,7 @@ The Orchestrator is meta-capable — it does not directly perform domain skills 
 
 | Skill | Description |
 |-------|-------------|
-| automation/delegation | Task routing and agent delegation |
+| automation/executor | Task routing and agent delegation |
 | automation/planner | Task decomposition and workflow planning |
 | automation/verifier | Output validation against acceptance criteria |
 | code-quality/code-reviewer | Quality assurance on merged outputs |

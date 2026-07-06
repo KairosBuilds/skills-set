@@ -2,7 +2,7 @@
 name: context-manager
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: automation
 description: Manages conversation context, compresses historical data, and maintains context quality for optimal AI agent performance.
@@ -11,6 +11,9 @@ triggers:
   - context quality degradation detected
   - conversation history cleanup needed
   - token budget nearing limit
+confidence_level: production
+owner: ecosystem/automation
+compatibility: ["opencode"]
 ---
 
 # Context Manager Agent

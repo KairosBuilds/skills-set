@@ -2,12 +2,12 @@
 
 | Skill ID | Description |
 |---|---|
-| frontend/css-specialist | CSS Grid, Flexbox, layout expertise |
-| frontend/responsive-design-engineer | Core responsive design patterns |
+| frontend/react-expert | CSS Grid, Flexbox, layout expertise |
+| frontend/react-expert | Core responsive design patterns |
 | ui-ux/frontend-visual-qa | Visual regression and layout verification |
 
 ## Priority Skills
 
 These skills are loaded automatically on agent invocation:
-1. `frontend/css-specialist` — always active
-2. `frontend/responsive-design-engineer` — always active
+1. `frontend/react-expert` — always active
+2. `frontend/react-expert` — always active

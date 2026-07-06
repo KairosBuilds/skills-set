@@ -1,2 +1,2 @@
-﻿# Supported Skills
-- ESLint/tree-shaking (external)
+# Supported Skills
+- code-quality/code-reviewer (external)

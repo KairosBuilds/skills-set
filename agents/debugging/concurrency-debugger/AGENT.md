@@ -2,7 +2,7 @@
 name: concurrency-debugger
 description: Specialized agent for debugging concurrency issues, deadlocks, and synchronization problems
 priority: high
-cost: high
+execution_cost: high
 status: production
 skills:
   - code-quality/debugging-wizard
@@ -21,4 +21,8 @@ triggers:
   - "synchronization"
   - "goroutine leak"
   - "thread starvation"
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/debugging
+compatibility: ["opencode"]
 ---

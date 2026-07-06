@@ -2,7 +2,7 @@
 name: wordpress-integration-agent
 version: 1.0.0
 priority: medium
-cost: medium
+execution_cost: medium
 status: stable
 type: integration
 description: Develops WordPress themes, plugins, Gutenberg blocks, and manages WooCommerce stores with full lifecycle support.
@@ -12,6 +12,9 @@ triggers:
   - Gutenberg block development
   - WooCommerce management
   - WordPress REST API integration
+confidence_level: stable
+owner: ecosystem/integrations
+compatibility: ["opencode"]
 ---
 
 # WordPress Integration Agent

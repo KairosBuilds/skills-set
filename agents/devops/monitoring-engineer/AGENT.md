@@ -3,10 +3,13 @@ name: monitoring-engineer
 version: 1.0.0
 description: Configures and manages monitoring systems
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 agent_type: devops
 tags: [monitoring, prometheus, grafana, datadog, observability]
+confidence_level: production
+owner: ecosystem/devops
+compatibility: ["opencode"]
 ---
 
 # monitoring-engineer

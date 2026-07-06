@@ -2,8 +2,12 @@
 name: qa-engineer
 description: Oversees overall software quality strategy including test planning, execution, and reporting
 priority: critical
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/testing
+compatibility: ["opencode"]
 ---
 
 # QA Engineer

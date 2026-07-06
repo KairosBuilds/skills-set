@@ -2,7 +2,7 @@
 name: atlassian-integration-agent
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: integration
 description: Integrates with Atlassian products (Jira, Confluence) for project tracking, documentation, and sprint management.
@@ -11,6 +11,9 @@ triggers:
   - Confluence page updates
   - sprint planning
   - project documentation
+confidence_level: production
+owner: ecosystem/integrations
+compatibility: ["opencode"]
 ---
 
 # Atlassian Integration Agent

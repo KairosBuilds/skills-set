@@ -2,7 +2,7 @@
 name: semantic-version-manager
 version: 1.0.0
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 type: release
 description: Computes semantic version bumps, generates version strings, and manages git tags based on conventional commit history.
@@ -11,6 +11,9 @@ triggers:
   - git tag required
   - changelog generation
   - release branch created
+confidence_level: stable
+owner: ecosystem/release
+compatibility: ["opencode"]
 ---
 
 # Semantic Version Manager Agent

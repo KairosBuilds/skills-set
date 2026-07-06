@@ -2,7 +2,7 @@
 name: slack-integration-agent
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: integration
 description: Manages Slack messaging, notifications, and internal communications through Slack API integration.
@@ -11,6 +11,9 @@ triggers:
   - channel message
   - status update
   - team broadcast
+confidence_level: stable
+owner: ecosystem/integrations
+compatibility: ["opencode"]
 ---
 
 # Slack Integration Agent

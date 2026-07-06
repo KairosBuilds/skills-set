@@ -11,4 +11,4 @@
 | backend/nestjs-expert | TypeScript NestJS |
 | backend/python-pro | Python backend |
 | backend/golang-pro | Go backend |
-| database/sql-pro | SQL optimization |
+| backend/sql-pro | SQL optimization |

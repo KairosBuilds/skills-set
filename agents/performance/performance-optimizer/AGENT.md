@@ -2,8 +2,12 @@
 name: performance-optimizer
 description: Holistic performance optimization across all system layers — CPU, memory, rendering, bundle, network, cache, and database
 priority: critical
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # Performance Optimizer

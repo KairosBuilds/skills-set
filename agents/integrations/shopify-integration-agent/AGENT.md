@@ -2,7 +2,7 @@
 name: shopify-integration-agent
 version: 1.0.0
 priority: medium
-cost: medium
+execution_cost: medium
 status: stable
 type: integration
 description: Develops and manages Shopify stores, themes, custom apps, and headless commerce solutions using Hydrogen and Storefront API.
@@ -12,6 +12,9 @@ triggers:
   - storefront customization
   - Liquid template work
   - Shopify API integration
+confidence_level: stable
+owner: ecosystem/integrations
+compatibility: ["opencode"]
 ---
 
 # Shopify Integration Agent

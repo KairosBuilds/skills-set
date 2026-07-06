@@ -8,6 +8,9 @@ status: production
 compatible_with: all
 version: 2.0.0
 last_updated: 2026-07-06
+confidence_level: production
+owner: ecosystem/orchestration
+compatibility: ["opencode"]
 ---
 
 # Orchestrator Agent

@@ -2,7 +2,7 @@
 name: release-manager
 version: 1.0.0
 priority: critical
-cost: high
+execution_cost: high
 status: production
 type: release
 description: Orchestrates end-to-end release pipelines, coordinates deployment workflows, and ensures delivery quality gates are met before promotion.
@@ -11,6 +11,9 @@ triggers:
   - deployment pipeline started
   - version bump required
   - rollback initiated
+confidence_level: production
+owner: ecosystem/release
+compatibility: ["opencode"]
 ---
 
 # Release Manager Agent

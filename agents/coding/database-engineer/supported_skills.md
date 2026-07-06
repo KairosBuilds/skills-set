@@ -3,7 +3,7 @@
 ## Required Skills
 | Skill | Purpose |
 |-------|---------|
-| database/sql-pro | SQL writing and optimization |
+| backend/sql-pro | SQL writing and optimization |
 | database/postgres-pro | PostgreSQL features |
 | database/database-optimizer | Performance optimization |
 
@@ -11,4 +11,4 @@
 | Skill | Purpose |
 |-------|---------|
 | backend/python-pro | Python ORM patterns |
-| backend/nestjs-expert | TypeORM/Prisma |
+| backend/nestjs-expert | backend/nestjs-expert |

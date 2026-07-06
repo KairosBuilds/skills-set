@@ -2,7 +2,7 @@
 name: excel-agent
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Creates, edits, and analyzes Excel spreadsheets with formulas, formatting, pivot tables, charts, and data transformation.
@@ -12,6 +12,9 @@ triggers:
   - Excel report generation
   - CSV to Excel conversion
   - formula calculation
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Excel Agent

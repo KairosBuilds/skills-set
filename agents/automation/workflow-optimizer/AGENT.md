@@ -2,7 +2,7 @@
 name: workflow-optimizer
 version: 1.0.0
 priority: high
-cost: medium
+execution_cost: medium
 status: production
 type: automation
 description: Analyzes and optimizes development workflows, identifies bottlenecks, and suggests efficiency improvements.
@@ -11,6 +11,9 @@ triggers:
   - performance bottleneck detected
   - process improvement request
   - pipeline optimization
+confidence_level: production
+owner: ecosystem/automation
+compatibility: ["opencode"]
 ---
 
 # Workflow Optimizer Agent

@@ -2,7 +2,7 @@
 name: token-optimizer
 version: 1.0.0
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 type: automation
 description: Monitors token usage, optimizes prompt efficiency, and manages token budgets to reduce costs and improve response quality.
@@ -11,6 +11,9 @@ triggers:
   - cost optimization needed
   - prompt efficiency review
   - token usage analysis
+confidence_level: stable
+owner: ecosystem/automation
+compatibility: ["opencode"]
 ---
 
 # Token Optimizer Agent

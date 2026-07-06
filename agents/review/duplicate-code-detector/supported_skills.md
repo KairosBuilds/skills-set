@@ -1,2 +1,2 @@
-﻿# Supported Skills
-- jscpd/SonarQube (external)
+# Supported Skills
+- code-quality/code-reviewer (external)

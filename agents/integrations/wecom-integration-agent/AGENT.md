@@ -2,7 +2,7 @@
 name: wecom-integration-agent
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: integration
 description: Manages WeCom (Enterprise WeChat) notifications, bot messages, and team communications through WeCom Webhook API.
@@ -11,6 +11,9 @@ triggers:
   - enterprise WeChat message
   - status update via WeCom
   - bot message sending
+confidence_level: stable
+owner: ecosystem/integrations
+compatibility: ["opencode"]
 ---
 
 # WeCom Integration Agent

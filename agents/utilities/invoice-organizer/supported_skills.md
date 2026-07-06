@@ -5,7 +5,7 @@
 | productivity/invoice-organizer | Invoice organization workflow |
 
 ## Activate When
-- Invoice/receipt organization needed
+- documentation/xlsx organization needed
 - Expense categorization
 - Tax document preparation
 - File renaming and sorting

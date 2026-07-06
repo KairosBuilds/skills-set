@@ -2,7 +2,7 @@
 name: telemetry-reviewer
 version: 1.0.0
 priority: medium
-cost: low
+execution_cost: low
 status: stable
 type: monitoring
 description: Reviews telemetry data collection, validates instrumentation completeness, and ensures OpenTelemetry compliance across services.
@@ -11,6 +11,9 @@ triggers:
   - span coverage analysis
   - trace sampling audit
   - distributed tracing setup
+confidence_level: stable
+owner: ecosystem/monitoring
+compatibility: ["opencode"]
 ---
 
 # Telemetry Reviewer Agent

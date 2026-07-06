@@ -3,10 +3,13 @@ name: kubernetes-engineer
 version: 1.0.0
 description: Manages Kubernetes clusters and workloads
 priority: critical
-cost: high
+execution_cost: high
 status: production
 agent_type: deployment
 tags: [kubernetes, k8s, helm, containers]
+confidence_level: production
+owner: ecosystem/deployment
+compatibility: ["opencode"]
 ---
 
 # kubernetes-engineer

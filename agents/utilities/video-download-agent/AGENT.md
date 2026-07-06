@@ -2,7 +2,7 @@
 name: video-download-agent
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Downloads videos from YouTube and other platforms, extracts audio, and converts between formats for offline use.
@@ -12,6 +12,9 @@ triggers:
   - format conversion
   - playlist download
   - YouTube video save
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Video Download Agent

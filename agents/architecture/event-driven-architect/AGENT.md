@@ -7,6 +7,9 @@ execution_cost: high
 status: production
 version: 1.1.0
 last_updated: 2026-07-06
+confidence_level: production
+owner: ecosystem/architecture
+compatibility: ["opencode"]
 ---
 
 # Event-Driven Architect Agent

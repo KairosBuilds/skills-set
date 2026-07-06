@@ -9,6 +9,6 @@
 ## Optional Skills
 | Skill | Purpose |
 |-------|---------|
-| backend/csharp-developer | WPF/WinForms development |
+| backend/csharp-developer | backend/csharp-developer development |
 | backend/python-pro | Python desktop tooling |
 | frontend/typescript-pro | TypeScript in desktop apps |

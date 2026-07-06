@@ -3,10 +3,13 @@ name: devops-engineer
 version: 1.0.0
 description: Manages DevOps processes and automation
 priority: critical
-cost: high
+execution_cost: high
 status: production
 agent_type: devops
 tags: [devops, automation, docker, kubernetes, terraform]
+confidence_level: production
+owner: ecosystem/devops
+compatibility: ["opencode"]
 ---
 
 # devops-engineer

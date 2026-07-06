@@ -13,6 +13,6 @@
 | Skill | Purpose |
 |-------|---------|
 | frontend/fullstack-guardian | Security-focused full-stack |
-| ui-ux/ui-designer | UI/UX design |
+| ui-ux/ui-designer | ui-ux/ui-designer design |
 | testing/playwright-expert | Playwright E2E tests |
 | testing/testing-e2e | E2E test patterns |

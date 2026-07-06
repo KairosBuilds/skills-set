@@ -2,8 +2,12 @@
 name: build-optimizer
 description: Reduces build times and optimizes compilation pipelines using Webpack, Vite, esbuild, and Turbopack
 priority: high
-cost: medium
+execution_cost: medium
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/optimization
+compatibility: ["opencode"]
 ---
 
 # Build Optimizer

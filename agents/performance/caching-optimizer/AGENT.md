@@ -2,8 +2,12 @@
 name: caching-optimizer
 description: Implements and tunes caching strategies using Redis, CDN, and HTTP caching to reduce latency and backend load
 priority: high
-cost: medium
+execution_cost: medium
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # Caching Optimizer

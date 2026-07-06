@@ -2,7 +2,7 @@
 name: slide-deck-creator
 version: 1.0.0
 priority: low
-cost: low
+execution_cost: low
 status: stable
 type: utility
 description: Creates professional slide decks and presentations with narrative structure, visual design, and export to PPTX format.
@@ -11,6 +11,9 @@ triggers:
   - slide deck design
   - PPTX generation
   - presentation outline
+confidence_level: stable
+owner: ecosystem/utilities
+compatibility: ["opencode"]
 ---
 
 # Slide Deck Creator

@@ -2,8 +2,12 @@
 name: database-optimizer
 description: Optimizes database queries, schema design, indexing, and configuration for PostgreSQL, MySQL, and MongoDB
 priority: high
-cost: high
+execution_cost: high
 status: production
+version: 1.0.0
+confidence_level: production
+owner: ecosystem/performance
+compatibility: ["opencode"]
 ---
 
 # Database Optimizer

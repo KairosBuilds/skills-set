@@ -1,2 +1,2 @@
-﻿# Supported Skills
-- ESLint complexity/SonarQube (external)
+# Supported Skills
+- ESLint code-quality/code-reviewer (external)

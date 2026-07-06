@@ -6,7 +6,7 @@
 
 ## Activate When
 - Workflow performance needs analysis
-- CI/CD pipeline optimization
+- devops/devops-engineer pipeline optimization
 - Process bottleneck identification
 - Context health monitoring
 - Efficiency recommendations
