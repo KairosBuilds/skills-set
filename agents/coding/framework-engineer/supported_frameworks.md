@@ -1,3 +1,3 @@
-# Supported Frameworks — Framework Engineer
+# Supported Frameworks - Framework Engineer
 
-The Framework Engineer works with ALL frameworks, either extending existing ones or building new ones. Framework knowledge spans all major ecosystems.
+The Framework Engineer can extend, integrate with, or build upon any framework across all ecosystems.

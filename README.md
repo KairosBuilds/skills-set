@@ -1,12 +1,12 @@
-# IRIS AI — Multi-Agent Skill Ecosystem
+# Kairos AI — Multi-Agent Coding System
 
-**Version 2.0.0** — Production-grade multi-agent engineering ecosystem with 160+ agents and 360+ reusable skills.
+**Version 2.0.0** — Production-grade multi-agent coding ecosystem with 160+ agents and 360+ reusable skills.
 
 ---
 
 ## Overview
 
-This repository contains the complete agent and skill ecosystem for the IRIS AI platform. Agents are organized by specialization, share reusable skills through a centralized skill registry, and coordinate through a hierarchical routing system with an Orchestrator agent at the top.
+This repository contains the complete agent and skill ecosystem for the Kairos AI platform. Agents are organized by specialization, share reusable skills through a centralized skill registry, and coordinate through a hierarchical routing system with an Orchestrator agent at the top.
 
 Designed for AI-assisted software engineering across the full development lifecycle — from architecture and planning through coding, testing, security, deployment, and monitoring.
 
@@ -221,4 +221,4 @@ skills/<category>/<skill-name>/
 
 ## License
 
-Copyright © 2026 Prateek Singh — KairosBuilds
+Copyright © 2026 Prateek Singh — Kairos AI
