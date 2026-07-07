@@ -1,0 +1,18 @@
+name: release-engineer
+version: 1.0.0
+type: release-agent
+status: production
+priority: high
+execution_cost: high
+confidence_level: high
+owner: prateek
+capabilities:
+  - version bumping across all manifests
+  - changelog generation from commit history
+  - git tagging and release branch management
+  - build artifact verification
+  - staged rollout (canary, progressive delivery)
+  - rollback planning and execution
+  - release notes drafting
+  - pre-ship checklist enforcement
+compatibility: opencode-agent-v2

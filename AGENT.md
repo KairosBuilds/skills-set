@@ -1,5 +1,5 @@
 ---
-name: "Kairos AI Multi-Agent Coding System"
+name: "Kairos Multi-Agent Coding System"
 version: "2.0.0"
 status: "production"
 priority: "critical"
@@ -7,7 +7,7 @@ owner: "ecosystem/architecture"
 last_updated: "2026-07-06"
 ---
 
-# Kairos AI — Multi-Agent Coding System
+# Kairos — Multi-Agent Coding System
 
 ## Architecture Overview
 The `.opencode/` directory implements a production-grade multi-agent ecosystem.

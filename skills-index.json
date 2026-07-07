@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2026-07-06",
+  "total_skills": 376,
+  "total_agents": 186,
+  "categories": 20,
+  "skills": {
+    "planning": [
+      {"name": "design-thinker", "description": "Turns rough ideas into approved, decision-complete plans with validated structure before coding.", "triggers": ["plan", "design", "approach", "architecture", "feasibility", "evaluate", "triage"]}
+    ],
+    "code-quality": [
+      {"name": "code-simplification", "description": "Reduces code complexity without changing behavior through systematic simplification patterns.", "triggers": ["simplify", "refactor", "reduce complexity", "technical debt", "readability"]},
+      {"name": "definition-of-done", "description": "Standing quality checklist every change must clear before counting as done.", "triggers": ["definition of done", "done checklist", "quality gate", "is it ready"]},
+      {"name": "systematic-debugger", "description": "Finds root cause before applying fixes using hypothesis-driven diagnosis and verification.", "triggers": ["debug", "root cause", "error", "crash", "regression", "broken", "bug"]}
+    ],
+    "devops": [
+      {"name": "shipping-and-launch", "description": "Production release workflow with versioning, changelog, tagging, building, publishing, and rollback.", "triggers": ["release", "ship", "deploy", "publish", "launch", "version bump"]}
+    ],
+    "workflow": [
+      {"name": "incremental-implementation", "description": "Implements features in small, safe, mergeable increments with green build at every step.", "triggers": ["implement", "build feature", "add functionality", "develop", "coding"]}
+    ],
+    "utilities": [
+      {"name": "research-workflow", "description": "Six-phase research workflow from unfamiliar domains to publish-ready output.", "triggers": ["research", "study", "deep dive", "unfamiliar domain", "synthesize"]},
+      {"name": "prompt-engineering", "description": "Library of prompt engineering patterns, techniques, and best practices for LLMs.", "triggers": ["prompt engineering", "prompt", "system prompt", "instruction", "context"]}
+    ],
+    "opencode": [
+      {"name": "agent-health-audit", "description": "Audits agent configuration, instruction surfaces, tools/runtime, verifiers, and AI maintainability.", "triggers": ["audit config", "health check", "agent health", "maintainability", "code rot"]},
+      {"name": "context-management", "description": "Strategies for managing LLM context windows effectively: budgeting, token optimization, memory systems.", "triggers": ["context", "context window", "token limit", "memory", "session persistence"]},
+      {"name": "progressive-disclosure", "description": "Skill design pattern with lean cores and routing tables to detailed references for token reduction.", "triggers": ["progressive disclosure", "lean skills", "token optimization", "skill design"]}
+    ],
+    "ui-ux": [
+      {"name": "design-direction", "description": "Produces distinctive, production-grade UI with an aesthetic point of view rather than generic defaults.", "triggers": ["design", "UI", "component", "page", "frontend", "style", "looks wrong", "aesthetic"]}
+    ]
+  },
+  "agents": {
+    "planning": [
+      {"name": "design-thinker", "skills": ["planning/design-thinker"], "triggers": ["plan this", "design", "approach", "architecture", "feasibility", "evaluate"]}
+    ],
+    "debugging": [
+      {"name": "systematic-debugger", "skills": ["code-quality/systematic-debugger"], "triggers": ["debug", "root cause", "error", "crash", "regression", "bug", "investigate"]}
+    ],
+    "review": [
+      {"name": "code-simplifier", "skills": ["code-quality/code-simplification"], "triggers": ["simplify", "refactor", "reduce complexity", "technical debt", "readability"]}
+    ],
+    "release": [
+      {"name": "release-engineer", "skills": ["devops/shipping-and-launch"], "triggers": ["release", "ship", "deploy", "publish", "version bump", "changelog"]}
+    ]
+  },
+  "routing": {
+    "design-thinking": {"skill": "planning/design-thinker", "agent": "planning/design-thinker", "fallback": ["architecture/architecture-designer", "planning/feature-planner"]},
+    "debugging": {"skill": "code-quality/systematic-debugger", "agent": "debugging/systematic-debugger", "fallback": ["debugging/bug-finder", "debugging/crash-analyzer"]},
+    "simplification": {"skill": "code-quality/code-simplification", "agent": "review/code-simplifier", "fallback": ["review/complexity-analyzer", "review/dead-code-remover"]},
+    "release": {"skill": "devops/shipping-and-launch", "agent": "release/release-engineer", "fallback": ["deployment/ci-cd-automator", "devops/devops-engineer"]}
+  }
+}

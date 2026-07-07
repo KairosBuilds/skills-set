@@ -1,4 +1,4 @@
-# Kairos AI — Skill Graph
+# Kairos — Skill Graph
 
 Visual relationship map of all skill categories and their connections.
 
@@ -7,7 +7,7 @@ Visual relationship map of all skill categories and their connections.
 ## Overview
 
 ```
-Kairos AI Skills (364 total across 19 categories)
+Kairos Skills (364 total across 19 categories)
 │
 ├── security (87)       ├── testing (18)       ├── automation (17)
 ├── workflow (52)       ├── ai-ml (17)         ├── integrations (12)

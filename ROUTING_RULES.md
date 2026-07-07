@@ -1,4 +1,4 @@
-# Kairos AI — Routing Rules
+# Kairos — Routing Rules
 
 ## Routing Decision Tree
 

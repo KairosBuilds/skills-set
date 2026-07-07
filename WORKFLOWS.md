@@ -1,4 +1,4 @@
-# Kairos AI — Standard Workflows
+# Kairos — Standard Workflows
 
 ## 1. Full Feature Development
 ```

@@ -1,0 +1,13 @@
+{
+  "name": "systematic-debugger",
+  "version": "1.0.0",
+  "model": "default",
+  "temperature": 0.2,
+  "max_tokens": 4096,
+  "skills": ["code-quality/systematic-debugger"],
+  "routing": {
+    "primary": "code-quality/systematic-debugger",
+    "fallback": ["debugging/bug-finder", "debugging/crash-analyzer"]
+  },
+  "triggers": ["debug", "root cause", "error", "crash", "regression", "broken", "not working", "bug", "investigate", "failing test"]
+}

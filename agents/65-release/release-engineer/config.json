@@ -1,0 +1,13 @@
+{
+  "name": "release-engineer",
+  "version": "1.0.0",
+  "model": "default",
+  "temperature": 0.2,
+  "max_tokens": 4096,
+  "skills": ["devops/shipping-and-launch"],
+  "routing": {
+    "primary": "devops/shipping-and-launch",
+    "fallback": ["deployment/ci-cd-automator", "devops/devops-engineer"]
+  },
+  "triggers": ["release", "ship", "deploy", "publish", "launch", "version bump", "tag", "changelog", "go live"]
+}

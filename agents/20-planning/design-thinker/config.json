@@ -1,0 +1,13 @@
+{
+  "name": "design-thinker",
+  "version": "1.0.0",
+  "model": "default",
+  "temperature": 0.3,
+  "max_tokens": 4096,
+  "skills": ["planning/design-thinker"],
+  "routing": {
+    "primary": "planning/design-thinker",
+    "fallback": ["architecture/architecture-designer", "planning/feature-planner"]
+  },
+  "triggers": ["plan this", "design", "approach", "architecture", "how should i", "feasibility", "worth doing", "evaluate", "triage"]
+}

@@ -1,491 +1,621 @@
-# Kairos AI — Skills Index
+# Kairos — Skills Index
 
-**Total Skills:** 364  
-**Categories:** 19  
-**Last Updated:** 2026-07-06  
+**Version 2.0.0** — Reorganized by capability domain with hierarchical subcategories.
 
----
-## AI-ML
-
-| Skill | Location |
-|-------|----------|
-| benchmark-due-diligence | name: benchmark-due-diligence | \skills//benchmark-due-diligence/\ |
-| content-research-writer | name: content-research-writer | \skills//content-research-writer/\ |
-| deep-research | name: deep-research | \skills//deep-research/\ |
-| fact-checker | name: fact-checker | \skills//fact-checker/\ |
-| fine-tuning-expert | name: fine-tuning-expert | \skills//fine-tuning-expert/\ |
-| image-enhancer | name: image-enhancer | \skills//image-enhancer/\ |
-| llm-eval-harness | name: llm-eval-harness | \skills//llm-eval-harness/\ |
-| llm-icon-finder | name: llm-icon-finder | \skills//llm-icon-finder/\ |
-| llm-wiki-setup | name: llm-wiki-setup | \skills//llm-wiki-setup/\ |
-| meeting-insights-analyzer | name: meeting-insights-analyzer | \skills//meeting-insights-analyzer/\ |
-| ml-pipeline | name: ml-pipeline | \skills//ml-pipeline/\ |
-| product-analysis | name: product-analysis | \skills//product-analysis/\ |
-| prompt-engineer | name: prompt-engineer | \skills//prompt-engineer/\ |
-| promptfoo-evaluation | name: promptfoo-evaluation | \skills//promptfoo-evaluation/\ |
-| prompt-optimizer | name: prompt-optimizer | \skills//prompt-optimizer/\ |
-| rag-architect | name: rag-architect | \skills//rag-architect/\ |
-| scrapling-skill | name: scrapling-skill | \skills//scrapling-skill/\ |
-
-## ARCHITECTURE
-
-| Skill | Location |
-|-------|----------|
-| api-designer | name: api-designer | \skills//api-designer/\ |
-| architecture-designer | name: architecture-designer | \skills//architecture-designer/\ |
-| cloud-architect | name: cloud-architect | \skills//cloud-architect/\ |
-| codebase-mapper | name: codebase-mapper | \skills//codebase-mapper/\ |
-| feature-forge | name: feature-forge | \skills//feature-forge/\ |
-| graphql-architect | name: graphql-architect | \skills//graphql-architect/\ |
-| legacy-modernizer | name: legacy-modernizer | \skills//legacy-modernizer/\ |
-| mcp-builder | name: mcp-builder | \skills//mcp-builder/\ |
-| mcp-developer | name: mcp-developer | \skills//mcp-developer/\ |
-| microservices-architect | name: microservices-architect | \skills//microservices-architect/\ |
-
-## AUTOMATION
-
-| Skill | Location |
-|-------|----------|
-| autofix | name: autofix | \skills//autofix/\ |
-| auto-repo-setup | name: auto-repo-setup | \skills//auto-repo-setup/\ |
-| break-edit-loop | name: break-edit-loop | \skills//break-edit-loop/\ |
-| context-compressor | name: context-compressor | \skills//context-compressor/\ |
-| context-fetch | name: context-fetch | \skills//context-fetch/\ |
-| context-health-monitor | name: context-health-monitor | \skills//context-health-monitor/\ |
-| emergency-confusion-reset | name: emergency-confusion-reset | \skills//emergency-confusion-reset/\ |
-| empirical-validation | name: empirical-validation | \skills//empirical-validation/\ |
-| executor | name: executor | \skills//executor/\ |
-| plan-checker | name: plan-checker | \skills//plan-checker/\ |
-| planner | name: planner | \skills//planner/\ |
-| repomix-unmixer | name: repomix-unmixer | \skills//repomix-unmixer/\ |
-| slack-gif-creator | name: slack-gif-creator | \skills//slack-gif-creator/\ |
-| task-atomicity-guard | name: task-atomicity-guard | \skills//task-atomicity-guard/\ |
-| token-budget | name: token-budget | \skills//token-budget/\ |
-| verifier | name: verifier | \skills//verifier/\ |
-| verify-resource-existence | name: verify-resource-existence | \skills//verify-resource-existence/\ |
-
-## BACKEND
-
-| Skill | Location |
-|-------|----------|
-| cpp-pro | name: cpp-pro | \skills//cpp-pro/\ |
-| csharp-developer | name: csharp-developer | \skills//csharp-developer/\ |
-| django-expert | name: django-expert | \skills//django-expert/\ |
-| dotnet-core-expert | name: dotnet-core-expert | \skills//dotnet-core-expert/\ |
-| embedded-systems | name: embedded-systems | \skills//embedded-systems/\ |
-| fastapi-expert | name: fastapi-expert | \skills//fastapi-expert/\ |
-| golang-pro | name: golang-pro | \skills//golang-pro/\ |
-| java-architect | name: java-architect | \skills//java-architect/\ |
-| kotlin-specialist | name: kotlin-specialist | \skills//kotlin-specialist/\ |
-| laravel-specialist | name: laravel-specialist | \skills//laravel-specialist/\ |
-| nestjs-expert | name: nestjs-expert | \skills//nestjs-expert/\ |
-| pandas-pro | name: pandas-pro | \skills//pandas-pro/\ |
-| php-pro | name: php-pro | \skills//php-pro/\ |
-| python-pro | name: python-pro | \skills//python-pro/\ |
-| rails-expert | name: rails-expert | \skills//rails-expert/\ |
-| rust-engineer | name: rust-engineer | \skills//rust-engineer/\ |
-| spark-engineer | name: spark-engineer | \skills//spark-engineer/\ |
-| spring-boot-engineer | name: spring-boot-engineer | \skills//spring-boot-engineer/\ |
-| sql-pro | name: sql-pro | \skills//sql-pro/\ |
-| swift-expert | name: swift-expert | \skills//swift-expert/\ |
-| websocket-engineer | name: websocket-engineer | \skills//websocket-engineer/\ |
-
-## CODE-QUALITY
-
-| Skill | Location |
-|-------|----------|
-| code-review | name: code-review | \skills//code-review/\ |
-| code-reviewer | name: code-reviewer | \skills//code-reviewer/\ |
-| debugger | name: debugger | \skills//debugger/\ |
-| debugging-network-issues | name: debugging-network-issues | \skills//debugging-network-issues/\ |
-| debugging-wizard | name: debugging-wizard | \skills//debugging-wizard/\ |
-| named-persona-adversarial-review | name: "named-persona-adversarial-review" | \skills//named-persona-adversarial-review/\ |
-| spec-miner | name: spec-miner | \skills//spec-miner/\ |
-| staff-engineer-review | name: staff-engineer-review | \skills//staff-engineer-review/\ |
-| the-fool | name: the-fool | \skills//the-fool/\ |
-
-## DATABASE
-
-| Skill | Location |
-|-------|----------|
-| database-optimizer | name: database-optimizer | \skills//database-optimizer/\ |
-| postgres-pro | name: postgres-pro | \skills//postgres-pro/\ |
-
-## DEVOPS
-
-| Skill | Location |
-|-------|----------|
-| chaos-engineer | name: chaos-engineer | \skills//chaos-engineer/\ |
-| create-pm2-clj-config | name: create-pm2-clj-config | \skills//create-pm2-clj-config/\ |
-| create-pm2-ecosystem | name: create-pm2-ecosystem | \skills//create-pm2-ecosystem/\ |
-| devops-engineer | name: devops-engineer | \skills//devops-engineer/\ |
-| docker-compose-control | name: docker-compose-control | \skills//docker-compose-control/\ |
-| giga-workflow | name: giga-workflow | \skills//giga-workflow/\ |
-| kubernetes-specialist | name: kubernetes-specialist | \skills//kubernetes-specialist/\ |
-| marketplace-health-check | name: marketplace-health-check | \skills//marketplace-health-check/\ |
-| monitoring-expert | name: monitoring-expert | \skills//monitoring-expert/\ |
-| nx-integration | name: nx-integration | \skills//nx-integration/\ |
-| pm2-process-management | name: pm2-process-management | \skills//pm2-process-management/\ |
-| pm2-server-control | name: pm2-server-control | \skills//pm2-server-control/\ |
-| release-watcher | name: release-watcher | \skills//release-watcher/\ |
-| render-pm2-clj-config | name: render-pm2-clj-config | \skills//render-pm2-clj-config/\ |
-| sre-engineer | name: sre-engineer | \skills//sre-engineer/\ |
-| submodule-ops | name: submodule-ops | \skills//submodule-ops/\ |
-| terraform-engineer | name: terraform-engineer | \skills//terraform-engineer/\ |
-| terraform-skill | name: terraform-skill | \skills//terraform-skill/\ |
-| tunnel-doctor | name: tunnel-doctor | \skills//tunnel-doctor/\ |
-| windows-remote-desktop-connection-doctor | name: windows-remote-desktop-connection-doctor | \skills//windows-remote-desktop-connection-doctor/\ |
-| workspace-build | name: workspace-build | \skills//workspace-build/\ |
-| workspace-code-standards | name: workspace-code-standards | \skills//workspace-code-standards/\ |
-| workspace-commands | name: workspace-commands | \skills//workspace-commands/\ |
-| workspace-dependency-check | name: workspace-dependency-check | \skills//workspace-dependency-check/\ |
-| workspace-lint | name: workspace-lint | \skills//workspace-lint/\ |
-| workspace-navigation | name: workspace-navigation | \skills//workspace-navigation/\ |
-| workspace-typecheck | name: workspace-typecheck | \skills//workspace-typecheck/\ |
-
-## DOCUMENTATION
-
-| Skill | Location |
-|-------|----------|
-| brand-guidelines | name: brand-guidelines | \skills//brand-guidelines/\ |
-| changelog-generator | name: changelog-generator | \skills//changelog-generator/\ |
-| code-documenter | name: code-documenter | \skills//code-documenter/\ |
-| docx | name: docx | \skills//docx/\ |
-| excel-automation | name: excel-automation | \skills//excel-automation/\ |
-| pdf | name: pdf | \skills//pdf/\ |
-| pptx | name: pptx | \skills//pptx/\ |
-| slides-creator | name: slides-creator | \skills//slides-creator/\ |
-| theme-factory | name: theme-factory | \skills//theme-factory/\ |
-| video-comparer | name: video-comparer | \skills//video-comparer/\ |
-| xlsx | name: xlsx | \skills//xlsx/\ |
-
-## FRONTEND
-
-| Skill | Location |
-|-------|----------|
-| angular-architect | name: angular-architect | \skills//angular-architect/\ |
-| fullstack-guardian | name: fullstack-guardian | \skills//fullstack-guardian/\ |
-| game-developer | name: game-developer | \skills//game-developer/\ |
-| javascript-pro | name: javascript-pro | \skills//javascript-pro/\ |
-| nextjs-developer | name: nextjs-developer | \skills//nextjs-developer/\ |
-| react-expert | name: react-expert | \skills//react-expert/\ |
-| typescript-pro | name: typescript-pro | \skills//typescript-pro/\ |
-| vue-expert | name: vue-expert | \skills//vue-expert/\ |
-| vue-expert-js | name: vue-expert-js | \skills//vue-expert-js/\ |
-
-## INTEGRATIONS
-
-| Skill | Location |
-|-------|----------|
-| atlassian-mcp | name: atlassian-mcp | \skills//atlassian-mcp/\ |
-| github-contributor | name: github-contributor | \skills//github-contributor/\ |
-| github-integration | name: github-integration | \skills//github-integration/\ |
-| github-ops | name: github-ops | \skills//github-ops/\ |
-| git-safety-check | name: git-safety-check | \skills//git-safety-check/\ |
-| internal-comms | name: internal-comms | \skills//internal-comms/\ |
-| notify-wecom | name: notify-wecom | \skills//notify-wecom/\ |
-| salesforce-developer | name: salesforce-developer | \skills//salesforce-developer/\ |
-| setup-notifications-via-wecom | name: setup-notifications-via-wecom | \skills//setup-notifications-via-wecom/\ |
-| shopify-expert | name: shopify-expert | \skills//shopify-expert/\ |
-| teams-channel-post-writer | name: teams-channel-post-writer | \skills//teams-channel-post-writer/\ |
-| wordpress-pro | name: wordpress-pro | \skills//wordpress-pro/\ |
-
-## LANGUAGES
-
-| Skill | Location |
-|-------|----------|
-| clojure-namespace-architect | name: clojure-namespace-architect | \skills//clojure-namespace-architect/\ |
-| clojure-quality | name: clojure-quality | \skills//clojure-quality/\ |
-| clojure-syntax-rescue | name: clojure-syntax-rescue | \skills//clojure-syntax-rescue/\ |
-| shadow-cljs-debug | name: shadow-cljs-debug | \skills//shadow-cljs-debug/\ |
-
-## MOBILE
-
-| Skill | Location |
-|-------|----------|
-| appium-python-expert | name: appium-python-expert | \skills//appium-python-expert/\ |
-| flutter-expert | name: flutter-expert | \skills//flutter-expert/\ |
-| iOS-APP-developer | name: developing-ios-apps | \skills//iOS-APP-developer/\ |
-| react-native-expert | name: react-native-expert | \skills//react-native-expert/\ |
-
-## OPENCODE
-
-| Skill | Location |
-|-------|----------|
-| crafting-rules | name: crafting-rules | \skills//crafting-rules/\ |
-| opencode-agent-authoring | name: opencode-agent-authoring | \skills//opencode-agent-authoring/\ |
-| opencode-agent-file-generator | name: opencode-agent-file-generator | \skills//opencode-agent-file-generator/\ |
-| opencode-agents-skills | name: opencode-agents-skills | \skills//opencode-agents-skills/\ |
-| opencode-apply-reconstituted-diffs | name: opencode-apply-reconstituted-diffs | \skills//opencode-apply-reconstituted-diffs/\ |
-| opencode-command-authoring | name: opencode-command-authoring | \skills//opencode-command-authoring/\ |
-| opencode-configs | name: opencode-configs | \skills//opencode-configs/\ |
-| opencode-extract-diffs | name: opencode-extract-diffs | \skills//opencode-extract-diffs/\ |
-| opencode-models-providers | name: opencode-models-providers | \skills//opencode-models-providers/\ |
-| opencode-model-variant-management | name: opencode-model-variant-management | \skills//opencode-model-variant-management/\ |
-| opencode-plugin-authoring | name: opencode-plugin-authoring | \skills//opencode-plugin-authoring/\ |
-| opencode-plugins | name: opencode-plugins | \skills//opencode-plugins/\ |
-| opencode-reconstituter | name: opencode-reconstituter | \skills//opencode-reconstituter/\ |
-| opencode-recover-project | name: opencode-recover-project | \skills//opencode-recover-project/\ |
-| opencode-review-past-sessions | name: opencode-review-past-sessions | \skills//opencode-review-past-sessions/\ |
-| opencode-sdk | name: opencode-sdk | \skills//opencode-sdk/\ |
-| opencode-semantic-find-session | name: opencode-semantic-find-session | \skills//opencode-semantic-find-session/\ |
-| opencode-session-search | name: opencode-session-search | \skills//opencode-session-search/\ |
-| opencode-skill-creation | name: opencode-skill-creation | \skills//opencode-skill-creation/\ |
-| opencode-tool-authoring | name: opencode-tool-authoring | \skills//opencode-tool-authoring/\ |
-| opencode-tools-mcp | name: opencode-tools-mcp | \skills//opencode-tools-mcp/\ |
-| skill-authoring | name: skill-authoring | \skills//skill-authoring/\ |
-| skill-creator | name: skill-creator | \skills//skill-creator/\ |
-| skill-optimizing | name: skill-optimizing | \skills//skill-optimizing/\ |
-| skill-share | name: skill-share | \skills//skill-share/\ |
-
-## PRODUCTIVITY
-
-| Skill | Location |
-|-------|----------|
-| arquiteto-de-empresa | name: "arquiteto-de-empresa" | \skills//arquiteto-de-empresa/\ |
-| cli-demo-generator | name: cli-demo-generator | \skills//cli-demo-generator/\ |
-| competitive-ads-extractor | name: competitive-ads-extractor | \skills//competitive-ads-extractor/\ |
-| competitors-analysis | name: competitors-analysis | \skills//competitors-analysis/\ |
-| developer-growth-analysis | name: developer-growth-analysis | \skills//developer-growth-analysis/\ |
-| domain-name-brainstormer | name: domain-name-brainstormer | \skills//domain-name-brainstormer/\ |
-| file-organizer | name: file-organizer | \skills//file-organizer/\ |
-| find-skills | name: find-skills | \skills//find-skills/\ |
-| i18n-expert | name: i18n-expert | \skills//i18n-expert/\ |
-| invoice-organizer | name: invoice-organizer | \skills//invoice-organizer/\ |
-| local-seo-manager | name: "local-seo-manager" | \skills//local-seo-manager/\ |
-| macos-cleaner | name: macos-cleaner | \skills//macos-cleaner/\ |
-| raffle-winner-picker | name: raffle-winner-picker | \skills//raffle-winner-picker/\ |
-
-## SECURITY
-
-| Skill | Location |
-|-------|----------|
-| apk-redteam-pipeline | name: apk-redteam-pipeline | \skills//apk-redteam-pipeline/\ |
-| bb-local-toolkit | name: bb-local-toolkit | \skills//bb-local-toolkit/\ |
-| bb-methodology | name: bb-methodology | \skills//bb-methodology/\ |
-| bug-bounty | name: bug-bounty | \skills//bug-bounty/\ |
-| bugcrowd-reporting | name: bugcrowd-reporting | \skills//bugcrowd-reporting/\ |
-| cloudflare-troubleshooting | name: cloudflare-troubleshooting | \skills//cloudflare-troubleshooting/\ |
-| cloud-iam-deep | name: cloud-iam-deep | \skills//cloud-iam-deep/\ |
-| code-security-auditor | name: code-security-auditor | \skills//code-security-auditor/\ |
-| compliance-os | name: "compliance-os" | \skills//compliance-os/\ |
-| devsecops-free-auth | name: devsecops-free-auth | \skills//devsecops-free-auth/\ |
-| devsecops-free-cicd | name: devsecops-free-cicd | \skills//devsecops-free-cicd/\ |
-| devsecops-free-cloud | name: devsecops-free-cloud | \skills//devsecops-free-cloud/\ |
-| devsecops-free-discovery | name: devsecops-free-discovery | \skills//devsecops-free-discovery/\ |
-| devsecops-free-dns | name: devsecops-free-dns | \skills//devsecops-free-dns/\ |
-| devsecops-free-monitoring | name: devsecops-free-monitoring | \skills//devsecops-free-monitoring/\ |
-| devsecops-free-security | name: devsecops-free-security | \skills//devsecops-free-security/\ |
-| devsecops-free-storage | name: devsecops-free-storage | \skills//devsecops-free-storage/\ |
-| enterprise-vpn-attack | name: enterprise-vpn-attack | \skills//enterprise-vpn-attack/\ |
-| evidence-hygiene | name: evidence-hygiene | \skills//evidence-hygiene/\ |
-| github-sensitive-data-cleanup | name: github-sensitive-data-cleanup | \skills//github-sensitive-data-cleanup/\ |
-| hunt-api-misconfig | name: hunt-api-misconfig | \skills//hunt-api-misconfig/\ |
-| hunt-aspnet | name: hunt-aspnet | \skills//hunt-aspnet/\ |
-| hunt-ato | name: hunt-ato | \skills//hunt-ato/\ |
-| hunt-auth-bypass | name: hunt-auth-bypass | \skills//hunt-auth-bypass/\ |
-| hunt-brute-force | name: hunt-brute-force | \skills//hunt-brute-force/\ |
-| hunt-business-logic | name: hunt-business-logic | \skills//hunt-business-logic/\ |
-| hunt-cache-poison | name: hunt-cache-poison | \skills//hunt-cache-poison/\ |
-| hunt-cicd | name: hunt-cicd | \skills//hunt-cicd/\ |
-| hunt-cloud-misconfig | name: hunt-cloud-misconfig | \skills//hunt-cloud-misconfig/\ |
-| hunt-cors | name: hunt-cors | \skills//hunt-cors/\ |
-| hunt-csrf | name: hunt-csrf | \skills//hunt-csrf/\ |
-| hunt-deserialization | name: hunt-deserialization | \skills//hunt-deserialization/\ |
-| hunt-dispatch | name: hunt-dispatch | \skills//hunt-dispatch/\ |
-| hunt-dom | name: hunt-dom | \skills//hunt-dom/\ |
-| hunt-file-upload | name: hunt-file-upload | \skills//hunt-file-upload/\ |
-| hunt-graphql | name: hunt-graphql | \skills//hunt-graphql/\ |
-| hunt-grpc | name: hunt-grpc | \skills//hunt-grpc/\ |
-| hunt-host-header | name: hunt-host-header | \skills//hunt-host-header/\ |
-| hunt-http-smuggling | name: hunt-http-smuggling | \skills//hunt-http-smuggling/\ |
-| hunt-idor | name: hunt-idor | \skills//hunt-idor/\ |
-| hunt-k8s | name: hunt-k8s | \skills//hunt-k8s/\ |
-| hunt-laravel | name: hunt-laravel | \skills//hunt-laravel/\ |
-| hunt-ldap | name: hunt-ldap | \skills//hunt-ldap/\ |
-| hunt-lfi | name: hunt-lfi | \skills//hunt-lfi/\ |
-| hunt-llm-ai | name: hunt-llm-ai | \skills//hunt-llm-ai/\ |
-| hunt-mfa-bypass | name: hunt-mfa-bypass | \skills//hunt-mfa-bypass/\ |
-| hunt-misc | name: hunt-misc | \skills//hunt-misc/\ |
-| hunt-nextjs | name: hunt-nextjs | \skills//hunt-nextjs/\ |
-| hunt-nodejs | name: hunt-nodejs | \skills//hunt-nodejs/\ |
-| hunt-nosqli | name: hunt-nosqli | \skills//hunt-nosqli/\ |
-| hunt-ntlm-info | name: hunt-ntlm-info | \skills//hunt-ntlm-info/\ |
-| hunt-oauth | name: hunt-oauth | \skills//hunt-oauth/\ |
-| hunt-open-redirect | name: hunt-open-redirect | \skills//hunt-open-redirect/\ |
-| hunt-race-condition | name: hunt-race-condition | \skills//hunt-race-condition/\ |
-| hunt-rce | name: hunt-rce | \skills//hunt-rce/\ |
-| hunt-saml | name: hunt-saml | \skills//hunt-saml/\ |
-| hunt-session | name: hunt-session | \skills//hunt-session/\ |
-| hunt-sharepoint | name: hunt-sharepoint | \skills//hunt-sharepoint/\ |
-| hunt-source-leak | name: hunt-source-leak | \skills//hunt-source-leak/\ |
-| hunt-springboot | name: hunt-springboot | \skills//hunt-springboot/\ |
-| hunt-sqli | name: hunt-sqli | \skills//hunt-sqli/\ |
-| hunt-ssrf | name: hunt-ssrf | \skills//hunt-ssrf/\ |
-| hunt-ssti | name: hunt-ssti | \skills//hunt-ssti/\ |
-| hunt-subdomain | name: hunt-subdomain | \skills//hunt-subdomain/\ |
-| hunt-tls-network | name: hunt-tls-network | \skills//hunt-tls-network/\ |
-| hunt-websocket | name: hunt-websocket | \skills//hunt-websocket/\ |
-| hunt-xss | name: hunt-xss | \skills//hunt-xss/\ |
-| hunt-xxe | name: hunt-xxe | \skills//hunt-xxe/\ |
-| lead-research-assistant | name: lead-research-assistant | \skills//lead-research-assistant/\ |
-| m365-entra-attack | name: m365-entra-attack | \skills//m365-entra-attack/\ |
-| meme-coin-audit | name: meme-coin-audit | \skills//meme-coin-audit/\ |
-| mid-engagement-ir-detection | name: mid-engagement-ir-detection | \skills//mid-engagement-ir-detection/\ |
-| offensive-osint | name: offensive-osint | \skills//offensive-osint/\ |
-| okta-attack | name: okta-attack | \skills//okta-attack/\ |
-| osint-methodology | name: osint-methodology | \skills//osint-methodology/\ |
-| redteam-mindset | name: redteam-mindset | \skills//redteam-mindset/\ |
-| redteam-report-template | name: redteam-report-template | \skills//redteam-report-template/\ |
-| repomix-safe-mixer | name: repomix-safe-mixer | \skills//repomix-safe-mixer/\ |
-| report-writing | name: report-writing | \skills//report-writing/\ |
-| secure-code-guardian | name: secure-code-guardian | \skills//secure-code-guardian/\ |
-| security-arsenal | name: security-arsenal | \skills//security-arsenal/\ |
-| security-reviewer | name: security-reviewer | \skills//security-reviewer/\ |
-| supply-chain-attack-recon | name: supply-chain-attack-recon | \skills//supply-chain-attack-recon/\ |
-| triage-validation | name: triage-validation | \skills//triage-validation/\ |
-| vmware-vcenter-attack | name: vmware-vcenter-attack | \skills//vmware-vcenter-attack/\ |
-| web2-recon | name: web2-recon | \skills//web2-recon/\ |
-| web3-audit | name: web3-audit | \skills//web3-audit/\ |
-
-## TESTING
-
-| Skill | Location |
-|-------|----------|
-| lint-gate | name: lint-gate | \skills//lint-gate/\ |
-| playwright-automation-expert | name: playwright-automation-expert | \skills//playwright-automation-expert/\ |
-| playwright-cucumber-expert | name: playwright-cucumber-expert | \skills//playwright-cucumber-expert/\ |
-| playwright-expert | name: playwright-expert | \skills//playwright-expert/\ |
-| qa-expert | name: qa-expert | \skills//qa-expert/\ |
-| selenium-cucumber-expert | name: selenium-cucumber-expert | \skills//selenium-cucumber-expert/\ |
-| testing-bun | name: testing-bun | \skills//testing-bun/\ |
-| testing-clojure-cljs | name: testing-clojure-cljs | \skills//testing-clojure-cljs/\ |
-| testing-e2e | name: testing-e2e | \skills//testing-e2e/\ |
-| testing-general | name: testing-general | \skills//testing-general/\ |
-| testing-integration | name: testing-integration | \skills//testing-integration/\ |
-| testing-nx | name: testing-nx | \skills//testing-nx/\ |
-| testing-typescript-ava | name: testing-typescript-ava | \skills//testing-typescript-ava/\ |
-| testing-typescript-vitest | name: testing-typescript-vitest | \skills//testing-typescript-vitest/\ |
-| testing-unit | name: testing-unit | \skills//testing-unit/\ |
-| test-master | name: test-master | \skills//test-master/\ |
-| test-preservation | name: test-preservation | \skills//test-preservation/\ |
-| webapp-testing | name: webapp-testing | \skills//webapp-testing/\ |
-
-## UI-UX
-
-| Skill | Location |
-|-------|----------|
-| artifacts-builder | name: artifacts-builder | \skills//artifacts-builder/\ |
-| canvas-design | name: canvas-design | \skills//canvas-design/\ |
-| design-style-picker | name: design-style-picker | \skills//design-style-picker/\ |
-| frontend-visual-qa | name: frontend-visual-qa | \skills//frontend-visual-qa/\ |
-| ui-designer | name: ui-designer | \skills//ui-designer/\ |
-
-## UTILITIES
-
-| Skill | Location |
-|-------|----------|
-| agent-decision-receipts | name: "agent-decision-receipts" | \skills//agent-decision-receipts/\ |
-| apology-action-protocol | name: apology-action-protocol | \skills//apology-action-protocol/\ |
-| bilibili-source | name: bilibili-source | \skills//bilibili-source/\ |
-| capture-screen | name: capture-screen | \skills//capture-screen/\ |
-| cli-developer | name: cli-developer | \skills//cli-developer/\ |
-| codex-image-gallery | name: codex-image-gallery | \skills//codex-image-gallery/\ |
-| douban-skill | name: douban-skill | \skills//douban-skill/\ |
-| download-gemini-images | name: download-gemini-images | \skills//download-gemini-images/\ |
-| feishu-doc-scraper | name: feishu-doc-scraper | \skills//feishu-doc-scraper/\ |
-| gemini-history-analyzer | name: gemini-history-analyzer | \skills//gemini-history-analyzer/\ |
-| ima-copilot | name: ima-copilot | \skills//ima-copilot/\ |
-| local-codex | name: local-codex | \skills//local-codex/\ |
-| lsp-server-integration | name: lsp-server-integration | \skills//lsp-server-integration/\ |
-| mcp-server-integration | name: mcp-server-integration | \skills//mcp-server-integration/\ |
-| openclaw | name: openclaw | \skills//openclaw/\ |
-| openclaw-model-switch | name: openclaw-model-switch | \skills//openclaw-model-switch/\ |
-| twitter-reader | name: twitter-reader | \skills//twitter-reader/\ |
-| video-downloader | name: video-downloader | \skills//video-downloader/\ |
-| webring-site | name: webring-site | \skills//webring-site/\ |
-| wps-doc-scraper | name: wps-doc-scraper | \skills//wps-doc-scraper/\ |
-| youtube-downloader | name: youtube-downloader | \skills//youtube-downloader/\ |
-
-## WORKFLOW
-
-| Skill | Location |
-|-------|----------|
-| agile-process | name: agile-proces | \skills//agile-process/\ |
-| kanban-state-backlog | Kanban State: Backlog | \skills//kanban-state-backlog/\ |
-| kanban-state-document | Kanban State: Document | \skills//kanban-state-document/\ |
-| kanban-state-done | Kanban State: Done | \skills//kanban-state-done/\ |
-| kanban-state-icebox | Kanban State: Icebox | \skills//kanban-state-icebox/\ |
-| kanban-state-in-progress | Kanban State: In Progress | \skills//kanban-state-in-progress/\ |
-| kanban-state-review | Kanban State: Review | \skills//kanban-state-review/\ |
-| kanban-state-todo | Kanban State: Todo | \skills//kanban-state-todo/\ |
-| spec-authoring | Spec Authoring Skill | \skills//spec-authoring/\ |
-| update-task-status | Skill: update-task-status | \skills//update-task-status/\ |
-| validate-accepted-to-breakdown | Skill: validate-accepted-to-breakdown | \skills//validate-accepted-to-breakdown/\ |
-| validate-accepted-to-icebox | Skill: validate-accepted-to-icebox | \skills//validate-accepted-to-icebox/\ |
-| validate-blocked-to-breakdown | Skill: validate-blocked-to-breakdown | \skills//validate-blocked-to-breakdown/\ |
-| validate-breakdown-to-blocked | Skill: validate-breakdown-to-blocked | \skills//validate-breakdown-to-blocked/\ |
-| validate-breakdown-to-icebox | Skill: validate-breakdown-to-icebox | \skills//validate-breakdown-to-icebox/\ |
-| validate-breakdown-to-ready | Skill: validate-breakdown-to-ready | \skills//validate-breakdown-to-ready/\ |
-| validate-breakdown-to-rejected | Skill: validate-breakdown-to-rejected | \skills//validate-breakdown-to-rejected/\ |
-| validate-document-to-done | Skill: validate-document-to-done | \skills//validate-document-to-done/\ |
-| validate-document-to-in_review | Skill: validate-document-to-in_review | \skills//validate-document-to-in_review/\ |
-| validate-icebox-to-incoming | Skill: validate-icebox-to-incoming | \skills//validate-icebox-to-incoming/\ |
-| validate-in_progress-to-breakdown | Skill: validate-in_progress-to-breakdown | \skills//validate-in_progress-to-breakdown/\ |
-| validate-in_progress-to-in_review | Skill: validate-in_progress-to-in_review | \skills//validate-in_progress-to-in_review/\ |
-| validate-in_progress-to-todo | Skill: validate-in_progress-to-todo | \skills//validate-in_progress-to-todo/\ |
-| validate-in_review-to-breakdown | Skill: validate-in_review-to-breakdown | \skills//validate-in_review-to-breakdown/\ |
-| validate-in_review-to-in_progress | Skill: validate-in_review-to-in_progress | \skills//validate-in_review-to-in_progress/\ |
-| validate-in_review-to-testing | Skill: validate-in_review-to-testing | \skills//validate-in_review-to-testing/\ |
-| validate-in_review-to-todo | Skill: validate-in_review-to-todo | \skills//validate-in_review-to-todo/\ |
-| validate-incoming-to-accepted | Skill: validate-incoming-to-accepted | \skills//validate-incoming-to-accepted/\ |
-| validate-incoming-to-icebox | Skill: validate-incoming-to-icebox | \skills//validate-incoming-to-icebox/\ |
-| validate-incoming-to-rejected | Skill: validate-incoming-to-rejected | \skills//validate-incoming-to-rejected/\ |
-| validate-ready-to-breakdown | Skill: validate-ready-to-breakdown | \skills//validate-ready-to-breakdown/\ |
-| validate-ready-to-todo | Skill: validate-ready-to-todo | \skills//validate-ready-to-todo/\ |
-| validate-rejected-to-icebox | Skill: validate-rejected-to-icebox | \skills//validate-rejected-to-icebox/\ |
-| validate-task-status | Skill: validate-task-status | \skills//validate-task-status/\ |
-| validate-testing-to-document | Skill: validate-testing-to-document | \skills//validate-testing-to-document/\ |
-| validate-testing-to-in_progress | Skill: validate-testing-to-in_progress | \skills//validate-testing-to-in_progress/\ |
-| validate-testing-to-in_review | Skill: validate-testing-to-in_review | \skills//validate-testing-to-in_review/\ |
-| validate-todo-to-breakdown | Skill: validate-todo-to-breakdown | \skills//validate-todo-to-breakdown/\ |
-| validate-todo-to-in_progress | Skill: validate-todo-to-in_progress | \skills//validate-todo-to-in_progress/\ |
-| work-on-accepted-task | Skill: work-on-accepted-task | \skills//work-on-accepted-task/\ |
-| work-on-blocked-task | Skill: work-on-blocked-task | \skills//work-on-blocked-task/\ |
-| work-on-breakdown-task | Skill: work-on-breakdown-task | \skills//work-on-breakdown-task/\ |
-| work-on-document-task | Skill: work-on-document-task | \skills//work-on-document-task/\ |
-| work-on-done-task | Skill: work-on-done-task | \skills//work-on-done-task/\ |
-| work-on-icebox-task | Skill: work-on-icebox-task | \skills//work-on-icebox-task/\ |
-| work-on-in_progress-task | Skill: work-on-in_progress-task | \skills//work-on-in_progress-task/\ |
-| work-on-in_review-task | Skill: work-on-in_review-task | \skills//work-on-in_review-task/\ |
-| work-on-incoming-task | Skill: work-on-incoming-task | \skills//work-on-incoming-task/\ |
-| work-on-ready-task | Skill: work-on-ready-task | \skills//work-on-ready-task/\ |
-| work-on-rejected-task | Skill: work-on-rejected-task | \skills//work-on-rejected-task/\ |
-| work-on-testing-task | Skill: work-on-testing-task | \skills//work-on-testing-task/\ |
-| work-on-todo-task | Skill: work-on-todo-task | \skills//work-on-todo-task/\ |
+**Total Skills:** 311
+**Domains:** 20
+**Last Updated:** 2026-07-06
 
 ---
+### Intelligence (17 skills)
 
-## Summary
+  **benchmark-due-diligence/** ( skills)
+    - benchmark-due-diligence — >
+  **content-research-writer/** ( skills)
+    - content-research-writer — Assists in writing high-quality content by conducting research, adding citations
+  **deep-research/** ( skills)
+    - deep-research — |
+  **fact-checker/** ( skills)
+    - fact-checker — Verifies factual claims in documents using web search and official sources, then
+  **fine-tuning-expert/** ( skills)
+    - fine-tuning-expert — Use when fine-tuning LLMs, training custom models, or adapting foundation models
+  **image-enhancer/** ( skills)
+    - image-enhancer — Improves the quality of images, especially screenshots, by enhancing resolution,
+  **llm-eval-harness/** ( skills)
+    - llm-eval-harness — >-
+  **llm-icon-finder/** ( skills)
+    - llm-icon-finder — Finding and accessing AI/LLM model brand icons from lobe-icons library. Use when
+  **llm-wiki-setup/** ( skills)
+    - llm-wiki-setup — Co-create a personal investment-research LLM Wiki (Andrej Karpathy's pattern) wh
+  **meeting-insights-analyzer/** ( skills)
+    - meeting-insights-analyzer — Analyzes meeting transcripts and recordings to uncover behavioral patterns, comm
+  **ml-pipeline/** ( skills)
+    - ml-pipeline — Designs and implements production-grade ML pipeline infrastructure: configures e
+  **product-analysis/** ( skills)
+    - product-analysis — Multi-path parallel product analysis with cross-model test-time compute scaling.
+  **prompt-engineer/** ( skills)
+    - prompt-engineer — Writes, refactors, and evaluates prompts for LLMs â€” generating optimized promp
+  **promptfoo-evaluation/** ( skills)
+    - promptfoo-evaluation — Configures and runs LLM evaluation using Promptfoo framework. Use when setting u
+  **prompt-optimizer/** ( skills)
+    - prompt-optimizer — Transform vague prompts into precise, well-structured specifications using EARS 
+  **rag-architect/** ( skills)
+    - rag-architect — Designs and implements production-grade RAG systems by chunking documents, gener
+  **scrapling-skill/** ( skills)
+    - scrapling-skill — Install, troubleshoot, and use Scrapling CLI to extract HTML, Markdown, or text 
 
-| Category | Count |
-|----------|-------|
-| ai-ml | 17 |
-| architecture | 10 |
-| automation | 17 |
-| backend | 21 |
-| code-quality | 9 |
-| database | 2 |
-| devops | 27 |
-| documentation | 11 |
-| frontend | 9 |
-| integrations | 12 |
-| languages | 4 |
-| mobile | 4 |
-| opencode | 25 |
-| productivity | 13 |
-| security | 87 |
-| testing | 18 |
-| ui-ux | 5 |
-| utilities | 21 |
-| workflow | 52 |
+### Planning ( skills)
+
+  **design-thinker/** ( skills)
+    - design-thinker — Turns rough ideas into approved, decision-complete plans with validated structur
+
+### Architecture (10 skills)
+
+  **api-designer/** ( skills)
+    - api-designer — Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or pla
+  **architecture-designer/** ( skills)
+    - architecture-designer — Use when designing new high-level system architecture, reviewing existing design
+  **cloud-architect/** ( skills)
+    - cloud-architect — Designs cloud architectures, creates migration plans, generates cost optimizatio
+  **codebase-mapper/** ( skills)
+    - codebase-mapper — Analyzes existing codebases to understand structure, patterns, and technical deb
+  **feature-forge/** ( skills)
+    - feature-forge — Conducts structured requirements workshops to produce feature specifications, us
+  **graphql-architect/** ( skills)
+    - graphql-architect — Use when designing GraphQL schemas, implementing Apollo Federation, or building 
+  **legacy-modernizer/** ( skills)
+    - legacy-modernizer — Designs incremental migration strategies, identifies service boundaries, produce
+  **mcp-builder/** ( skills)
+    - mcp-builder — Guide for creating high-quality MCP (Model Context Protocol) servers that enable
+  **mcp-developer/** ( skills)
+    - mcp-developer — Use when building, debugging, or extending MCP servers or clients that connect A
+  **microservices-architect/** ( skills)
+    - microservices-architect — Designs distributed system architectures, decomposes monoliths into bounded-cont
+
+### Backend (21 skills)
+
+  **cpp-pro/** ( skills)
+    - cpp-pro — Writes, optimizes, and debugs C++ applications using modern C++20/23 features, t
+  **csharp-developer/** ( skills)
+    - csharp-developer — Use when building C# applications with .NET 8+, ASP.NET Core APIs, or Blazor web
+  **django-expert/** ( skills)
+    - django-expert — Use when building Django web applications or REST APIs with Django REST Framewor
+  **dotnet-core-expert/** ( skills)
+    - dotnet-core-expert — Use when building .NET 8 applications with minimal APIs, clean architecture, or 
+  **embedded-systems/** ( skills)
+    - embedded-systems — Use when developing firmware for microcontrollers, implementing RTOS application
+  **fastapi-expert/** ( skills)
+    - fastapi-expert — Use when building high-performance async Python APIs with FastAPI and Pydantic V
+  **golang-pro/** ( skills)
+    - golang-pro — Implements concurrent Go patterns using goroutines and channels, designs and bui
+  **java-architect/** ( skills)
+    - java-architect — Use when building, configuring, or debugging enterprise Java applications with S
+  **kotlin-specialist/** ( skills)
+    - kotlin-specialist — Provides idiomatic Kotlin implementation patterns including coroutine concurrenc
+  **laravel-specialist/** ( skills)
+    - laravel-specialist — Build and configure Laravel 10+ applications, including creating Eloquent models
+  **nestjs-expert/** ( skills)
+    - nestjs-expert — Creates and configures NestJS modules, controllers, services, DTOs, guards, and 
+  **pandas-pro/** ( skills)
+    - pandas-pro — Performs pandas DataFrame operations for data analysis, manipulation, and transf
+  **php-pro/** ( skills)
+    - php-pro — Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Sy
+  **python-pro/** ( skills)
+    - python-pro — Use when building Python 3.11+ applications requiring type safety, async program
+  **rails-expert/** ( skills)
+    - rails-expert — Rails 7+ specialist that optimizes Active Record queries with includes/eager_loa
+  **rust-engineer/** ( skills)
+    - rust-engineer — Writes, reviews, and debugs idiomatic Rust code with memory safety and zero-cost
+  **spark-engineer/** ( skills)
+    - spark-engineer — Use when writing Spark jobs, debugging performance issues, or configuring cluste
+  **spring-boot-engineer/** ( skills)
+    - spring-boot-engineer — Generates Spring Boot 3.x configurations, creates REST controllers, implements S
+  **sql-pro/** ( skills)
+    - sql-pro — Optimizes SQL queries, designs database schemas, and troubleshoots performance i
+  **swift-expert/** ( skills)
+    - swift-expert — Builds iOS/macOS/watchOS/tvOS applications, implements SwiftUI views and state m
+  **websocket-engineer/** ( skills)
+    - websocket-engineer — Use when building real-time communication systems with WebSockets or Socket.IO. 
+
+### Frontend (9 skills)
+
+  **angular-architect/** ( skills)
+    - angular-architect — Generates Angular 17+ standalone components, configures advanced routing with la
+  **fullstack-guardian/** ( skills)
+    - fullstack-guardian — Builds security-focused full-stack web applications by implementing integrated f
+  **game-developer/** ( skills)
+    - game-developer — Use when building game systems, implementing Unity/Unreal Engine features, or op
+  **javascript-pro/** ( skills)
+    - javascript-pro — Writes, debugs, and refactors JavaScript code using modern ES2023+ features, asy
+  **nextjs-developer/** ( skills)
+    - nextjs-developer — Use when building Next.js 14+ applications with App Router, server components, o
+  **react-expert/** ( skills)
+    - react-expert — Use when building React 18+ applications in .jsx or .tsx files, Next.js App Rout
+  **typescript-pro/** ( skills)
+    - typescript-pro — Implements advanced TypeScript type systems, creates custom type guards, utility
+  **vue-expert/** ( skills)
+    - vue-expert — Builds Vue 3 components with Composition API patterns, configures Nuxt 3 SSR/SSG
+  **vue-expert-js/** ( skills)
+    - vue-expert-js — Creates Vue 3 components, builds vanilla JS composables, configures Vite project
+
+### Mobile (4 skills)
+
+  **appium-python-expert/** ( skills)
+    - appium-python-expert — >
+  **flutter-expert/** ( skills)
+    - flutter-expert — Use when building cross-platform applications with Flutter 3+ and Dart. Invoke f
+  **iOS-APP-developer/** ( skills)
+    - developing-ios-apps — Develops iOS/macOS apps with XcodeGen, SwiftUI, and SPM, including Apple Develop
+  **react-native-expert/** ( skills)
+    - react-native-expert — Builds, optimizes, and debugs cross-platform mobile applications with React Nati
+
+### Integrations (12 skills)
+
+  **atlassian-mcp/** ( skills)
+    - atlassian-mcp — Integrates with Atlassian products to manage project tracking and documentation 
+  **github-contributor/** ( skills)
+    - github-contributor — End-to-end playbook for shipping high-quality pull requests to open-source proje
+  **github-integration/** ( skills)
+    - github-integration — Perform GitHub operations across all tracked repositories in orgs/**, including 
+  **github-ops/** ( skills)
+    - github-ops — Provides comprehensive GitHub operations using gh CLI and GitHub API. Activates 
+  **git-safety-check/** ( skills)
+    - git-safety-check — Protocol to ensure safe git operations and avoid detached HEAD or dirty commits.
+  **internal-comms/** ( skills)
+    - internal-comms — A set of resources to help users write all kinds of internal communications, usi
+  **notify-wecom/** ( skills)
+    - notify-wecom — >-
+  **salesforce-developer/** ( skills)
+    - salesforce-developer — Writes and debugs Apex code, builds Lightning Web Components, optimizes SOQL que
+  **setup-notifications-via-wecom/** ( skills)
+    - setup-notifications-via-wecom — >-
+  **shopify-expert/** ( skills)
+    - shopify-expert — Builds and debugs Shopify themes (.liquid files, theme.json, sections), develops
+  **teams-channel-post-writer/** ( skills)
+    - teams-channel-post-writer — Creates educational Teams channel posts for internal knowledge sharing about Cla
+  **wordpress-pro/** ( skills)
+    - wordpress-pro — Develops custom WordPress themes and plugins, creates and registers Gutenberg bl
+
+### Testing (18 skills)
+
+  **lint-gate/** ( skills)
+    - lint-gate — Protocol to enforce zero lint/type errors before marking work done.
+  **playwright-automation-expert/** ( skills)
+    - playwright-automation-expert — Use when writing E2E tests with Playwright, setting up test infrastructure, debu
+  **playwright-cucumber-expert/** ( skills)
+    - playwright-cucumber-expert — Use when writing E2E tests with Cucumber BDD and Playwright, setting up BDD test
+  **playwright-expert/** ( skills)
+    - playwright-expert — Use when writing E2E tests with Playwright, setting up test infrastructure, or d
+  **qa-expert/** ( skills)
+    - qa-expert — This skill should be used when establishing comprehensive QA testing processes f
+  **selenium-cucumber-expert/** ( skills)
+    - selenium-cucumber-expert — Use when writing E2E tests with Selenium WebDriver and Cucumber BDD in Java, set
+  **testing-bun/** ( skills)
+    - testing-bun — Set up and write tests using Bun's built-in test runner for maximum performance 
+  **testing-clojure-cljs/** ( skills)
+    - testing-clojure-cljs — Set up and write tests for Clojure and ClojureScript projects using cljs.test, c
+  **testing-e2e/** ( skills)
+    - testing-e2e — Write end-to-end tests that verify complete user workflows and critical system p
+  **testing-general/** ( skills)
+    - testing-general — Apply testing best practices, choose appropriate test types, and establish relia
+  **testing-integration/** ( skills)
+    - testing-integration — Write integration tests that verify multiple components work together correctly 
+  **testing-nx/** ( skills)
+    - testing-nx — Configure and run tests across multiple projects using Nx affected detection for
+  **testing-typescript-ava/** ( skills)
+    - testing-typescript-ava — Set up and write tests using Ava test runner for TypeScript with minimal configu
+  **testing-typescript-vitest/** ( skills)
+    - testing-typescript-vitest — Set up and write tests using Vitest for TypeScript projects with proper configur
+  **testing-unit/** ( skills)
+    - testing-unit — Write fast, focused unit tests for individual functions, classes, and modules wi
+  **test-master/** ( skills)
+    - test-master — Generates test files, creates mocking strategies, analyzes code coverage, design
+  **test-preservation/** ( skills)
+    - test-preservation — Protocol to forbid deleting or skipping tests to make builds pass.
+  **webapp-testing/** ( skills)
+    - webapp-testing — Toolkit for interacting with and testing local web applications using Playwright
+
+### Code Quality (12 skills)
+
+  **code-review/** ( skills)
+    - code-review — AI-powered code review using CodeRabbit. Default code-review skill. Trigger for 
+  **code-reviewer/** ( skills)
+    - code-reviewer — Analyzes code diffs and files to identify bugs, security vulnerabilities (SQL in
+  **code-simplification/** ( skills)
+    - code-simplification — Reduces code complexity without changing behavior. Covers eliminating duplicatio
+  **debugger/** ( skills)
+    - debugger — Systematic debugging with persistent state and fresh context advantages
+  **debugging-network-issues/** ( skills)
+    - debugging-network-issues — >-
+  **debugging-wizard/** ( skills)
+    - debugging-wizard — Parses error messages, traces execution flow through stack traces, correlates lo
+  **definition-of-done/** ( skills)
+    - definition-of-done — Standing quality checklist that every change must clear before it counts as done
+  **named-persona-adversarial-review/** ( skills)
+    - named-persona-adversarial-review — Code review through the lens of real engineers' documented philosophies (Torvald
+  **spec-miner/** ( skills)
+    - spec-miner — Reverse-engineering specialist that extracts specifications from existing codeba
+  **staff-engineer-review/** ( skills)
+    - staff-engineer-review — Performs deep code review of pull requests as a Staff+ level engineer. This skil
+  **systematic-debugger/** ( skills)
+    - systematic-debugger — Finds root cause before applying fixes for errors, crashes, regressions, failing
+  **the-fool/** ( skills)
+    - the-fool — Use when challenging ideas, plans, decisions, or proposals using structured crit
+
+### Database (2 skills)
+
+  **database-optimizer/** ( skills)
+    - database-optimizer — Optimizes database queries and improves performance across PostgreSQL and MySQL 
+  **postgres-pro/** ( skills)
+    - postgres-pro — Use when optimizing PostgreSQL queries, configuring replication, or implementing
+
+### Languages (4 skills)
+
+  **clojure-namespace-architect/** ( skills)
+    - clojure-namespace-architect — Resolves Clojure namespace-path mismatches and classpath errors with definitive 
+  **clojure-quality/** ( skills)
+    - clojure-quality — Auto-fix Clojure delimiters and validate syntax with OpenCode tools.
+  **clojure-syntax-rescue/** ( skills)
+    - clojure-syntax-rescue — Protocol to recover from Clojure/Script syntax errors, specifically bracket mism
+  **shadow-cljs-debug/** ( skills)
+    - shadow-cljs-debug — Protocol to debug and fix shadow-cljs compilation errors.
+
+### UI/UX (6 skills)
+
+  **artifacts-builder/** ( skills)
+    - artifacts-builder — Suite of tools for creating elaborate, multi-component OpenCode HTML artifacts u
+  **canvas-design/** ( skills)
+    - canvas-design — Create beautiful visual art in .png and .pdf documents using design philosophy. 
+  **design-direction/** ( skills)
+    - design-direction — Produces distinctive, production-grade UI with an aesthetic point of view rather
+  **design-style-picker/** ( skills)
+    - design-style-picker — Batch-generate and compare visual design directions so a user can choose the sty
+  **frontend-visual-qa/** ( skills)
+    - frontend-visual-qa — >-
+  **ui-designer/** ( skills)
+    - ui-designer — Extract design systems from reference UI images and generate implementation-read
+
+### Security (87 skills)
+
+  **ai-security/** ( skills)
+    - hunt-llm-ai — Hunt LLM/AI feature bugs â€” prompt injection, indirect injection, exfiltration 
+  **api-hunting/** (6 skills)
+    - hunt-api-misconfig — Hunt API security misconfiguration â€” mass assignment, JWT attacks, prototype p
+    - hunt-cache-poison — Hunting skill for cache poison vulnerabilities. Built from 10 public bug bounty 
+    - hunt-deserialization — Hunt Insecure Deserialization â€” Java gadget chains (ysoserial), PHP object inj
+    - hunt-graphql — Hunting skill for graphql vulnerabilities. Built from 12 public bug bounty repor
+    - hunt-grpc — Hunt gRPC vulnerabilities â€” server reflection enabled (enumerate all services/
+    - hunt-websocket — Hunt WebSocket vulnerabilities â€” Cross-Site WebSocket Hijacking (CSWSH), missi
+  **application-security/** (4 skills)
+    - code-security-auditor — Perform pre-execution security audits of untrusted codebases through static anal
+    - secure-code-guardian — Use when implementing authentication/authorization, securing user input, or prev
+    - security-arsenal — Security payloads, bypass tables, wordlists, gf pattern names, always-rejected b
+    - security-reviewer — Identifies security vulnerabilities, generates structured audit reports with sev
+  **cloud-hunting/** (15 skills)
+    - hunt-cicd — Hunt CI/CD pipeline vulnerabilities â€” GitHub Actions workflow injection (pull_
+    - hunt-cloud-misconfig — Hunt cloud / infrastructure misconfigurations. AWS: public S3 buckets (s3:GetObj
+    - hunt-dispatch — Skill-set loader for /hunt orchestrator. Fingerprints the target, picks the righ
+    - hunt-k8s — Hunt Kubernetes & Docker â€” API anonymous access, kubelet 10250 exec (SPDY/WebS
+    - hunt-laravel — Hunt Laravel specific vulnerabilities â€” Debug mode leakage (APP_DEBUG=true exp
+    - hunt-ldap — Hunt LDAP Injection and XPath Injection â€” authentication bypass, blind char-by
+    - hunt-nextjs — Hunt Next.js specific vulnerabilities â€” Server Actions arbitrary function exec
+    - hunt-nodejs — Hunt Node.js specific vulnerabilities â€” Prototype Pollution â†’ RCE chains (lo
+    - hunt-nosqli — Hunt NoSQL Injection â€” MongoDB operator injection ($where, $regex, $gt, $ne), 
+    - hunt-ntlm-info — Hunt NTLM/Negotiate information disclosure on internet-reachable IIS/SharePoint/
+    - hunt-saml — Hunt SAML / SSO attacks. Patterns: XML Signature Wrapping (XSW) â€” modify Asser
+    - hunt-sharepoint — Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition) on-prem f
+    - hunt-springboot — Hunt Spring Boot specific vulnerabilities â€” Actuator endpoints (heapdump, env,
+    - hunt-subdomain — Hunting skill for subdomain takeover vulnerabilities. Includes modern provider f
+    - hunt-tls-network — Hunt TLS/SSL and DNS misconfigurations â€” missing HSTS (downgrade attack), weak
+  **defense/** (11 skills)
+    - cloudflare-troubleshooting — Investigate and resolve Cloudflare configuration issues using API-driven evidenc
+    - cloud-iam-deep — Cloud IAM red-team attack chain across AWS, Azure, GCP â€” focused on EXTERNAL e
+    - compliance-os — Compliance OS â€” meta-orchestrator that lets compliance teams CONFIGURE which f
+    - devsecops-free-auth — Find free authentication, authorization, and identity services for DevSecOps app
+    - devsecops-free-cicd — Find free CI/CD pipelines, build systems, and artifact repositories for DevSecOp
+    - devsecops-free-cloud — Discover free IaaS/PaaS compute, storage, and networking from major cloud provid
+    - devsecops-free-discovery — Orchestrates discovery of free DevSecOps infrastructure from ripienaar/free-for-
+    - devsecops-free-dns — Find free DNS, CDN, SSL, and DDoS protection services for DevSecOps infrastructu
+    - devsecops-free-monitoring — Find free monitoring, logging, APM, and observability tools for DevSecOps
+    - devsecops-free-security — Find free security tools: vulnerability scanners, SAST/DAST, secrets management,
+    - devsecops-free-storage — Find free object storage, databases, and file hosting for DevSecOps infrastructu
+  **reconnaissance/** (4 skills)
+    - lead-research-assistant — Identifies high-quality leads for your product or service by analyzing your busi
+    - offensive-osint — Operational arsenal for authorized external red-team and bug-bounty recon. Concr
+    - osint-methodology — Comprehensive OSINT methodology for external red-team operations and authorized 
+    - web2-recon — Web2 recon pipeline â€” subdomain enumeration (subfinder, Chaos API, assetfinder
+  **red-team/** (18 skills)
+    - apk-redteam-pipeline — End-to-end Android APK red-team pipeline â€” automated APK acquisition (Play Sto
+    - bb-local-toolkit — Complete bug bounty workflow â€” recon (subdomain enumeration, asset discovery, 
+    - bb-methodology — Use at the START of any bug bounty hunting session, when switching targets, or w
+    - bug-bounty — Complete bug bounty workflow â€” recon (subdomain enumeration, asset discovery, 
+    - bugcrowd-reporting — Bugcrowd-specific reporting tactics complementing report-writing: VRT category s
+    - enterprise-vpn-attack — External SSL VPN / remote-access appliance attack matrix â€” Cisco ASA/AnyConnec
+    - evidence-hygiene — Evidence-capture and PoC-redaction discipline for bug-bounty submissions: cookie
+    - github-sensitive-data-cleanup — >-
+    - m365-entra-attack — Microsoft 365 / Entra ID red-team attack chain â€” current 2026 reality. AADSTS 
+    - mid-engagement-ir-detection — Methodology for detecting client SOC patches, attacker activity, and security-st
+    - okta-attack — Okta-as-IdP red-team attack chain â€” tenant discovery, user enumeration (multip
+    - redteam-mindset — Red-team operator discipline â€” the mindset corrections that separate offensive
+    - redteam-report-template — Client-facing red-team deliverable format â€” codifies the Subject / Observation
+    - repomix-safe-mixer — Safely package codebases with repomix by automatically detecting and removing ha
+    - report-writing — Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi â€” report template
+    - supply-chain-attack-recon — External recon for software supply-chain attack surface â€” package-namespace sq
+    - triage-validation — Finding validation before writing any report â€” 7-Question Gate (all 7 question
+    - vmware-vcenter-attack — VMware vSphere / vCenter Server external attack matrix â€” version fingerprintin
+  **web3-crypto/** (2 skills)
+    - meme-coin-audit — Meme coin and token security audit â€” rug pull detection (honeypot, hidden mint
+    - web3-audit — Smart contract security audit â€” 10 DeFi bug classes (accounting desync, access
+  **web-hunting/** (26 skills)
+    - hunt-aspnet — Hunt ASP.NET-specific surface â€” ViewState deserialization (signed-only vs encr
+    - hunt-ato — Hunt account takeover taxonomy â€” 9 distinct paths to ATO, plus chains. Paths: 
+    - hunt-auth-bypass — Hunting skill for auth bypass vulnerabilities. Built from 12 public bug bounty r
+    - hunt-brute-force — Hunt Missing/Weak Rate Limiting â€” login brute force, OTP/2FA brute force (10^6
+    - hunt-business-logic — Hunting skill for business logic vulnerabilities. Built from 12 public bug bount
+    - hunt-cors — Hunt CORS Misconfiguration â€” origin-reflection with credentials, null-origin t
+    - hunt-csrf — Hunting skill for csrf vulnerabilities. Built from 15 public bug bounty reports 
+    - hunt-dom — Hunt client-side DOM vulnerabilities â€” DOM Clobbering (overwrite JS globals vi
+    - hunt-file-upload — Hunt file upload bugs â€” RCE via webshell, XSS via SVG/HTML, SSRF via XXE in DO
+    - hunt-host-header — Hunt Host Header Injection â€” password reset poisoning â†’ ATO, web cache poiso
+    - hunt-http-smuggling — Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE). Cause: front-end proxy
+    - hunt-idor — Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports.
+    - hunt-lfi — Hunt Local File Inclusion (LFI), Remote File Inclusion (RFI), and Path Traversal
+    - hunt-mfa-bypass — Hunt MFA / 2FA bypass â€” 7 distinct patterns. (1) MFA not enforced on sensitive
+    - hunt-misc — Hunting skill for misc vulnerabilities. Built from 225 public bug bounty reports
+    - hunt-oauth — Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty reports
+    - hunt-open-redirect — Hunt Open Redirect â€” all types including low-impact, chained to OAuth token th
+    - hunt-race-condition — Hunting skill for race condition vulnerabilities. Built from 12 public bug bount
+    - hunt-rce — Hunting skill for rce vulnerabilities. Built from 67 public bug bounty reports. 
+    - hunt-session — Hunt Session Management vulnerabilities â€” session fixation (no regeneration on
+    - hunt-source-leak — Hunt source code and build artifact leakage â€” JavaScript source maps (.js.map)
+    - hunt-sqli — Hunting skill for sqli vulnerabilities. Built from 12 public bug bounty reports 
+    - hunt-ssrf — Hunting skill for ssrf vulnerabilities. Built from 15 public bug bounty reports 
+    - hunt-ssti — Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django), Twig (S
+    - hunt-xss — Hunting skill for xss vulnerabilities. Built from 174 public bug bounty reports.
+    - hunt-xxe — Hunting skill for xxe vulnerabilities. Built from 10 public bug bounty reports i
+
+### DevOps (28 skills)
+
+  **chaos-engineer/** ( skills)
+    - chaos-engineer — Designs chaos experiments, creates failure injection frameworks, and facilitates
+  **create-pm2-clj-config/** ( skills)
+    - create-pm2-clj-config — Create new pm2-clj ecosystem configuration files from scratch or templates for P
+  **create-pm2-ecosystem/** ( skills)
+    - create-pm2-ecosystem — Create new PM2 ecosystem configuration files for the clobber-based system with p
+  **devops-engineer/** ( skills)
+    - devops-engineer — Creates Dockerfiles, configures CI/CD pipelines, writes Kubernetes manifests, an
+  **docker-compose-control/** ( skills)
+    - docker-compose-control — Start, stop, restart, inspect, and follow logs for Docker Compose-managed local 
+  **giga-workflow/** ( skills)
+    - giga-workflow — Execute Giga system operations for workspace automation, including watching chan
+  **kubernetes-specialist/** ( skills)
+    - kubernetes-specialist — Use when deploying or managing Kubernetes workloads. Invoke to create deployment
+  **marketplace-health-check/** ( skills)
+    - marketplace-health-check — >-
+  **monitoring-expert/** ( skills)
+    - monitoring-expert — Configures monitoring systems, implements structured logging pipelines, creates 
+  **nx-integration/** ( skills)
+    - nx-integration — Use Nx to detect affected projects and run targets across multiple submodules in
+  **pm2-process-management/** ( skills)
+    - pm2-process-management — Start, stop, restart, and manage PM2 processes using the ecosystem-based configu
+  **pm2-server-control/** ( skills)
+    - pm2-server-control — Start and stop a server with pm2 using `pm2 start ./my-server --name <name> --no
+  **release-watcher/** ( skills)
+    - release-watcher — Monitor upstream releases for OpenAI codex and SST opencode repositories, detect
+  **render-pm2-clj-config/** ( skills)
+    - render-pm2-clj-config — Render pm2-clj ecosystem files to JSON for validation and debugging without star
+  **shipping-and-launch/** ( skills)
+    - shipping-and-launch — Production release workflow covering version bumping, changelog generation, tagg
+  **sre-engineer/** ( skills)
+    - sre-engineer — Defines service level objectives, creates error budget policies, designs inciden
+  **submodule-ops/** ( skills)
+    - submodule-ops — Make safe, consistent changes in a workspace with many git submodules under orgs
+  **terraform-engineer/** ( skills)
+    - terraform-engineer — Use when implementing infrastructure as code with Terraform across AWS, Azure, o
+  **terraform-skill/** ( skills)
+    - terraform-skill — >
+  **tunnel-doctor/** ( skills)
+    - tunnel-doctor — >
+  **windows-remote-desktop-connection-doctor/** ( skills)
+    - windows-remote-desktop-connection-doctor — Diagnose Windows App (Microsoft Remote Desktop / Azure Virtual Desktop / W365) c
+  **workspace-build/** ( skills)
+    - workspace-build — Build all affected submodules across the workspace, including running tests for 
+  **workspace-code-standards/** ( skills)
+    - workspace-code-standards — Apply workspace TypeScript and ESLint standards, including functional style and 
+  **workspace-commands/** ( skills)
+    - workspace-commands — Run common workspace-level commands for linting, typechecking, building, and uti
+  **workspace-dependency-check/** ( skills)
+    - workspace-dependency-check — Protocol to diagnose pnpm workspace module resolution failures.
+  **workspace-lint/** ( skills)
+    - workspace-lint — Lint all TypeScript and markdown files across the entire workspace, including al
+  **workspace-navigation/** ( skills)
+    - workspace-navigation — Locate the right repo, file, and pattern quickly in a multi-repo workspace with 
+  **workspace-typecheck/** ( skills)
+    - workspace-typecheck — Type check all TypeScript files across the entire workspace, including all submo
+
+### Documentation (11 skills)
+
+  **brand-guidelines/** ( skills)
+    - brand-guidelines — Applies OpenCode's official brand colors and typography to any sort of artifact 
+  **changelog-generator/** ( skills)
+    - changelog-generator — Automatically creates user-facing changelogs from git commits by analyzing commi
+  **code-documenter/** ( skills)
+    - code-documenter — Generates, formats, and validates technical documentation â€” including docstrin
+  **docx/** ( skills)
+    - docx — Comprehensive document creation, editing, and analysis with support for tracked 
+  **excel-automation/** ( skills)
+    - excel-automation — Create, parse, and control Excel files on macOS. Professional formatting with op
+  **pdf/** ( skills)
+    - pdf — Comprehensive PDF manipulation toolkit for extracting text and tables, creating 
+  **pptx/** ( skills)
+    - pptx — Presentation creation, editing, and analysis. When OpenCode needs to work with p
+  **slides-creator/** ( skills)
+    - slides-creator — Narrative-first slide deck creation. Guides users through structured narrative d
+  **theme-factory/** ( skills)
+    - theme-factory — Toolkit for styling artifacts with a theme. These artifacts can be slides, docs,
+  **video-comparer/** ( skills)
+    - video-comparer — This skill should be used when comparing two videos to analyze compression resul
+  **xlsx/** ( skills)
+    - xlsx — Comprehensive spreadsheet creation, editing, and analysis with support for formu
+
+### OpenCode Config (9 skills)
+
+  **context-management/** ( skills)
+    - context-management — Strategies and patterns for managing LLM context windows effectively. Covers con
+  **opencode-agent-skills/** ( skills)
+    - opencode-agent-skills — Consolidated skill combining: opencode-agent-authoring, opencode-agent-file-gene
+  **opencode-command-authoring/** ( skills)
+    - opencode-command-authoring — Create and manage OpenCode commands with valid frontmatter and predictable execu
+  **opencode-config/** ( skills)
+    - opencode-config — Consolidated skill combining: opencode-configs, opencode-model-variant-managemen
+  **opencode-diff-management/** ( skills)
+    - opencode-diff-management — Consolidated skill combining: opencode-apply-reconstituted-diffs, opencode-extra
+  **opencode-sdk/** ( skills)
+    - opencode-sdk — Implement or regenerate OpenCode SDKs safely after server or API changes
+  **opencode-session-management/** ( skills)
+    - opencode-session-management — Consolidated skill combining: opencode-review-past-sessions, opencode-semantic-f
+  **opencode-skill-management/** ( skills)
+    - opencode-skill-management — Consolidated skill combining: skill-authoring, skill-creator, skill-optimizing, 
+  **progressive-disclosure/** ( skills)
+    - progressive-disclosure — Design pattern for AI agent instructions and skills that starts with lean cores 
+
+### Automation (17 skills)
+
+  **autofix/** ( skills)
+    - autofix — Safely review and apply CodeRabbit PR review-thread feedback from GitHub with pe
+  **auto-repo-setup/** ( skills)
+    - auto-repo-setup — |
+  **break-edit-loop/** ( skills)
+    - break-edit-loop — Protocol to break out of repetitive, failing edit loops by forcing analysis over
+  **context-compressor/** ( skills)
+    - context-compressor — Strategies for compressing context to maximize token efficiency
+  **context-fetch/** ( skills)
+    - context-fetch — Search-first skill to reduce unnecessary file reads by searching before loading
+  **context-health-monitor/** ( skills)
+    - context-health-monitor — Monitors context complexity and triggers state dumps before quality degrades
+  **emergency-confusion-reset/** ( skills)
+    - emergency-confusion-reset — Protocol for agents to recover when confused, hallucinating tools, or stuck in u
+  **empirical-validation/** ( skills)
+    - empirical-validation — Requires proof before marking work complete â€” no "trust me, it works
+  **executor/** ( skills)
+    - executor — Executes GSD plans with atomic commits, deviation handling, checkpoint protocols
+  **plan-checker/** ( skills)
+    - plan-checker — Validates plans before execution to catch issues early
+  **planner/** ( skills)
+    - planner — Creates executable phase plans with task breakdown, dependency analysis, and goa
+  **repomix-unmixer/** ( skills)
+    - repomix-unmixer — Extracts files from repomix-packed repositories, restoring original directory st
+  **slack-gif-creator/** ( skills)
+    - slack-gif-creator — Toolkit for creating animated GIFs optimized for Slack, with validators for size
+  **task-atomicity-guard/** ( skills)
+    - task-atomicity-guard — Protocol to keep work atomic and prevent scope creep.
+  **token-budget/** ( skills)
+    - token-budget — Manages token budget estimation and tracking to prevent context overflow
+  **verifier/** ( skills)
+    - verifier — Validates implemented work against spec requirements with empirical evidence
+  **verify-resource-existence/** ( skills)
+    - verify-resource-existence — Protocol to verify a resource exists before creating a new one.
+
+### Workflow (7 skills)
+
+  **agile-process/** ( skills)
+    - agile-proces — This skill guides agents and developers through the Kanban workflow defined in `
+  **incremental-implementation/** ( skills)
+    - incremental-implementation — Implements features and changes in small, safe, mergeable increments. Covers sli
+  **kanban-state-machine/** ( skills)
+    - kanban-state-machine — Complete Kanban state machine for task lifecycle management - defines all states
+  **kanban-task-executor/** ( skills)
+    - kanban-task-executor — Guides execution of work for any Kanban task state - provides state-specific wor
+  **kanban-transition-validator/** ( skills)
+    - kanban-transition-validator — Validates all Kanban task state transitions - guards, preconditions, and invaria
+  **spec-authoring/** ( skills)
+    - unnamed — 
+  **update-task-status/** ( skills)
+    - unnamed — 
+
+### Productivity (13 skills)
+
+  **arquiteto-de-empresa/** ( skills)
+    - arquiteto-de-empresa — Arquiteto de Empresa: constrÃ³i um negÃ³cio do zero como bundle OKF (Open Knowle
+  **cli-demo-generator/** ( skills)
+    - cli-demo-generator — Generates professional animated CLI demos as GIFs using VHS terminal recordings.
+  **competitive-ads-extractor/** ( skills)
+    - competitive-ads-extractor — Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, et
+  **competitors-analysis/** ( skills)
+    - competitors-analysis — Analyze competitor repositories with evidence-based approach. Use when tracking 
+  **developer-growth-analysis/** ( skills)
+    - developer-growth-analysis — Analyzes your recent OpenCode chat history to identify coding patterns, developm
+  **domain-name-brainstormer/** ( skills)
+    - domain-name-brainstormer — Generates creative domain name ideas for your project and checks availability ac
+  **file-organizer/** ( skills)
+    - file-organizer — Intelligently organizes your files and folders across your computer by understan
+  **find-skills/** ( skills)
+    - find-skills — Helps users discover and install agent skills when they ask questions like 'how 
+  **i18n-expert/** ( skills)
+    - i18n-expert — This skill should be used when setting up, auditing, or enforcing internationali
+  **invoice-organizer/** ( skills)
+    - invoice-organizer — Automatically organizes invoices and receipts for tax preparation by reading mes
+  **local-seo-manager/** ( skills)
+    - local-seo-manager — Manage local SEO for service-area businesses â€” appliance repair, HVAC, plumbin
+  **macos-cleaner/** ( skills)
+    - macos-cleaner — Analyze and reclaim macOS disk space through intelligent cleanup recommendations
+  **raffle-winner-picker/** ( skills)
+    - raffle-winner-picker — Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, r
+
+### Utilities (23 skills)
+
+  **agent-decision-receipts/** ( skills)
+    - agent-decision-receipts — Mint a tamper-evident, post-quantum-signed receipt for a consequential agent act
+  **apology-action-protocol/** ( skills)
+    - apology-action-protocol — Protocol to stop apology loops and focus on verified fixes.
+  **bilibili-source/** ( skills)
+    - bilibili-source — Fetch comprehensive, login-free data for any Bilibili (Bç«™) video â€” title, UP
+  **capture-screen/** ( skills)
+    - capture-screen — Programmatic screenshot capture on macOS. Find window IDs with Swift CGWindowLis
+  **cli-developer/** ( skills)
+    - cli-developer — Use when building CLI tools, implementing argument parsing, or adding interactiv
+  **codex-image-gallery/** ( skills)
+    - codex-image-gallery — Start or reuse a self-contained local web gallery for browsing Codex-generated i
+  **douban-skill/** ( skills)
+    - douban-skill — >
+  **download-gemini-images/** ( skills)
+    - download-gemini-images — Download, export, save, or package images from a Google Gemini conversation/chat
+  **feishu-doc-scraper/** ( skills)
+    - feishu-doc-scraper — Extract Feishu (Lark) Docs, Wiki pages/collections, spreadsheets, and Minutes (å
+  **gemini-history-analyzer/** ( skills)
+    - gemini-history-analyzer — Analyze Google Takeout exports of Gemini conversation history. Use when the user
+  **ima-copilot/** ( skills)
+    - ima-copilot — >
+  **local-codex/** ( skills)
+    - local-codex — Launch and manage OpenAI Codex CLI (local agent) as a non-interactive coding sub
+  **lsp-server-integration/** ( skills)
+    - lsp-server-integration — Add and configure Language Server Protocol (LSP) servers to provide language int
+  **mcp-server-integration/** ( skills)
+    - mcp-server-integration — Add and configure Model Context Protocol (MCP) servers with correct protocol com
+  **openclaw/** ( skills)
+    - openclaw — >-
+  **openclaw-model-switch/** ( skills)
+    - openclaw-model-switch — 'Switch the default AI model for OpenClaw (e.g., Kimi K2.6 to K2.7). Use when th
+  **prompt-engineering/** ( skills)
+    - prompt-engineering — Library of prompt engineering patterns, techniques, and best practices for getti
+  **research-workflow/** ( skills)
+    - research-workflow — Runs a six-phase research workflow that turns unfamiliar domains, source bundles
+  **twitter-reader/** ( skills)
+    - twitter-reader — Fetch Twitter/X post content including long-form Articles with full images and m
+  **video-downloader/** ( skills)
+    - video-downloader — Downloads videos from YouTube and other platforms for offline viewing, editing, 
+  **webring-site/** ( skills)
+    - webring-site — Research the live ussyco.de ring, build a distinct single-page site in this work
+  **wps-doc-scraper/** ( skills)
+    - wps-doc-scraper — Faithfully archive public WPS/KDocs/é‡‘å±±æ–‡æ¡£ links, especially embedded Proc
+  **youtube-downloader/** ( skills)
+    - youtube-downloader — Download YouTube videos and HLS streams (m3u8) from platforms like Mux, Vimeo, e
+
+
+---
+
+**Consolidation Summary:**
+- **Workflow skills**: 53 ? 4 (kanban-state-machine, kanban-transition-validator, kanban-task-executor, + 3 preserved)
+- **OpenCode skills**: 28 ? 9 (consolidated into 6 merged groups + 3 preserved)
+- **Security skills**: 87 ? organized into 9 subcategories (reconnaissance, web-hunting, api-hunting, cloud-hunting, ai-security, application-security, red-team, defense, web3-crypto)
+- **Total reduction**: 376 ? 311 skills (65 eliminated through consolidation)

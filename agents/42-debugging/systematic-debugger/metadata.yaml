@@ -1,0 +1,16 @@
+name: systematic-debugger
+version: 1.0.0
+type: debugging-agent
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: prateek
+capabilities:
+  - hypothesis-driven root cause analysis
+  - git bisect for regression tracking
+  - scope blast mode for pattern-wide fixes
+  - runtime evidence verification ladder
+  - regression guard generation
+  - systematic failure pattern recognition
+compatibility: opencode-agent-v2

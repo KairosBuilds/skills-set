@@ -1,0 +1,13 @@
+{
+  "name": "code-simplifier",
+  "version": "1.0.0",
+  "model": "default",
+  "temperature": 0.2,
+  "max_tokens": 4096,
+  "skills": ["code-quality/code-simplification"],
+  "routing": {
+    "primary": "code-quality/code-simplification",
+    "fallback": ["review/complexity-analyzer", "review/dead-code-remover"]
+  },
+  "triggers": ["simplify", "refactor", "reduce complexity", "clean up", "technical debt", "readability"]
+}

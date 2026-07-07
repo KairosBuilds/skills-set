@@ -1,0 +1,15 @@
+name: sprint-planner
+version: 1.0.0
+type: planning-agent
+status: production
+priority: high
+execution_cost: medium
+confidence_level: high
+owner: prateek
+capabilities:
+  - sprint backlog grooming
+  - velocity-based capacity planning
+  - story point estimation
+  - sprint goal definition
+  - burndown tracking
+compatibility: opencode-agent-v2

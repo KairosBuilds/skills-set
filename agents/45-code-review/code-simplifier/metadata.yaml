@@ -1,0 +1,17 @@
+name: code-simplifier
+version: 1.0.0
+type: review-agent
+status: production
+priority: medium
+execution_cost: low
+confidence_level: high
+owner: prateek
+capabilities:
+  - code complexity analysis and reduction
+  - duplication elimination
+  - conditional flattening and guard clause introduction
+  - state simplification (immutability, derived state)
+  - coupling reduction via interface abstraction
+  - dead code detection and removal
+  - cyclomatic complexity measurement
+compatibility: opencode-agent-v2
